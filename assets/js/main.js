@@ -270,7 +270,7 @@
       
       // Only apply transform to the hero section - all children will scale together
       heroSection.style.transform = `scale(${scale})`;
-      heroSection.style.transformOrigin = 'center center';
+      heroSection.style.transformOrigin = 'center top';
       
       // Remove individual transforms from children - let them inherit from parent
       heroCarousel.style.transform = '';
