@@ -26,6 +26,105 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
+  <!-- Custom CSS for News Animations -->
+  <style>
+    /* News Container Animation */
+    .news-container {
+      opacity: 0;
+      animation: fadeIn 0.8s ease-out 0.2s forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* News Item Animation */
+    .news-item {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: slideInLeft 0.6s ease-out forwards;
+      transition: all 0.3s ease;
+    }
+
+    .news-item:hover {
+      transform: translateX(5px);
+      background-color: rgba(0,0,0,0.02);
+      border-radius: 5px;
+      padding-left: 10px;
+    }
+
+    @keyframes slideInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* Loading Animation */
+    .spinner-border {
+      width: 3rem;
+      height: 3rem;
+      border-width: 0.3em;
+    }
+
+    /* News Link Animation */
+    .news-link {
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    .news-link:hover {
+      color: #0056b3;
+      text-decoration: underline;
+      transform: scale(1.05);
+    }
+
+    /* Enhanced News List Styling */
+    .simple-news-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .simple-news-list li {
+      padding: 15px 0;
+      border-bottom: 1px solid #eee;
+      position: relative;
+    }
+
+    .simple-news-list li:last-child {
+      border-bottom: none;
+    }
+
+    .simple-news-list li::before {
+      content: '';
+      position: absolute;
+      left: -20px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 6px;
+      height: 6px;
+      background-color: #007bff;
+      border-radius: 50%;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+
+    .simple-news-list li:hover::before {
+      opacity: 1;
+      transform: translateY(-50%) scale(1.5);
+    }
+  </style>
 
 </head>
 
@@ -75,14 +174,9 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-12">
-            <ul class="simple-news-list">
-              <li><strong>Sept, 2025:</strong> Two papers accepted at IMWUT 2025. Congrats to Fan, Peixuan, and their co-authors!</li>
-              <li><strong>Sept, 2025:</strong> One paper accepted at ASSETS 2025. Congrats to Shumeng, and co-authors!</li>
-              <li><strong>Aug, 2025:</strong> Prof. Fan was invited to give a talk at the ROP project kickoff meeting and received the Best Presentation Award. [<a href="https://mp.weixin.qq.com/s/tXXnxMeIgoW4ZS3KXM1eRg">link</a>]</li>
-              <li><strong>Aug, 2025:</strong> One art paper accepted at Siggraph Asia 2025 Art track. Congrats to Shumeng!</li>
-              <li><strong>July, 2025:</strong> One paper accepted at IMWUT 2025. Congrats to Ruohao, and co-authors!</li>
-              
-            </ul>
+            <div id="news-app">
+              <!-- Vue组件将在这里渲染 -->
+            </div>
           </div>
         </div>
       </div>
@@ -132,8 +226,14 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
+  <!-- Vue.js -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <!-- News Vue Component -->
+  <script src="assets/js/news-vue.js"></script>
 
 </body>
 

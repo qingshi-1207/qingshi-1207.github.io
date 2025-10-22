@@ -26,6 +26,92 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
+  <!-- Custom CSS for Publication Tags and Animations -->
+  <style>
+    .publication-tags {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    
+    .publication-tags .tag {
+      display: inline-block;
+      padding: 3px 8px;
+      background-color: #f8f9fa;
+      color: #495057;
+      border: 1px solid #dee2e6;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      letter-spacing: 0.3px;
+    }
+    
+    .publication-tags .tag:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    /* Publication Item Animation */
+    .publication-item {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Loading Animation */
+    .spinner-border {
+      width: 3rem;
+      height: 3rem;
+      border-width: 0.3em;
+    }
+
+    /* Filter Animation */
+    .filter-item {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.5s ease-out forwards;
+      transition: all 0.3s ease;
+    }
+
+    .filter-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .filter-item.filter-active {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Container Animation */
+    .publications-container {
+      opacity: 0;
+      animation: fadeIn 0.8s ease-out 0.2s forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 
 </head>
 
@@ -47,7 +133,6 @@
           <li><a href="index.html#team">Team</a></li>
           <li><a href="publications.html" class="active">Publications</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="news.html">News</a></li>
           <li><a href="misc.html">MISC</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -77,57 +162,9 @@
       <div class="container" data-aos="fade-up">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-at">Accessible Computing</li>
-            <li data-filter=".filter-hai">Human-AI Interaction</li>
-            <li data-filter=".filter-vr">VR/AR/MR</li>
-            <li data-filter=".filter-ux">Computational UX</li>
-            <li data-filter=".filter-st">Sensing Technique</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-2 isotope-container">
-
-            <!-- Publication Item 1 -->
-            <div class="col-lg-12 publication-item isotope-item filter-at filter-vr">
-              <div class="publication-content">
-                <h4>VR-Shuttlecock: Toward Enhancing Older Adults' Balance Ability through Kicking Shuttlecock in VR with Multi-Sensory Feedback</h4>
-                <p class="authors">Fan Lin, Yiqi Liang, Qianjie Wei, Mingshuo Li, Chutian Jiang, Mingming Fan</p>
-                <p class="venue">Proceedings of ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT) (Accepted)</p>
-              </div>
-            </div><!-- End Publication Item -->
-
-            <!-- Publication Item 2 -->
-            <div class="col-lg-12 publication-item isotope-item filter-at filter-vr">
-              <div class="publication-content">
-                <h4>Toward Designing Motor Imagery-Driven Hand Redirection in Virtual Reality for Upper Limb Rehabilitation</h4>
-                <p class="authors">Peixuan Xiong, Jinhui Ouyang, Zhiqing Wu, Yukai Zhang, Xian Li, Chen Gong, Kaishun Wu, Yuling Wang, Mingming Fan</p>
-                <p class="venue">Proceedings of ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT) (Accepted)</p>
-              </div>
-            </div><!-- End Publication Item -->
-
-            <!-- Publication Item 3 -->
-            <div class="col-lg-12 publication-item isotope-item filter-at">
-              <div class="publication-content">
-                <h4>Accessibility and Social Inclusivity: A Literature Review of Music Technology for Blind and Low Vision People</h4>
-                <p class="authors">Shumeng Zhang, Raul Masu, Mela Bettega, Mingming Fan</p>
-                <p class="venue">Proceedings of the 28th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)</p>
-              </div>
-            </div><!-- End Publication Item -->
-
-            <!-- Publication Item 4 -->
-            <div class="col-lg-12 publication-item isotope-item filter-at filter-hai">
-              <div class="publication-content">
-                <h4>Toward Enabling Natural Conversation with Older Adults via the Design of LLM-Powered Voice Agents that Support Interruptions and Backchannels</h4>
-                <p class="authors">Chao Liu, Mingyang Su, Yan Xiang, Yuru Huang, Yiqian Yang, Kang Zhang*, Mingming Fan*</p>
-                <p class="venue">Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '25)</p>
-              </div>
-            </div><!-- End Publication Item -->
-
-
-          </div><!-- End Publication Container -->
-
+          <div id="publications-app">
+            <!-- Vue组件将在这里渲染 -->
+          </div>
         </div>
 
       </div>
@@ -178,8 +215,14 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
+  <!-- Vue.js -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <!-- Publications Vue Component -->
+  <script src="assets/js/publications-vue.js"></script>
 
 </body>
 

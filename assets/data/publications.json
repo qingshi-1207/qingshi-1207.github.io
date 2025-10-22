@@ -1,0 +1,72 @@
+{
+  "publications": [
+    {
+      "id": 1,
+      "title": "VR-Shuttlecock: Toward Enhancing Older Adults' Balance Ability through Kicking Shuttlecock in VR with Multi-Sensory Feedback",
+      "authors": "Fan Lin, Yiqi Liang, Qianjie Wei, Mingshuo Li, Chutian Jiang, Mingming Fan",
+      "venue": "Proceedings of ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT) (Accepted)",
+      "filters": ["filter-at", "filter-vr"],
+      "tags": ["Accessible Computing", "VR/AR/MR"],
+      "year": "2025"
+    },
+    {
+      "id": 2,
+      "title": "Toward Designing Motor Imagery-Driven Hand Redirection in Virtual Reality for Upper Limb Rehabilitation",
+      "authors": "Peixuan Xiong, Jinhui Ouyang, Zhiqing Wu, Yukai Zhang, Xian Li, Chen Gong, Kaishun Wu, Yuling Wang, Mingming Fan",
+      "venue": "Proceedings of ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT) (Accepted)",
+      "filters": ["filter-at", "filter-vr"],
+      "tags": ["Accessible Computing", "VR/AR/MR"],
+      "year": "2025"
+    },
+    {
+      "id": 3,
+      "title": "Accessibility and Social Inclusivity: A Literature Review of Music Technology for Blind and Low Vision People",
+      "authors": "Shumeng Zhang, Raul Masu, Mela Bettega, Mingming Fan",
+      "venue": "Proceedings of the 28th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '25)",
+      "filters": ["filter-at"],
+      "tags": ["Accessible Computing"],
+      "year": "2025"
+    },
+    {
+      "id": 4,
+      "title": "Toward Enabling Natural Conversation with Older Adults via the Design of LLM-Powered Voice Agents that Support Interruptions and Backchannels",
+      "authors": "Chao Liu, Mingyang Su, Yan Xiang, Yuru Huang, Yiqian Yang, Kang Zhang*, Mingming Fan*",
+      "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '25)",
+      "filters": ["filter-at", "filter-hai"],
+      "tags": ["Accessible Computing", "Human-AI Interaction"],
+      "year": "2025"
+    }
+  ],
+  "categories": [
+    {
+      "filter": "*",
+      "name": "All",
+      "active": true
+    },
+    {
+      "filter": ".filter-at",
+      "name": "Accessible Computing",
+      "active": false
+    },
+    {
+      "filter": ".filter-hai",
+      "name": "Human-AI Interaction",
+      "active": false
+    },
+    {
+      "filter": ".filter-vr",
+      "name": "VR/AR/MR",
+      "active": false
+    },
+    {
+      "filter": ".filter-ux",
+      "name": "Computational UX",
+      "active": false
+    },
+    {
+      "filter": ".filter-st",
+      "name": "Sensing Technique",
+      "active": false
+    }
+  ]
+}
