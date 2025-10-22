@@ -82,9 +82,15 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
               <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-                <div id="misc-app">
-                  <!-- Vue组件将在这里渲染 -->
-                </div>
+
+                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100" id="misc-filters">
+                  <!-- 动态生成的过滤器 -->
+                </ul><!-- End Portfolio Filters -->
+
+                <div class="row gy-2 gx-2 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                  <!-- 动态生成的misc项目 -->
+                </div><!-- End Portfolio Container -->
+
               </div>
 
             </div>
@@ -140,14 +146,11 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Vue.js -->
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   
-  <!-- MISC Vue Component -->
-  <script src="assets/js/misc-vue.js"></script>
+  <!-- MISC Dynamic Loading Script -->
+  <script src="assets/js/misc.js"></script>
 
 </body>
 

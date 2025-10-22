@@ -38,16 +38,11 @@ createApp({
       加载数据时出错: {{ error }}
     </div>
     
-    <div v-else class="news-container">
+    <div v-else>
       <ul class="simple-news-list">
-        <li 
-          v-for="(item, index) in news" 
-          :key="item.id"
-          class="news-item"
-          :style="{ 'animation-delay': (index * 0.15) + 's' }"
-        >
+        <li v-for="item in news" :key="item.id">
           <strong>{{ item.date }}:</strong> {{ item.content }}
-          <a v-if="item.link" :href="item.link.url" target="_blank" class="ms-1 news-link">
+          <a v-if="item.link" :href="item.link.url" target="_blank" class="ms-1">
             [{{ item.link.text }}]
           </a>
         </li>

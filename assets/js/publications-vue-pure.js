@@ -11,19 +11,17 @@ createApp({
     }
   },
   computed: {
-    // 移除计算属性，让isotope处理过滤
-    allPublications() {
-      return this.publications;
+    filteredPublications() {
+      if (this.selectedFilter === '*') {
+        return this.publications;
+      }
+      return this.publications.filter(pub => 
+        pub.filters.includes(this.selectedFilter.replace('.', ''))
+      );
     }
   },
   async mounted() {
     await this.loadData();
-    // 等待Vue完全渲染完成后再初始化isotope
-    this.$nextTick(() => {
-      setTimeout(() => {
-        this.initIsotope();
-      }, 100);
-    });
   },
   methods: {
     async loadData() {
@@ -49,35 +47,6 @@ createApp({
       this.categories.forEach(cat => {
         cat.active = (cat.filter === filter);
       });
-      this.updateIsotope();
-    },
-    
-    initIsotope() {
-      // 等待isotope库和imagesLoaded库加载完成后初始化
-      if (typeof Isotope !== 'undefined' && typeof imagesLoaded !== 'undefined') {
-        const isotopeItem = document.querySelector('.isotope-layout');
-        const container = isotopeItem.querySelector('.isotope-container');
-        
-        // 使用imagesLoaded确保内容加载完成
-        imagesLoaded(container, () => {
-          this.iso = new Isotope(container, {
-            itemSelector: '.isotope-item',
-            layoutMode: 'masonry',
-            filter: this.selectedFilter,
-            sortBy: 'original-order'
-          });
-        });
-      } else {
-        setTimeout(() => this.initIsotope(), 100);
-      }
-    },
-    
-    updateIsotope() {
-      if (this.iso) {
-        this.iso.arrange({
-          filter: this.selectedFilter
-        });
-      }
     }
   },
   template: `
@@ -110,7 +79,7 @@ createApp({
       <!-- Publications -->
       <div class="row gy-2 isotope-container">
         <div 
-          v-for="(publication, index) in allPublications" 
+          v-for="(publication, index) in filteredPublications" 
           :key="publication.id"
           :class="['col-lg-12', 'isotope-item', ...publication.filters]"
           class="publication-item"
