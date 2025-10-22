@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Jost",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Jost", "Raleway", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --nav-font: "Poppins", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -227,6 +227,133 @@ h6 {
   left: 0;
   bottom: -10px;
 }
+
+.portfolio-title {
+  position: relative;
+}
+
+.portfolio-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  bottom: -10px;
+}
+
+
+/* Publication Styles */
+.publication-item {
+  margin-bottom: 10px;
+}
+
+.publication-content {
+  padding: 12px 0 !important;
+  border-bottom: 2px solid #ccc !important;
+}
+
+.publication-content:last-child {
+  border-bottom: none;
+}
+
+.publication-content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.publication-content .authors {
+  color: var(--text-color);
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.publication-content .venue {
+  color: color-mix(in srgb, var(--text-color), transparent 30%);
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+/* Publications Pagination */
+.publications .pagination {
+  margin-top: 40px;
+}
+
+.publications .pagination .page-link {
+  color: var(--default-color);
+  border-color: #dee2e6;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.publications .pagination .page-link:hover {
+  color: var(--accent-color);
+  background-color: #f8f9fa;
+  border-color: var(--accent-color);
+}
+
+.publications .pagination .page-item.active .page-link {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+.publications .pagination .page-item.disabled .page-link {
+  color: #6c757d;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+
+/* Publications Filters - Same as Portfolio */
+.publications .portfolio-filters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.publications .portfolio-filters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 20px 10px 20px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--heading-font);
+}
+
+.publications .portfolio-filters li:hover,
+.publications .portfolio-filters li.filter-active {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+}
+
+.publications .portfolio-filters li:first-child {
+  margin-left: 0;
+}
+
+.publications .portfolio-filters li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .publications .portfolio-filters li {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+}
+
 
 .news-item {
   display: flex;
@@ -1031,20 +1158,22 @@ h6 {
 }
 
 .footer .footer-top {
-  padding-top: 50px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
 }
 
 .footer .social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-right: 10px;
+  margin-right: 8px;
   transition: 0.3s;
 }
 
@@ -1053,11 +1182,17 @@ h6 {
   border-color: var(--accent-color);
 }
 
+.footer .social-links .social-label {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin-right: 6px;
+}
+
 .footer h4 {
   font-size: 16px;
   font-weight: bold;
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 
 .footer .footer-links {
@@ -1078,9 +1213,26 @@ h6 {
 }
 
 .footer .footer-links ul li {
-  padding: 10px 0;
+  padding: 8px 0;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .footer .footer-top {
+    padding-top: 24px;
+    padding-bottom: 18px;
+  }
+
+  .footer .footer-links ul li {
+    padding: 6px 0;
+  }
+
+  .footer .social-links a {
+    width: 34px;
+    height: 34px;
+    margin-right: 6px;
+  }
 }
 
 .footer .footer-links ul li:first-child {
@@ -1122,6 +1274,12 @@ h6 {
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+}
+
+.footer .footer-logo {
+  max-height: 28px;
+  width: auto;
+  opacity: 0.9;
 }
 
 /*--------------------------------------------------------------
@@ -2078,11 +2236,12 @@ section,
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
-  left: 12px;
-  right: 12px;
-  bottom: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 3;
-  transition: all ease-in-out 0.5s;
+  transform: translateY(100%);
+  transition: all ease-in-out 0.3s;
   background: color-mix(in srgb, var(--background-color), transparent 10%);
   padding: 15px;
 }
@@ -2123,7 +2282,7 @@ section,
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
-  bottom: 0;
+  transform: translateY(0);
 }
 
 /*--------------------------------------------------------------
