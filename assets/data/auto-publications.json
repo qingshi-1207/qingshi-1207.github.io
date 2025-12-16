@@ -1,0 +1,3139 @@
+{
+    "last_updated": "2025-12-17",
+    "publications": [
+        {
+            "id": "journals/ijhci/ShenWLLFH25",
+            "title": "EmojiChat: Toward Designing Emoji-Driven Social Interaction in VR Museums",
+            "authors": [
+                "Luyao Shen",
+                "Xian Wang",
+                "Sijia Li",
+                "Lik-Hang Lee",
+                "Mingming Fan",
+                "Pan Hui"
+            ],
+            "venue": "International Journal of Human-Computer Interaction",
+            "venue_abbr": "Int. J. Hum. Comput. Interact.",
+            "year": "2025",
+            "link": "https://doi.org/10.1080/10447318.2024.2387902",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/ijmms/ZengCWLFWQW25",
+            "title": "ContractMind: Trust-calibration interaction design for AI contract review tools",
+            "authors": [
+                "Jian Zeng",
+                "Kaixin Chen",
+                "Ruiqi Wang",
+                "Yilong Li",
+                "Mingming Fan",
+                "Kaishun Wu",
+                "Xiaoke Qi",
+                "Lu Wang"
+            ],
+            "venue": "International Journal of Human-Computer Studies",
+            "venue_abbr": "Int. J. Hum. Comput. Stud.",
+            "year": "2025",
+            "link": "https://doi.org/10.1016/j.ijhcs.2024.103411",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/imwut/LiLSWLWLF25",
+            "title": "RemVerse: Supporting Reminiscence Activities for Older Adults through AI-Assisted Virtual Reality",
+            "authors": [
+                "Ruohao Li",
+                "Jiawei Li",
+                "Jia Sun",
+                "Zhiqing Wu",
+                "Zisu Li",
+                "Ziyan Wang",
+                "Ge Lin",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3749505",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/imwut/QiuWFW25",
+            "title": "Towards Customizable Foundation Models for Human Activity Recognition with Wearable Devices",
+            "authors": [
+                "Minghui Qiu",
+                "Cekai Weng",
+                "Mingming Fan",
+                "Kaishun Wu"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3749479",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/CaoHZHZF25",
+            "title": "Practices and Challenges of Online Love-seeking Among Deaf or Hard of Hearing People: A Case Study in China",
+            "authors": [
+                "Beiyan Cao",
+                "Changyang He",
+                "Jingling Zhang",
+                "Yuru Huang",
+                "Muzhi Zhou",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3711048",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/DuWLKHWF25",
+            "title": "AI as a Bridge Across Ages: Exploring The Opportunities of Artificial Intelligence in Supporting Inter-Generational Communication in Virtual Reality",
+            "authors": [
+                "Qiuxin Du",
+                "Xiaoying Wei",
+                "Jiawei Li",
+                "Emily Kuang",
+                "Jie Hao",
+                "Dongdong Weng",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3710924",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/LiDMTFZLW25",
+            "title": "Digital Civic Engagement in China: Using 'Micro Advice' Platform to Improve People's Livelihood",
+            "authors": [
+                "Yeye Li",
+                "Hanhui Deng",
+                "Nan Ma",
+                "Xin Tong",
+                "Mingming Fan",
+                "Da-Fang Zhang",
+                "Yi Li",
+                "Di Wu"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3710907",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/WangYZF25",
+            "title": "Challenges in Adopting Companion Robots: An Exploratory Study of Robotic Companionship Conducted with Chinese Retirees",
+            "authors": [
+                "Mengyang Wang",
+                "Keye Yu",
+                "Yukai Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3710943",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/WeiJKYF25",
+            "title": "Systematic Literature Review of Using Virtual Reality as a Social Platform in HCI Community",
+            "authors": [
+                "Xiaoying Wei",
+                "Xiaofu Jin",
+                "Ge Lin Kan",
+                "Yukang Yan",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3711078",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/ZhangXWZF25",
+            "title": "Understanding and Co-designing Photo-based Reminiscence with Older Adults",
+            "authors": [
+                "Zhongyue Zhang",
+                "Lina Xu",
+                "Xingkai Wang",
+                "Xu Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3711094",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/LiQWL00025",
+            "title": "DesignMemo: Integrating Discussion Context into Online Collaboration with Enhanced Design Rationale Tracking",
+            "authors": [
+                "Boyu Li",
+                "Linjie Qiu",
+                "Duotun Wang",
+                "Qianxi Liu",
+                "Ryo Suzuki",
+                "Mingming Fan",
+                "Zeyu Wang"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3757579",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/taccess/JiangKF25",
+            "title": "How Can Haptic Feedback Assist People with Blind and Low Vision (BLV): A Systematic Literature Review",
+            "authors": [
+                "Chutian Jiang",
+                "Emily Kuang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Transactions on Accessible Computing (TACCESS)",
+            "venue_abbr": "ACM Trans. Access. Comput.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3711931",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tvcg/TongSYFPQX25",
+            "title": "VisTellAR: Embedding Data Visualization to Short-Form Videos Using Mobile Augmented Reality",
+            "authors": [
+                "Wai Tong",
+                "Kento Shigyo",
+                "Linping Yuan",
+                "Mingming Fan",
+                "Ting-Chuen Pong",
+                "Huamin Qu",
+                "Meng Xia"
+            ],
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
+            "year": "2025",
+            "link": "https://doi.org/10.1109/TVCG.2024.3372104",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tvcg/WangQLLWCWF25",
+            "title": "FocalSelect: Improving Occluded Objects Acquisition with Heuristic Selection and Disambiguation in Virtual Reality",
+            "authors": [
+                "Duotun Wang",
+                "Linjie Qiu",
+                "Boyu Li",
+                "Qianxi Liu",
+                "Xiaoying Wei",
+                "Jianhao Chen",
+                "Zeyu Wang",
+                "Mingming Fan"
+            ],
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
+            "year": "2025",
+            "link": "https://doi.org/10.1109/TVCG.2025.3549554",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tvcg/WangSCFL25",
+            "title": "TeamPortal: Exploring Virtual Reality Collaboration Through Shared and Manipulating Parallel Views",
+            "authors": [
+                "Xian Wang",
+                "Luyao Shen",
+                "Lei Chen",
+                "Mingming Fan",
+                "Lik-Hang Lee"
+            ],
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
+            "year": "2025",
+            "link": "https://doi.org/10.1109/TVCG.2025.3549569",
+            "type": "Journal"
+        },
+        {
+            "id": "conf/3dim/WangMCSLWFZW25",
+            "title": "HeadEvolver: Text to Head Avatars via Expressive and Attribute-Preserving Mesh Deformation",
+            "authors": [
+                "Duotun Wang",
+                "Hengyu Meng",
+                "Zeyu Cai",
+                "Zhijing Shao",
+                "Qianxi Liu",
+                "Lin Wang",
+                "Mingming Fan",
+                "Xiaohang Zhan",
+                "Zeyu Wang"
+            ],
+            "venue": "International Conference on 3D Vision (3DV)",
+            "venue_abbr": "3DV",
+            "year": "2025",
+            "link": "https://doi.org/10.1109/3DV66043.2025.00025",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/JiangFXKFZ025",
+            "title": "Designing LLM-Powered Multimodal Instructions to Support Rich Hands-on Skills Remote Learning: A Case Study with Massage Instructors and Learners",
+            "authors": [
+                "Chutian Jiang",
+                "Yinan Fan",
+                "Junan Xie",
+                "Emily Kuang",
+                "Baichuan Feng",
+                "Kaihao Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3713677",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/LiuSXHYZ025",
+            "title": "Toward Enabling Natural Conversation with Older Adults via the Design of LLM-Powered Voice Agents that Support Interruptions and Backchannels",
+            "authors": [
+                "Chao Liu",
+                "Mingyang Su",
+                "Yan Xiang",
+                "Yuru Huang",
+                "Yiqian Yang",
+                "Kang Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3714228",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/ZhangHW025",
+            "title": "\"Watch, Smell, Ask, Touch\": Practices, Challenges, and Technological Support in Ability Assessment of Older Adults from Practitioners' Perspectives in China",
+            "authors": [
+                "Zhongyue Zhang",
+                "Yuru Huang",
+                "Mengyang Wang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3714166",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/ZhouLXWHM025",
+            "title": "JournalAIde: Empowering Older Adults in Digital Journal Writing",
+            "authors": [
+                "Shixu Zhou",
+                "Weiyue Lin",
+                "Zuyu Xu",
+                "Xiaoying Wei",
+                "Raoyi Huang",
+                "Xiaojuan Ma",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3713339",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/LiLXZF0LM025",
+            "title": "InteRecon: Towards Reconstructing Interactivity of Personal Memorable Items in Mixed Reality",
+            "authors": [
+                "Zisu Li",
+                "Jiawei Li",
+                "Zeyu Xiong",
+                "Shumeng Zhang",
+                "Faraz Faruqi",
+                "Stefanie Mueller",
+                "Chen Liang",
+                "Xiaojuan Ma",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3713882",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/PanZLP0M25",
+            "title": "ACKnowledge: A Computational Framework for Human Compatible Affordance-based Interaction Planning in Real-world Contexts",
+            "authors": [
+                "Ziqi Pan",
+                "Xiucheng Zhang",
+                "Zisu Li",
+                "Zhenhui Peng",
+                "Mingming Fan",
+                "Xiaojuan Ma"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3713791",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/QinZ0025",
+            "title": "Toward Personalizable AI Node Graph Creative Writing Support: Insights on Preferences for Generative AI Features and Information Presentation Across Story Writing Processes",
+            "authors": [
+                "Hua Xuan Qin",
+                "Guangzhi Zhu",
+                "Mingming Fan",
+                "Pan Hui"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3713569",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/0005ZWLLXZZW025",
+            "title": "Chorus of the Past: Toward Designing a Multi-agent Conversational Reminiscence System with Digital Artifacts for Older Adults",
+            "authors": [
+                "Jingwei Sun",
+                "Zhongyue Zhang",
+                "Mengyang Wang",
+                "Nianlong Li",
+                "Zhangwei Lu",
+                "Yan Xiang",
+                "Liuxin Zhang",
+                "Yu Zhang",
+                "Qianying Wang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3713810",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/WangLW025",
+            "title": "Facilitating Daily Practice in Intangible Cultural Heritage through Virtual Reality: A Case Study of Traditional Chinese Flower Arrangement",
+            "authors": [
+                "Yingna Wang",
+                "Qingqin Liu",
+                "Xiaoying Wei",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3713409",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/WeiWLLS025",
+            "title": "RemoteChess: Enhancing Older Adults' Social Connectedness via Designing a Virtual Reality Chinese Chess (Xiangqi) Community",
+            "authors": [
+                "Qianjie Wei",
+                "Xiaoying Wei",
+                "Yiqi Liang",
+                "Fan Lin",
+                "Nuonan Si",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3706598.3714236",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/etra/JinBXMSY025",
+            "title": "Decoding Cognitive Load: Eye-Tracking Insights into Working Memory and Visual Attention",
+            "authors": [
+                "Xiaofu Jin",
+                "Yunpeng Bai",
+                "Lina Xu",
+                "Shuai Ma",
+                "Danqing Shi",
+                "Luwen Yu",
+                "Mingming Fan"
+            ],
+            "venue": "Eye Tracking Research & Application (ETRA)",
+            "venue_abbr": "ETRA",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3715669.3725864",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/www/HuMJH0B25",
+            "title": "Modeling the Intuitiveness of Mobile GUI Navigation by Understanding and Simulating Users' Attention Distribution",
+            "authors": [
+                "Xiaozhu Hu",
+                "Xiaoyu Mo",
+                "Xiaofu Jin",
+                "Yongquan 'Owen' Hu",
+                "Mingming Fan",
+                "Tristan Braud"
+            ],
+            "venue": "The Web Conference (WWW)",
+            "venue_abbr": "WWW (Companion Volume)",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3701716.3717552",
+            "type": "Conference"
+        },
+        {
+            "id": "journals/corr/abs-2501-17768",
+            "title": "TeamPortal: Exploring Virtual Reality Collaboration Through Shared and Manipulating Parallel Views",
+            "authors": [
+                "Xian Wang",
+                "Luyao Shen",
+                "Lei Chen",
+                "Mingming Fan",
+                "Lik-Hang Lee"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2501.17768",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2502-09973",
+            "title": "InteRecon: Towards Reconstructing Interactivity of Personal Memorable Items in Mixed Reality",
+            "authors": [
+                "Zisu Li",
+                "Jiawei Li",
+                "Zeyu Xiong",
+                "Shumeng Zhang",
+                "Faraz Faruqi",
+                "Stefanie Mueller",
+                "Chen Liang",
+                "Xiaojuan Ma",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2502.09973",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2502-11627",
+            "title": "RemoteChess: Enhancing Older Adults' Social Connectedness via Designing a Virtual Reality Chinese Chess (Xiangqi) Community",
+            "authors": [
+                "Qianjie Wei",
+                "Xiaoying Wei",
+                "Yiqi Liang",
+                "Fan Lin",
+                "Nuonan Si",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2502.11627",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2503-06122",
+            "title": "Facilitating Daily Practice in Intangible Cultural Heritage through Virtual Reality: A Case Study of Traditional Chinese Flower Arrangement",
+            "authors": [
+                "Yingna Wang",
+                "Qingqin Liu",
+                "Xiaoying Wei",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2503.06122",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2506-16010",
+            "title": "SimuPanel: A Novel Immersive Multi-Agent System to Simulate Interactive Expert Panel Discussion",
+            "authors": [
+                "Xiangyang He",
+                "Jiale Li",
+                "Jiahao Chen",
+                "Yang Yang",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2506.16010",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2507-13247",
+            "title": "RemVerse: Supporting Reminiscence Activities for Older Adults through AI-Assisted Virtual Reality",
+            "authors": [
+                "Ruohao Li",
+                "Jiawei Li",
+                "Jia Sun",
+                "Zhiqing Wu",
+                "Zisu Li",
+                "Ziyan Wang",
+                "Ge Lin Kan",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2507.13247",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2508-00929",
+            "title": "Accessibility and Social Inclusivity: A Literature Review of Music Technology for Blind and Low Vision People",
+            "authors": [
+                "Shumeng Zhang",
+                "Raul Masu",
+                "Mela Bettega",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2508.00929",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2508-01282",
+            "title": "ExplorAR: Assisting Older Adults to Learn Smartphone Apps through AR-powered Trial-and-Error with Interactive Guidance",
+            "authors": [
+                "Jiawei Li",
+                "Linjie Qiu",
+                "Zhiqing Wu",
+                "Qiongyan Chen",
+                "Ziyan Wang",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2508.01282",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2508-03852",
+            "title": "A11yShape: AI-Assisted 3-D Modeling for Blind and Low-Vision Programmers",
+            "authors": [
+                "Zhuohao Jerry Zhang",
+                "Haichang Li",
+                "Chun Meng Yu",
+                "Faraz Faruqi",
+                "Junan Xie",
+                "Gene S.-H. Kim",
+                "Mingming Fan",
+                "Angus G. Forbes",
+                "Jacob O. Wobbrock",
+                "Anhong Guo",
+                "Liang He"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2508.03852",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2508-07730",
+            "title": "SimViews: An Interactive Multi-Agent System Simulating Visitor-to-Visitor Conversational Patterns to Present Diverse Perspectives of Artifacts in Virtual Museums",
+            "authors": [
+                "Mingyang Su",
+                "Chao Liu",
+                "Jingling Zhang",
+                "WU Shuang",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2508.07730",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2508-08236",
+            "title": "Exploring Safety Alignment Evaluation of LLMs in Chinese Mental Health Dialogues via LLM-as-Judge",
+            "authors": [
+                "Yunna Cai",
+                "Fan Wang",
+                "Haowei Wang",
+                "Kun Wang",
+                "Kailai Yang",
+                "Sophia Ananiadou",
+                "Moyan Li",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2508.08236",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2510-10047",
+            "title": "SwarmSys: Decentralized Swarm-Inspired Agents for Scalable and Adaptive Reasoning",
+            "authors": [
+                "Ruohao Li",
+                "Hongjun Liu",
+                "Leyi Zhao",
+                "Zisu Li",
+                "Jiawei Li",
+                "Jiajun Jiang",
+                "Linning Xu",
+                "Chen Zhao",
+                "Mingming Fan",
+                "Chen Liang"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2510.10047",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/ijhci/TianCFFYQWF24",
+            "title": "PoeticAR: Reviving Traditional Poetry of the Heritage Site of Jichang Garden via Augmented Reality",
+            "authors": [
+                "Jin Tian",
+                "Yifan Cao",
+                "Lingyi Feng",
+                "Dongting Fu",
+                "Linping Yuan",
+                "Huamin Qu",
+                "Yang Wang",
+                "Mingming Fan"
+            ],
+            "venue": "International Journal of Human-Computer Interaction",
+            "venue_abbr": "Int. J. Hum. Comput. Interact.",
+            "year": "2024",
+            "link": "https://doi.org/10.1080/10447318.2023.2176806",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/imwut/ChenWLHLKF24",
+            "title": "SilverCycling: Exploring the Impact of Bike-Based Locomotion on Spatial Orientation for Older Adults in VR",
+            "authors": [
+                "Qiongyan Chen",
+                "Zhiqing Wu",
+                "Yucheng Liu",
+                "Lei Han",
+                "Zisu Li",
+                "Ge Lin Kan",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3678522",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/WangWZY0024",
+            "title": "Avatar Appearance and Behavior of Potential Harassers Affect Users' Perceptions and Response Strategies in Social Virtual Reality (VR): A Mixed-Methods Study",
+            "authors": [
+                "Xuetong Wang",
+                "Ziyan Wang",
+                "Mingmin Zhang",
+                "Kangyou Yu",
+                "Pan Hui",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3686934",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/Jin024",
+            "title": "EarMonitor: Non-clinical Assessment of Ear Health Conditions Using a Low-cost Endoscope Camera on Smartphones",
+            "authors": [
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3676499",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tvcg/BatchJFZE24",
+            "title": "uxSense: Supporting User Experience Analysis with Visualization and Computer Vision",
+            "authors": [
+                "Andrea Batch",
+                "Yipeng Ji",
+                "Mingming Fan",
+                "Jian Zhao",
+                "Niklas Elmqvist"
+            ],
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
+            "year": "2024",
+            "link": "https://doi.org/10.1109/TVCG.2023.3241581",
+            "type": "Journal"
+        },
+        {
+            "id": "conf/ACMdis/WangSKZ024",
+            "title": "Exploring the Impact of Artificial Intelligence-Generated Content (AIGC) Tools on Social Dynamics in UX Collaboration",
+            "authors": [
+                "Ziyan Wang",
+                "Luyao Shen",
+                "Emily Kuang",
+                "Shumeng Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "Conference on Designing Interactive Systems (DIS)",
+            "venue_abbr": "Conference on Designing Interactive Systems",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3643834.3660703",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/assets/ZhangLLJL0M24",
+            "title": "Beadwork Bridge: Understanding and Exploring the Opportunities of Beadwork in Enriching School Education for Blind and Low Vision (BLV) People",
+            "authors": [
+                "Shumeng Zhang",
+                "Weiyue Lin",
+                "Zisu Li",
+                "Ruiqi Jiang",
+                "Chen Liang",
+                "Mingming Fan",
+                "Raul Masu"
+            ],
+            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue_abbr": "ASSETS",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3663548.3675623",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/KuangL0S24",
+            "title": "Enhancing UX Evaluation Through Collaboration with Conversational AI Assistants: Effects of Proactive Dialogue and Timing",
+            "authors": [
+                "Emily Kuang",
+                "Minghao Li",
+                "Mingming Fan",
+                "Kristen Shinohara"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642168",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/JinTWWKMQ024",
+            "title": "Exploring the Opportunity of Augmented Reality (AR) in Supporting Older Adults to Explore and Learn Smartphone Applications",
+            "authors": [
+                "Xiaofu Jin",
+                "Wai Tong",
+                "Xiaoying Wei",
+                "Xian Wang",
+                "Emily Kuang",
+                "Xiaoyu Mo",
+                "Huamin Qu",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3641901",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/WuWZHW024",
+            "title": "Toward Making Virtual Reality (VR) More Inclusive for Older Adults: Investigating Aging Effect on Target Selection and Manipulation Tasks in VR",
+            "authors": [
+                "Zhiqing Wu",
+                "Duotun Wang",
+                "Shumeng Zhang",
+                "Yuru Huang",
+                "Zeyu Wang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642558",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/GuanX024",
+            "title": "FetchAid: Making Parcel Lockers More Accessible to Blind and Low Vision People With Deep-learning Enhanced Touchscreen Guidance, Error-Recovery Mechanism, and AR-based Search Support",
+            "authors": [
+                "Zhitong Guan",
+                "Zeyu Xiong",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642213",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/TianWYXXLN024",
+            "title": "Designing Upper-Body Gesture Interaction with and for People with Spinal Muscular Atrophy in VR",
+            "authors": [
+                "Jingze Tian",
+                "Yingna Wang",
+                "Keye Yu",
+                "Liyi Xu",
+                "Junan Xie",
+                "Franklin Mingzhe Li",
+                "Yafeng Niu",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642884",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/SunH0LW24",
+            "title": "\"Can It Be Customized According to My Motor Abilities?\": Toward Designing User-Defined Head Gestures for People with Dystonia",
+            "authors": [
+                "Qin Sun",
+                "Yunqi Hu",
+                "Mingming Fan",
+                "Jingting Li",
+                "Su-Jing Wang"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642378",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/XiongZZFLZZH024",
+            "title": "To Reach the Unreachable: Exploring the Potential of VR Hand Redirection for Upper Limb Rehabilitation",
+            "authors": [
+                "Peixuan Xiong",
+                "Yukai Zhang",
+                "Nandi Zhang",
+                "Shihan Fu",
+                "Xin Li",
+                "Yadan Zheng",
+                "Jinni Zhou",
+                "Xiquan Hu",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642912",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/FuCC024",
+            "title": "AromaBlendz: An Olfactory System for Crafting Personalized Scents",
+            "authors": [
+                "Shihan Fu",
+                "Jianhao Chen",
+                "Yi Cai",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI Extended Abstracts",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613905.3648670",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/JiangFXKZ024",
+            "title": "Designing Unobtrusive Modulated Electrotactile Feedback on Fingertip Edge to Assist Blind and Low Vision (BLV) People in Comprehending Charts",
+            "authors": [
+                "Chutian Jiang",
+                "Yinan Fan",
+                "Junan Xie",
+                "Emily Kuang",
+                "Kaihao Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642546",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/DuSJWW024",
+            "title": "LightSword: A Customized Virtual Reality Exergame for Long-Term Cognitive Inhibition Training in Older Adults",
+            "authors": [
+                "Qiuxin Du",
+                "Zhen Song",
+                "Haiyan Jiang",
+                "Xiaoying Wei",
+                "Dongdong Weng",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642187",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/Zhang0FY0ZW0R24",
+            "title": "See Widely, Think Wisely: Toward Designing a Generative Multi-agent System to Burst Filter Bubbles",
+            "authors": [
+                "Yu Zhang",
+                "Jingwei Sun",
+                "Li Feng",
+                "Cen Yao",
+                "Mingming Fan",
+                "Liuxin Zhang",
+                "Qianying Wang",
+                "Xin Geng",
+                "Yong Rui"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642545",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/FuCK024",
+            "title": "Bridging the Literacy Gap for Adults: Streaming and Engaging in Adult Literacy Education through Livestreaming",
+            "authors": [
+                "Shihan Fu",
+                "Jianhao Chen",
+                "Emily Kuang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642423",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/TanHL0LLTHT24",
+            "title": "WieldingCanvas: Interactive Sketch Canvases for Freehand Drawing in VR",
+            "authors": [
+                "Xiaohui Tan",
+                "Zhenxuan He",
+                "Can Liu",
+                "Mingming Fan",
+                "Tianren Luo",
+                "Zitao Liu",
+                "Mi Tian",
+                "Teng Han",
+                "Feng Tian"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642047",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/FengYY0ZL24",
+            "title": "CoPrompt: Supporting Prompt Sharing and Referring in Collaborative Natural Language Programming",
+            "authors": [
+                "Li Feng",
+                "Ryan Yen",
+                "Yuzhe You",
+                "Mingming Fan",
+                "Jian Zhao",
+                "Zhicong Lu"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642212",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/XiongFZZM024",
+            "title": "\"It is hard to remove from my eye\": Design Makeup Residue Visualization System for Chinese Traditional Opera (Xiqu) Performers",
+            "authors": [
+                "Zeyu Xiong",
+                "Shihan Fu",
+                "Yanying Zhu",
+                "Chenqing Zhu",
+                "Xiaojuan Ma",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642261",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/QinJG0024",
+            "title": "CharacterMeet: Supporting Creative Writers' Entire Story Character Construction Processes Through Conversation with LLM-Powered Chatbot Avatars",
+            "authors": [
+                "Hua Xuan Qin",
+                "Shan Jin",
+                "Ze Gao",
+                "Mingming Fan",
+                "Pan Hui"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642105",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/ShenSCJ0024",
+            "title": "Neural Canvas: Supporting Scenic Design Prototyping by Integrating 3D Sketching and Generative AI",
+            "authors": [
+                "Yulin Shen",
+                "Yifei Shen",
+                "Jiawen Cheng",
+                "Chutian Jiang",
+                "Mingming Fan",
+                "Zeyu Wang"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3613904.3642096",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/cvpr/ShaoWLWL00024",
+            "title": "SplattingAvatar: Realistic Real-Time Human Avatars With Mesh-Embedded Gaussian Splatting",
+            "authors": [
+                "Zhijing Shao",
+                "Zhaolong Wang",
+                "Zhuang Li",
+                "Duotun Wang",
+                "Xiangru Lin",
+                "Yu Zhang",
+                "Mingming Fan",
+                "Zeyu Wang"
+            ],
+            "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+            "venue_abbr": "CVPR",
+            "year": "2024",
+            "link": "https://doi.org/10.1109/CVPR52733.2024.00159",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/mm/ShigyoCT0Q24",
+            "title": "VR-Mediated Cognitive Defusion: A Comparative Study for Managing Negative Thoughts",
+            "authors": [
+                "Kento Shigyo",
+                "Yifan Cao",
+                "Kentaro Takahira",
+                "Mingming Fan",
+                "Huamin Qu"
+            ],
+            "venue": "ACM International Conference on Multimedia (MM)",
+            "venue_abbr": "ACM Multimedia",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3664647.3681504",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/vinci/ZhengXLJWZ024",
+            "title": "Investigating Size Congruency Between the Visual Perception of a VR Object and the Haptic Perception of Its Physical World Agent",
+            "authors": [
+                "Wenqi Zheng",
+                "Dawei Xiong",
+                "Junwei Li",
+                "Jiajun Jiang",
+                "Cekai Weng",
+                "Jinni Zhou",
+                "Mingming Fan"
+            ],
+            "venue": "International Symposium on Visual Information Communication and Interaction (VINCI)",
+            "venue_abbr": "VINCI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3678698.3678706",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/vinci/WeiZWJ024",
+            "title": "Augmented Library: Toward Enriching Physical Library Experience Using HMD-Based Augmented Reality",
+            "authors": [
+                "Qianjie Wei",
+                "Jingling Zhang",
+                "Pengqi Wang",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "International Symposium on Visual Information Communication and Interaction (VINCI)",
+            "venue_abbr": "VINCI",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3678698.3687174",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/vrst/LiuCXZS024",
+            "title": "Toward Facilitating Search in VR With the Assistance of Vision Large Language Models",
+            "authors": [
+                "Chao Liu",
+                "Chi San (Clarence) Cheung",
+                "Mingqing Xu",
+                "Zhongyue Zhang",
+                "Mingyang Su",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Symposium on Virtual Reality Software and Technology (VRST)",
+            "venue_abbr": "VRST",
+            "year": "2024",
+            "link": "https://doi.org/10.1145/3641825.3687742",
+            "type": "Conference"
+        },
+        {
+            "id": "journals/corr/abs-2402-04991",
+            "title": "Exploring the Opportunity of Augmented Reality (AR) in Supporting Older Adults Explore and Learn Smartphone Applications",
+            "authors": [
+                "Xiaofu Jin",
+                "Wai Tong",
+                "Xiaoying Wei",
+                "Xian Wang",
+                "Emily Kuang",
+                "Xiaoyu Mo",
+                "Huamin Qu",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2402.04991",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2402-15719",
+            "title": "\"It Is Hard to Remove from My Eye\": Design Makeup Residue Visualization System for Chinese Traditional Opera (Xiqu) Performers",
+            "authors": [
+                "Zeyu Xiong",
+                "Shihan Fu",
+                "Yanying Zhu",
+                "Chenqing Zhu",
+                "Xiaojuan Ma",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2402.15719",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2402-15723",
+            "title": "FetchAid: Making Parcel Lockers More Accessible to Blind and Low Vision People With Deep-learning Enhanced Touchscreen Guidance, Error-Recovery Mechanism, and AR-based Search Support",
+            "authors": [
+                "Zhitong Guan",
+                "Zeyu Xiong",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2402.15723",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2403-05031",
+            "title": "LightSword: A Customized Virtual Reality Exergame for Long-Term Cognitive Inhibition Training in Older Adults",
+            "authors": [
+                "Qiuxin Du",
+                "Zhen Song",
+                "Haiyan Jiang",
+                "Xiaoying Wei",
+                "Dongdong Weng",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2403.05031",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2403-05087",
+            "title": "SplattingAvatar: Realistic Real-Time Human Avatars with Mesh-Embedded Gaussian Splatting",
+            "authors": [
+                "Zhijing Shao",
+                "Zhaolong Wang",
+                "Zhuang Li",
+                "Duotun Wang",
+                "Xiangru Lin",
+                "Yu Zhang",
+                "Mingming Fan",
+                "Zeyu Wang"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2403.05087",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2403-05264",
+            "title": "To Reach the Unreachable: Exploring the Potential of VR Hand Redirection for Upper Limb Rehabilitation",
+            "authors": [
+                "Peixuan Xiong",
+                "Yukai Zhang",
+                "Nandi Zhang",
+                "Shihan Fu",
+                "Xin Li",
+                "Yadan Zheng",
+                "Jinni Zhou",
+                "Xiquan Hu",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2403.05264",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2403-05785",
+            "title": "Typist Experiment: an Investigation of Human-to-Human Dictation via Role-play to Inform Voice-based Text Authoring",
+            "authors": [
+                "Can Liu",
+                "Siying Hu",
+                "Li Feng",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2403.05785",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2403-09326",
+            "title": "HeadEvolver: Text to Head Avatars via Locally Learnable Mesh Deformation",
+            "authors": [
+                "Duotun Wang",
+                "Hengyu Meng",
+                "Zeyu Cai",
+                "Zhijing Shao",
+                "Qianxi Liu",
+                "Lin Wang",
+                "Mingming Fan",
+                "Ying Shan",
+                "Xiaohang Zhan",
+                "Zeyu Wang"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2403.09326",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2403-16107",
+            "title": "Designing Upper-Body Gesture Interaction with and for People with Spinal Muscular Atrophy in VR",
+            "authors": [
+                "Jingze Tian",
+                "Yingna Wang",
+                "Keye Yu",
+                "Liyi Xu",
+                "Junan Xie",
+                "Franklin Mingzhe Li",
+                "Yafeng Niu",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2403.16107",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2407-06846",
+            "title": "SilverCycling: Exploring the Impact of Bike-Based Locomotion on Spatial Orientation for Older Adults in VR",
+            "authors": [
+                "Qiongyan Chen",
+                "Zhiqing Wu",
+                "Yucheng Liu",
+                "Lei Han",
+                "Zisu Li",
+                "Ge Lin Kan",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2407.06846",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2408-06107",
+            "title": "Augmented Library: Toward Enriching Physical Library Experience Using HMD-Based Augmented Reality",
+            "authors": [
+                "Qianjie Wei",
+                "Jingling Zhang",
+                "Pengqi Wang",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2408.06107",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2408-08018",
+            "title": "Investigating Size Congruency Between the Visual Perception of a VR Object and the Haptic Perception of Its Physical World Agent",
+            "authors": [
+                "Wenqi Zheng",
+                "Dawei Xiong",
+                "Cekai Weng",
+                "Jiajun Jiang",
+                "Junwei Li",
+                "Jinni Zhou",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2408.08018",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2410-01585",
+            "title": "Avatar Appearance and Behavior of Potential Harassers Affect Users' Perceptions and Response Strategies in Social Virtual Reality (VR): A Mixed-Methods Study",
+            "authors": [
+                "Xuetong Wang",
+                "Ziyan Wang",
+                "Mingmin Zhang",
+                "Kangyou Yu",
+                "Pan Hui",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2410.01585",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2410-11810",
+            "title": "Practices and Challenges of Online Love-seeking Among Deaf or Hard of Hearing People: A Case Study in China",
+            "authors": [
+                "Beiyan Cao",
+                "Changyang He",
+                "Jingling Zhang",
+                "Yuru Huang",
+                "Muzhi Zhou",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2410.11810",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2410-11869",
+            "title": "Systematic Literature Review of Using Virtual Reality as a Social Platform in HCI Community",
+            "authors": [
+                "Xiaoying Wei",
+                "Xiaofu Jin",
+                "Ge Lin Kan",
+                "Yukang Yan",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2410.11869",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2410-12205",
+            "title": "Challenges in Adopting Companion Robots: An Exploratory Study of Robotic Companionship Conducted with Chinese Retirees",
+            "authors": [
+                "Mengyang Wang",
+                "Keye Yu",
+                "Yukai Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2410.12205",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2410-15092",
+            "title": "Exploring the Design of Virtual Reality Museums to Support Remote Visitation With Older Adults",
+            "authors": [
+                "Jingling Zhang",
+                "Qianjie Wei",
+                "Xiaoying Wei",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2410.15092",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2410-17909",
+            "title": "AI as a Bridge Across Ages: Exploring The Opportunities of Artificial Intelligence in Supporting Inter-Generational Communication in Virtual Reality",
+            "authors": [
+                "Qiuxin Du",
+                "Xiaoying Wei",
+                "Jiawei Li",
+                "Emily Kuang",
+                "Jie Hao",
+                "Dongdong Weng",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2410.17909",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2411-00351",
+            "title": "Understanding and Co-designing Photo-based Reminiscence with Older Adults",
+            "authors": [
+                "Zhongyue Zhang",
+                "Lina Xu",
+                "Xingkai Wang",
+                "Xu Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2411.00351",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2412-19105",
+            "title": "How Can Haptic Feedback Assist People with Blind and Low Vision (BLV): A Systematic Literature Review",
+            "authors": [
+                "Chutian Jiang",
+                "Emily Kuang",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2024",
+            "link": "https://doi.org/10.48550/arXiv.2412.19105",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/ijhci/FanWXLC23",
+            "title": "Understanding How Older Adults Comprehend COVID-19 Interactive Visualizations via Think-Aloud Protocol",
+            "authors": [
+                "Mingming Fan",
+                "Yiwen Wang",
+                "Yuni Xie",
+                "Franklin Mingzhe Li",
+                "Chunyang Chen"
+            ],
+            "venue": "International Journal of Human-Computer Interaction",
+            "venue_abbr": "Int. J. Hum. Comput. Interact.",
+            "year": "2023",
+            "link": "https://doi.org/10.1080/10447318.2022.2064609",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/imwut/LiFLHF23",
+            "title": "Exploring the Opportunities of AR for Enriching Storytelling with Family Photos between Grandparents and Grandchildren",
+            "authors": [
+                "Zisu Li",
+                "Li Feng",
+                "Chen Liang",
+                "Yuru Huang",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3610903",
+            "type": "Journal"
+        },
+        {
+            "id": "conf/assets/HuangZJ023",
+            "title": "Understanding Curators' Practices and Challenge of Making Exhibitions More Accessible for People with Visual Impairments",
+            "authors": [
+                "Yuru Huang",
+                "Jingling Zhang",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue_abbr": "ASSETS",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3597638.3608384",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/assets/JiangLKH023",
+            "title": "Understanding Strategies and Challenges of Conducting Daily Data Analysis (DDA) Among Blind and Low-vision People",
+            "authors": [
+                "Chutian Jiang",
+                "Wentao Lei",
+                "Emily Kuang",
+                "Teng Han",
+                "Mingming Fan"
+            ],
+            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue_abbr": "ASSETS",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3597638.3608423",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/cchi/XiongF023",
+            "title": "OperARtistry: An AR-based Interactive Application to Assist the Learning of Chinese Traditional Opera (Xiqu) Makeup",
+            "authors": [
+                "Zeyu Xiong",
+                "Shihan Fu",
+                "Mingming Fan"
+            ],
+            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue_abbr": "CCHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3629606.3629622",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/cchi/HuangXZCWF023",
+            "title": "Toward Leveraging Augmented Reality (AR) for Enhancing Remote Intergenerational Communication in Cooking Scenarios",
+            "authors": [
+                "Yuru Huang",
+                "Liyi Xu",
+                "You Zhou",
+                "Qiongyan Chen",
+                "Zhiqing Wu",
+                "Li Feng",
+                "Mingming Fan"
+            ],
+            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue_abbr": "CCHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3629606.3629658",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/KuangC023",
+            "title": "Enhancing Older Adults' Gesture Typing Experience Using the T9 Keyboard on Small Touchscreen Devices",
+            "authors": [
+                "Emily Kuang",
+                "Ruihuan Chen",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3544548.3581105",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/CaoHZ023",
+            "title": "Sparkling Silence: Practices and Challenges of Livestreaming Among Deaf or Hard of Hearing Streamers",
+            "authors": [
+                "Beiyan Cao",
+                "Changyang He",
+                "Muzhi Zhou",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3544548.3581053",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/KuangS00S23",
+            "title": "Collaboration with Conversational AI Assistants for UX Evaluation: Questions and How to Ask them (Voice vs. Text)",
+            "authors": [
+                "Emily Kuang",
+                "Ehsan Jahangirzadeh Soure",
+                "Mingming Fan",
+                "Jian Zhao",
+                "Kristen Shinohara"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3544548.3581247",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/FengXL023",
+            "title": "CoPracTter: Toward Integrating Personalized Practice Scenarios, Timely Feedback and Social Support into An Online Support Tool for Coping with Stuttering in China",
+            "authors": [
+                "Li Feng",
+                "Zeyu Xiong",
+                "Xinyi Li",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3544548.3581309",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/LiL0QYY0S23",
+            "title": "Enabling Voice-Accompanying Hand-to-Face Gesture Recognition with Cross-Device Sensing",
+            "authors": [
+                "Zisu Li",
+                "Chen Liang",
+                "Yuntao Wang",
+                "Yue Qin",
+                "Chun Yu",
+                "Yukang Yan",
+                "Mingming Fan",
+                "Yuanchun Shi"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3544548.3581008",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/WeiGKWCJ023",
+            "title": "Bridging the Generational Gap: Exploring How Virtual Reality Supports Remote Communication Between Grandparents and Grandchildren",
+            "authors": [
+                "Xiaoying Wei",
+                "Yizheng Gu",
+                "Emily Kuang",
+                "Xian Wang",
+                "Beiyan Cao",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3544548.3581405",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/ZhangLGWCJ0ZG23",
+            "title": "\"I am the follower, also the boss\": Exploring Different Levels of Autonomy and Machine Forms of Guiding Robots for the Visually Impaired",
+            "authors": [
+                "Yan Zhang",
+                "Ziang Li",
+                "Haole Guo",
+                "Luyao Wang",
+                "Qihe Chen",
+                "Wenjie Jiang",
+                "Mingming Fan",
+                "Guyue Zhou",
+                "Jiangtao Gong"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3544548.3580884",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/iui/HuHLWHQ0YS23",
+            "title": "SmartRecorder: An IMU-based Video Tutorial Creation by Demonstration System for Smartphone Interaction Tasks",
+            "authors": [
+                "Xiaozhu Hu",
+                "Yanwen Huang",
+                "Bo Liu",
+                "Ruolan Wu",
+                "Yongquan Hu",
+                "Aaron J. Quigley",
+                "Mingming Fan",
+                "Chun Yu",
+                "Yuanchun Shi"
+            ],
+            "venue": "International Conference on Intelligent User Interfaces (IUI)",
+            "venue_abbr": "IUI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3581641.3584069",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/mm/WangMLWJ0023",
+            "title": "Designing Loving-Kindness Meditation in Virtual Reality for Long-Distance Romantic Relationships",
+            "authors": [
+                "Xian Wang",
+                "Xiaoyu Mo",
+                "Lik-Hang Lee",
+                "Xiaoying Wei",
+                "Xiaofu Jin",
+                "Mingming Fan",
+                "Pan Hui"
+            ],
+            "venue": "ACM International Conference on Multimedia (MM)",
+            "venue_abbr": "ACM Multimedia",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3581783.3612438",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/uist/HeLF0Z23",
+            "title": "A Multi-modal Toolkit to Support DIY Assistive Technology Creation for Blind and Low Vision People",
+            "authors": [
+                "Liwen He",
+                "Yifan Li",
+                "Mingming Fan",
+                "Liang He",
+                "Yuhang Zhao"
+            ],
+            "venue": "ACM Symposium on User Interface Software and Technology (UIST)",
+            "venue_abbr": "UIST (Adjunct Volume)",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3586182.3616646",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/uist/LiangWLH0YS23",
+            "title": "ShadowTouch: Enabling Free-Form Touch-Based Hand-to-Surface Interaction with Wrist-Mounted Illuminant by Shadow Projection",
+            "authors": [
+                "Chen Liang",
+                "Xutong Wang",
+                "Zisu Li",
+                "Chi Hsia",
+                "Mingming Fan",
+                "Chun Yu",
+                "Yuanchun Shi"
+            ],
+            "venue": "ACM Symposium on User Interface Software and Technology (UIST)",
+            "venue_abbr": "UIST",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3586183.3606785",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/vinci/ZhangWZCFW023",
+            "title": "OdorV-Art: An Initial Exploration of An Olfactory Intervention for Appreciating Style Information of Artworks in Virtual Museum",
+            "authors": [
+                "Shumeng Zhang",
+                "Ziyan Wang",
+                "You Zhou",
+                "Hao Cui",
+                "Shihan Fu",
+                "Zeyu Wang",
+                "Mingming Fan"
+            ],
+            "venue": "International Symposium on Visual Information Communication and Interaction (VINCI)",
+            "venue_abbr": "VINCI",
+            "year": "2023",
+            "link": "https://doi.org/10.1145/3615522.3615544",
+            "type": "Conference"
+        },
+        {
+            "id": "journals/corr/abs-2302-03481",
+            "title": "\"I am the follower, also the boss\": Exploring Different Levels of Autonomy and Machine Forms of Guiding Robots for the Visually Impaired",
+            "authors": [
+                "Yan Zhang",
+                "Ziang Li",
+                "Haole Guo",
+                "Luyao Wang",
+                "Qihe Chen",
+                "Wenjie Jiang",
+                "Mingming Fan",
+                "Guyue Zhou",
+                "Jiangtao Gong"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2302.03481",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2302-10702",
+            "title": "CoPracTter: Toward Integrating Personalized Practice Scenarios, Timely Feedback and Social Support into An Online Support Tool for Coping with Stuttering in China",
+            "authors": [
+                "Feng Li",
+                "Zeyu Xiong",
+                "Xinyi Li",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2302.10702",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2302-14682",
+            "title": "Sparkling Silence: Practices and Challenges of Livestreaming Among Deaf or Hard of Hearing Streamers",
+            "authors": [
+                "Beiyan Cao",
+                "Changyang He",
+                "Muzhi Zhou",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2302.14682",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2302-14717",
+            "title": "Bridging the Generational Gap: Exploring How Virtual Reality Supports Remote Communication Between Grandparents and Grandchildren",
+            "authors": [
+                "Xiaoying Wei",
+                "Yizheng Gu",
+                "Emily Kuang",
+                "Xian Wang",
+                "Beiyan Cao",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2302.14717",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2303-03626",
+            "title": "Enhancing Older Adults' Gesture Typing Experience Using the T9 Keyboard on Small Touchscreen Devices",
+            "authors": [
+                "Emily Kuang",
+                "Ruihuan Chen",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2303.03626",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2303-03638",
+            "title": "Collaboration with Conversational AI Assistants for UX Evaluation: Questions and How to Ask them (Voice vs. Text)",
+            "authors": [
+                "Emily Kuang",
+                "Ehsan Jahangirzadeh Soure",
+                "Mingming Fan",
+                "Jian Zhao",
+                "Kristen Shinohara"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2303.03638",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2303-10441",
+            "title": "Enabling Voice-Accompanying Hand-to-Face Gesture Recognition with Cross-Device Sensing",
+            "authors": [
+                "Zisu Li",
+                "Chen Liang",
+                "Yuntao Wang",
+                "Yue Qin",
+                "Chun Yu",
+                "Yukang Yan",
+                "Mingming Fan",
+                "Yuanchun Shi"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2303.10441",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2309-03533",
+            "title": "Exploring the Opportunities of AR for Enriching Storytelling with Family Photos between Grandparents and Grandchildren",
+            "authors": [
+                "Zisu Li",
+                "Li Feng",
+                "Chen Liang",
+                "Yuru Huang",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2309.03533",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2309-11816",
+            "title": "Designing Loving-Kindness Meditation in Virtual Reality for Long-Distance Romantic Relationships",
+            "authors": [
+                "Xian Wang",
+                "Xiaoyu Mo",
+                "Lik-Hang Lee",
+                "Xiaoying Wei",
+                "Xiaofu Jin",
+                "Mingming Fan",
+                "Pan Hui"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2309.11816",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2310-07300",
+            "title": "uxSense: Supporting User Experience Analysis with Visualization and Computer Vision",
+            "authors": [
+                "Andrea Batch",
+                "Yipeng Ji",
+                "Mingming Fan",
+                "Jian Zhao",
+                "Niklas Elmqvist"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2310.07300",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2310-09235",
+            "title": "CoPrompt: Supporting Prompt Sharing and Referring in Collaborative Natural Language Programming",
+            "authors": [
+                "Felicia Li Feng",
+                "Ryan Yen",
+                "Yuzhe You",
+                "Mingming Fan",
+                "Jian Zhao",
+                "Zhicong Lu"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2310.09235",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2311-11269",
+            "title": "OperARtistry: An AR-based Interactive Application to Assist the Learning of Chinese Traditional Opera (Xiqu) Makeup",
+            "authors": [
+                "Zeyu Xiong",
+                "Shihan Fu",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2023",
+            "link": "https://doi.org/10.48550/arXiv.2311.11269",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/cacm/FanLL22",
+            "title": "Eyelid gestures for people with motor impairments",
+            "authors": [
+                "Mingming Fan",
+                "Zhen Li",
+                "Franklin Mingzhe Li"
+            ],
+            "venue": "Communications of the ACM",
+            "venue_abbr": "Commun. ACM",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3498367",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/imwut/JinHWF22",
+            "title": "Synapse: Interactive Guidance by Demonstration with Trial-and-Error Support for Older Adults to Use Smartphone Apps",
+            "authors": [
+                "Xiaofu Jin",
+                "Xiaozhu Hu",
+                "Xiaoying Wei",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3550321",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/iwc/FanTZCPSS22",
+            "title": "Older Adults' Concurrent and Retrospective Think-Aloud Verbalizations for Identifying User Experience Problems of VR Games",
+            "authors": [
+                "Mingming Fan",
+                "Vinita Tibdewal",
+                "Qiwen Zhao",
+                "Lizhou Cao",
+                "Chao Peng",
+                "Runxuan Shu",
+                "Yujia Shan"
+            ],
+            "venue": "Interacting with Computers (IWC)",
+            "venue_abbr": "Interact. Comput.",
+            "year": "2022",
+            "link": "https://doi.org/10.1093/iwc/iwac039",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/FanYYLZ22",
+            "title": "Human-AI Collaboration for UX Evaluation: Effects of Explanation and Synchronization",
+            "authors": [
+                "Mingming Fan",
+                "Xianyou Yang",
+                "Tsz Tung Yu",
+                "Vera Q. Liao",
+                "Jian Zhao"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3512943",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/pacmhci/LiuHFF22",
+            "title": "Typist Experiment: an Investigation of Human-to-Human Dictation via Role-play to Inform Voice-based Text Authoring",
+            "authors": [
+                "Can Liu",
+                "Siying Hu",
+                "Li Feng",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3555758",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tse/ChenCFFZL22",
+            "title": "Accessible or Not? An Empirical Investigation of Android App Accessibility",
+            "authors": [
+                "Sen Chen",
+                "Chunyang Chen",
+                "Lingling Fan",
+                "Mingming Fan",
+                "Xian Zhan",
+                "Yang Liu"
+            ],
+            "venue": "IEEE Transactions on Software Engineering (TSE)",
+            "venue_abbr": "IEEE Trans. Software Eng.",
+            "year": "2022",
+            "link": "https://doi.org/10.1109/TSE.2021.3108162",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tvcg/SoureKFZ22",
+            "title": "CoUX: Collaborative Visual Analysis of Think-Aloud Usability Test Videos for Digital Interfaces",
+            "authors": [
+                "Ehsan Jahangirzadeh Soure",
+                "Emily Kuang",
+                "Mingming Fan",
+                "Jian Zhao"
+            ],
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
+            "year": "2022",
+            "link": "https://doi.org/10.1109/TVCG.2021.3114822",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tvcg/ZhaoFF22",
+            "title": "ChartSeer: Interactive Steering Exploratory Visual Analysis With Machine Intelligence",
+            "authors": [
+                "Jian Zhao",
+                "Mingming Fan",
+                "Mi Feng"
+            ],
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
+            "year": "2022",
+            "link": "https://doi.org/10.1109/TVCG.2020.3018724",
+            "type": "Journal"
+        },
+        {
+            "id": "conf/ACMdis/RongZL022",
+            "title": "\"It Feels Like Being Locked in A Cage\": Understanding Blind or Low Vision Streamers' Perceptions of Content Curation Algorithms",
+            "authors": [
+                "Ethan Z. Rong",
+                "Morgana Mo Zhou",
+                "Zhicong Lu",
+                "Mingming Fan"
+            ],
+            "venue": "Conference on Designing Interactive Systems (DIS)",
+            "venue_abbr": "Conference on Designing Interactive Systems",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3532106.3533514",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/assets/Jin022",
+            "title": "\"I Used To Carry A Wallet, Now I Just Need To Carry My Phone\": Understanding Current Banking Practices and Challenges Among Older Adults in China",
+            "authors": [
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue_abbr": "ASSETS",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3517428.3544820",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/cchi/WeiJ022",
+            "title": "Communication in Immersive Social Virtual Reality: A Systematic Review of 10 Years' Studies",
+            "authors": [
+                "Xiaoying Wei",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue_abbr": "CCHI",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3565698.3565767",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/cchi/Shandilya022",
+            "title": "Understanding Older Adults' Perceptions and Challenges in Using AI-enabled Everyday Technologies",
+            "authors": [
+                "Esha Shandilya",
+                "Mingming Fan"
+            ],
+            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue_abbr": "CCHI",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3565698.3565774",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/cchi/WangM0LS022",
+            "title": "Reducing Stress and Anxiety in the Metaverse: A Systematic Review of Meditation, Mindfulness and Virtual Reality",
+            "authors": [
+                "Xian Wang",
+                "Xiaoyu Mo",
+                "Mingming Fan",
+                "Lik-Hang Lee",
+                "Bertram E. Shi",
+                "Pan Hui"
+            ],
+            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue_abbr": "CCHI",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3565698.3565781",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/Zhao0H22",
+            "title": "\"I Don't Want People to Look At Me Differently\": Designing User-Defined Above-the-Neck Gestures for People with Upper Body Motor Impairments",
+            "authors": [
+                "Xuan Zhao",
+                "Mingming Fan",
+                "Teng Han"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3491102.3517552",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/Lei0T22",
+            "title": "\"I Shake The Package To Check If It's Mine\": A Study of Package Fetching Practices and Challenges of Blind and Low Vision People in China",
+            "authors": [
+                "Wentao Lei",
+                "Mingming Fan",
+                "Juliann Thang"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3491102.3502063",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/KuangJ022",
+            "title": "\"Merging Results Is No Easy Task\": An International Survey Study of Collaborative Data Analysis Practices Among UX Practitioners",
+            "authors": [
+                "Emily Kuang",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3491102.3517647",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/Shandilya0T22",
+            "title": "\"I need to be professional until my new team uses emoji, GIFs, or memes first'': New Collaborators' Perspectives on Using Non-Textual Communication in Virtual Workspaces",
+            "authors": [
+                "Esha Shandilya",
+                "Mingming Fan",
+                "Garreth W. Tigwell"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3491102.3517514",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/XuYY0WQ22",
+            "title": "From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles",
+            "authors": [
+                "Xian Xu",
+                "Leni Yang",
+                "David Yip",
+                "Mingming Fan",
+                "Zheng Wei",
+                "Huamin Qu"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2022",
+            "link": "https://doi.org/10.1145/3491102.3501896",
+            "type": "Conference"
+        },
+        {
+            "id": "journals/corr/abs-2202-02704",
+            "title": "\"I Shake The Package To Check If It's Mine\": A Study of Package Fetching Practices and Challenges of Blind and Low Vision People in China",
+            "authors": [
+                "Wentao Lei",
+                "Mingming Fan",
+                "Juliann Thang"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://arxiv.org/abs/2202.02704",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2202-02709",
+            "title": "From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles",
+            "authors": [
+                "Xian Xu",
+                "Leni Yang",
+                "David Yip",
+                "Mingming Fan",
+                "Zheng Wei",
+                "Huamin Qu"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://arxiv.org/abs/2202.02709",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2202-02970",
+            "title": "Think-Aloud Verbalizations for Identifying User Experience Problems: Effects of Language Proficiency with Chinese Non-Native English Speakers",
+            "authors": [
+                "Mingming Fan",
+                "Lingyun Zhu"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://arxiv.org/abs/2202.02970",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2202-06000",
+            "title": "\"I Don't Want People to Look At Me Differently\": Designing User-Defined Above-the-Neck Gestures for People with Upper Body Motor Impairments",
+            "authors": [
+                "Xuan Zhao",
+                "Mingming Fan",
+                "Teng Han"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://arxiv.org/abs/2202.06000",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2202-11441",
+            "title": "Understanding How Older Adults Comprehend COVID-19 Interactive Visualizations via Think-Aloud Protocol",
+            "authors": [
+                "Mingming Fan",
+                "Yiwen Wang",
+                "Yuni Xie",
+                "Franklin Mingzhe Li",
+                "Chunyang Chen"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://arxiv.org/abs/2202.11441",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2203-06422",
+            "title": "Accessible or Not? An Empirical Investigation of Android App Accessibility",
+            "authors": [
+                "Sen Chen",
+                "Chunyang Chen",
+                "Lingling Fan",
+                "Mingming Fan",
+                "Xian Zhan",
+                "Yang Liu"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://doi.org/10.48550/arXiv.2203.06422",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2204-02823",
+            "title": "\"Merging Results Is No Easy Task\": An International Survey Study of Collaborative Data Analysis Practices Among UX Practitioners",
+            "authors": [
+                "Emily Kuang",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://doi.org/10.48550/arXiv.2204.02823",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2204-11247",
+            "title": "\"It Feels Like Being Locked in A Cage\": Understanding Blind or Low Vision Streamers' Perceptions of Content Curation Algorithms",
+            "authors": [
+                "Ethan Z. Rong",
+                "Morgana Mo Zhou",
+                "Zhicong Lu",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://doi.org/10.48550/arXiv.2204.11247",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2207-12935",
+            "title": "\"I Used To Carry A Wallet, Now I Just Need To Carry My Phone\": Understanding Current Banking Practices and Challenges Among Older Adults in China",
+            "authors": [
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://doi.org/10.48550/arXiv.2207.12935",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2209-09596",
+            "title": "Synapse: Interactive Guidance by Demonstration with Trial-and-Error Support for Older Adults to Use Smartphone Apps",
+            "authors": [
+                "Xiaofu Jin",
+                "Xiaozhu Hu",
+                "Xiaoying Wei",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://doi.org/10.48550/arXiv.2209.09596",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2209-14645",
+            "title": "Reducing Stress and Anxiety in the Metaverse: A Systematic Review of Meditation, Mindfulness and Virtual Reality",
+            "authors": [
+                "Xian Wang",
+                "Xiaoyu Mo",
+                "Mingming Fan",
+                "Lik-Hang Lee",
+                "Bertram E. Shi",
+                "Pan Hui"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://doi.org/10.48550/arXiv.2209.14645",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2210-01365",
+            "title": "Communication in Immersive Social Virtual Reality: A Systematic Review of 10 Years' Studies",
+            "authors": [
+                "Xiaoying Wei",
+                "Xiaofu Jin",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://doi.org/10.48550/arXiv.2210.01365",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2210-01369",
+            "title": "Understanding Older Adults' Perceptions and Challenges in Using AI-enabled Everyday Technologies",
+            "authors": [
+                "Esha Shandilya",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2022",
+            "link": "https://doi.org/10.48550/arXiv.2210.01369",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/imwut/JiangCFWSLSZTH21",
+            "title": "Douleur: Creating Pain Sensation with Chemical Stimulant to Enhance User Experience in Virtual Reality",
+            "authors": [
+                "Chutian Jiang",
+                "Yanjun Chen",
+                "Mingming Fan",
+                "Liuping Wang",
+                "Luyao Shen",
+                "Nianlong Li",
+                "Wei Sun",
+                "Yu Zhang",
+                "Feng Tian",
+                "Teng Han"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2021",
+            "link": "https://doi.org/10.1145/3463527",
+            "type": "Journal"
+        },
+        {
+            "id": "conf/ACMdis/JinK021",
+            "title": "\"Too old to bank digitally? \": A Survey of Banking Practices and Challenges Among Older Adults in China",
+            "authors": [
+                "Xiaofu Jin",
+                "Emily Kuang",
+                "Mingming Fan"
+            ],
+            "venue": "Conference on Designing Interactive Systems (DIS)",
+            "venue_abbr": "Conference on Designing Interactive Systems",
+            "year": "2021",
+            "link": "https://doi.org/10.1145/3461778.3462127",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/cchi/FanZ21",
+            "title": "Think-Aloud Verbalizations for Identifying User Experience Problems: Effects of Language Proficiency with Chinese Non-Native English Speakers",
+            "authors": [
+                "Mingming Fan",
+                "Lingyun Zhu"
+            ],
+            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue_abbr": "CCHI",
+            "year": "2021",
+            "link": "https://doi.org/10.1145/3490355.3490358",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/LiZLYFTH021",
+            "title": "vMirror: Enhancing the Interaction with Occluded or Distant Objects in VR with Virtual Mirrors",
+            "authors": [
+                "Nianlong Li",
+                "Zhengquan Zhang",
+                "Can Liu",
+                "Zengyao Yang",
+                "Yinan Fu",
+                "Feng Tian",
+                "Teng Han",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2021",
+            "link": "https://doi.org/10.1145/3411764.3445537",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/0005ZT21",
+            "title": "Older Adults' Think-Aloud Verbalizations and Speech Features for Identifying User Experience Problems",
+            "authors": [
+                "Mingming Fan",
+                "Qiwen Zhao",
+                "Vinita Tibdewal"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2021",
+            "link": "https://doi.org/10.1145/3411764.3445680",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/LiC0T21",
+            "title": "\"I Choose Assistive Devices That Save My Face\": A Study on Perceptions of Accessibility and Assistive Technology Use Conducted in China",
+            "authors": [
+                "Franklin Mingzhe Li",
+                "Di Laura Chen",
+                "Mingming Fan",
+                "Khai N. Truong"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2021",
+            "link": "https://doi.org/10.1145/3411764.3445321",
+            "type": "Conference"
+        },
+        {
+            "id": "journals/corr/abs-2101-09348",
+            "title": "\"I Choose Assistive Devices That Save My Face\" A Study on Perceptions of Accessibility and Assistive Technology Use Conducted in China",
+            "authors": [
+                "Franklin Mingzhe Li",
+                "Di Laura Chen",
+                "Mingming Fan",
+                "Khai N. Truong"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2021",
+            "link": "https://arxiv.org/abs/2101.09348",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2102-10685",
+            "title": "EvoK: Connecting loved ones through Heart Rate sharing",
+            "authors": [
+                "Esha Shandilya",
+                "Yiwen Wang",
+                "Xuan Zhao",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2021",
+            "link": "https://arxiv.org/abs/2102.10685",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2112-12387",
+            "title": "Human-AI Collaboration for UX Evaluation: Effects of Explanation and Synchronization",
+            "authors": [
+                "Mingming Fan",
+                "Xianyou Yang",
+                "Tsz Tung Yu",
+                "Vera Q. Liao",
+                "Jian Zhao"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2021",
+            "link": "https://arxiv.org/abs/2112.12387",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/tiis/FanLT20",
+            "title": "Automatic Detection of Usability Problem Encounters in Think-aloud Sessions",
+            "authors": [
+                "Mingming Fan",
+                "Yue Li",
+                "Khai N. Truong"
+            ],
+            "venue": "ACM Transactions on Interactive Intelligent Systems",
+            "venue_abbr": "ACM Trans. Interact. Intell. Syst.",
+            "year": "2020",
+            "link": "https://doi.org/10.1145/3385732",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tvcg/FanWZLWT20",
+            "title": "VisTA: Integrating Machine Intelligence with Visualization to Support the Investigation of Think-Aloud Sessions",
+            "authors": [
+                "Mingming Fan",
+                "Ke Wu",
+                "Jian Zhao",
+                "Yue Li",
+                "Winter Wei",
+                "Khai N. Truong"
+            ],
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
+            "year": "2020",
+            "link": "https://doi.org/10.1109/TVCG.2019.2934797",
+            "type": "Journal"
+        },
+        {
+            "id": "conf/assets/0001LL20",
+            "title": "Eyelid Gestures on Mobile Devices for People with Motor Impairments",
+            "authors": [
+                "Mingming Fan",
+                "Zhen Li",
+                "Franklin Mingzhe Li"
+            ],
+            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue_abbr": "ASSETS",
+            "year": "2020",
+            "link": "https://doi.org/10.1145/3373625.3416987",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/HanWWFLT020",
+            "title": "Mouillé: Exploring Wetness Illusion on Fingertips to Enhance Immersive Experience in VR",
+            "authors": [
+                "Teng Han",
+                "Sirui Wang",
+                "Sijia Wang",
+                "Xiangmin Fan",
+                "Jie Liu",
+                "Feng Tian",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2020",
+            "link": "https://doi.org/10.1145/3313831.3376138",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/mm/Li0HT20",
+            "title": "iWink: Exploring Eyelid Gestures on Mobile Devices",
+            "authors": [
+                "Zhen Li",
+                "Mingming Fan",
+                "Ying Han",
+                "Khai N. Truong"
+            ],
+            "venue": "ACM International Conference on Multimedia (MM)",
+            "venue_abbr": "HUMA @ ACM Multimedia",
+            "year": "2020",
+            "link": "https://doi.org/10.1145/3422852.3423479",
+            "type": "Conference"
+        },
+        {
+            "id": "phd/ca/Fan19",
+            "title": "Leveraging Subtle Verbalization and Speech Patterns to Help Evaluators Identify Usability Problem Encounters in Concurrent Think-aloud Sessions",
+            "authors": [
+                "Mingming Fan"
+            ],
+            "venue": "",
+            "venue_abbr": "",
+            "year": "2019",
+            "link": "http://hdl.handle.net/1807/97423",
+            "type": "unknown"
+        },
+        {
+            "id": "journals/imwut/LiC0T19",
+            "title": "FMT: A Wearable Camera-Based Object Tracking Memory Aid for Older Adults",
+            "authors": [
+                "Franklin Mingzhe Li",
+                "Di Laura Chen",
+                "Mingming Fan",
+                "Khai N. Truong"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2019",
+            "link": "https://doi.org/10.1145/3351253",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/iot/Ma00S19",
+            "title": "Projected visible light for 3D finger tracking and device augmentation on everyday objects",
+            "authors": [
+                "Shang Ma",
+                "Qiong Liu",
+                "Mingming Fan",
+                "Phillip C.-Y. Sheu"
+            ],
+            "venue": "Internet of Things",
+            "venue_abbr": "Internet Things",
+            "year": "2019",
+            "link": "https://doi.org/10.1016/j.iot.2019.02.004",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tochi/FanLCT19",
+            "title": "Concurrent Think-Aloud Verbalizations and Usability Problems",
+            "authors": [
+                "Mingming Fan",
+                "Jinglan Lin",
+                "Christina Chung",
+                "Khai N. Truong"
+            ],
+            "venue": "ACM Transactions on Computer-Human Interaction (TOCHI)",
+            "venue_abbr": "ACM Trans. Comput. Hum. Interact.",
+            "year": "2019",
+            "link": "https://doi.org/10.1145/3325281",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/tvcg/LuFWZAW19",
+            "title": "InkPlanner: Supporting Prewriting via Intelligent Visual Diagramming",
+            "authors": [
+                "Zhicong Lu",
+                "Mingming Fan",
+                "Yun Wang",
+                "Jian Zhao",
+                "Michelle Annett",
+                "Daniel Wigdor"
+            ],
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
+            "year": "2019",
+            "link": "https://doi.org/10.1109/TVCG.2018.2864887",
+            "type": "Journal"
+        },
+        {
+            "id": "conf/chi/LuA0W19",
+            "title": "\"I feel it is my responsibility to stream\": Streaming and Engaging with Intangible Cultural Heritage through Livestreaming",
+            "authors": [
+                "Zhicong Lu",
+                "Michelle Annett",
+                "Mingming Fan",
+                "Daniel Wigdor"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2019",
+            "link": "https://doi.org/10.1145/3290605.3300459",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/HanLHFKLF0LI19",
+            "title": "PinchList: Leveraging Pinch Gestures for Hierarchical List Navigation on Smartphones",
+            "authors": [
+                "Teng Han",
+                "Jie Liu",
+                "Khalad Hasan",
+                "Mingming Fan",
+                "Junhyeok Kim",
+                "Jiannan Li",
+                "Xiangmin Fan",
+                "Feng Tian",
+                "Edward Lank",
+                "Pourang Irani"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI",
+            "year": "2019",
+            "link": "https://doi.org/10.1145/3290605.3300731",
+            "type": "Conference"
+        },
+        {
+            "id": "journals/taccess/FanT18",
+            "title": "Guidelines for Creating Senior-Friendly Product Instructions",
+            "authors": [
+                "Mingming Fan",
+                "Khai N. Truong"
+            ],
+            "venue": "ACM Transactions on Accessible Computing (TACCESS)",
+            "venue_abbr": "ACM Trans. Access. Comput.",
+            "year": "2018",
+            "link": "https://doi.org/10.1145/3209882",
+            "type": "Journal"
+        },
+        {
+            "id": "conf/assets/LiFT17",
+            "title": "BrailleSketch: A Gesture-based Text Input Method for People with Visual Impairments",
+            "authors": [
+                "Franklin Mingzhe Li",
+                "Mingming Fan",
+                "Khai N. Truong"
+            ],
+            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue_abbr": "ASSETS",
+            "year": "2017",
+            "link": "https://doi.org/10.1145/3132525.3132528",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/chi/FanHLHG17",
+            "title": "Comparing Mid-air Finger Motion with Touch for Small Target Acquisition on Wearable Devices",
+            "authors": [
+                "Mingming Fan",
+                "Anuruddha Hettiarachchi",
+                "Zhicong Lu",
+                "Seyong Ha",
+                "Priyank Gupta"
+            ],
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue_abbr": "CHI Extended Abstracts",
+            "year": "2017",
+            "link": "https://doi.org/10.1145/3027063.3053092",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/iswc/ZhaoQYLF17",
+            "title": "An empirical study of touch-based authentication methods on smartwatches",
+            "authors": [
+                "Yue Zhao",
+                "Zhongtian Qiu",
+                "Yiqing Yang",
+                "Weiwei Li",
+                "Mingming Fan"
+            ],
+            "venue": "IEEE International Symposium on Wearable Computers (ISWC)",
+            "venue_abbr": "ISWC",
+            "year": "2017",
+            "link": "https://doi.org/10.1145/3123021.3123049",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/iswc/FanDSYY17",
+            "title": "An empirical study of foot gestures for hands-occupied mobile interaction",
+            "authors": [
+                "Mingming Fan",
+                "Yizheng Ding",
+                "Fang Shen",
+                "Yuhui You",
+                "Zhi Yu"
+            ],
+            "venue": "IEEE International Symposium on Wearable Computers (ISWC)",
+            "venue_abbr": "ISWC",
+            "year": "2017",
+            "link": "https://doi.org/10.1145/3123021.3123043",
+            "type": "Conference"
+        },
+        {
+            "id": "journals/corr/abs-1710-04608",
+            "title": "An empirical study of touch-based authentication methods on smartwatches",
+            "authors": [
+                "Yue Zhao",
+                "Zhongtian Qiu",
+                "Yiqing Yang",
+                "Weiwei Li",
+                "Mingming Fan"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2017",
+            "link": "http://arxiv.org/abs/1710.04608",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "conf/huc/FanT15",
+            "title": "SoQr: sonically quantifying the content level inside containers",
+            "authors": [
+                "Mingming Fan",
+                "Khai N. Truong"
+            ],
+            "venue": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
+            "venue_abbr": "UbiComp",
+            "year": "2015",
+            "link": "https://doi.org/10.1145/2750858.2804264",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/icmcs/FanLTC15",
+            "title": "POLI: Interactive multimedia authoring and retrieval on mobile phone by leveraging its audio channel and coded light",
+            "authors": [
+                "Mingming Fan",
+                "Qiong Liu",
+                "Hao Tang",
+                "Patrick Chiu"
+            ],
+            "venue": "IEEE International Conference on Multimedia and Expo (ICME)",
+            "venue_abbr": "ICME Workshops",
+            "year": "2015",
+            "link": "https://doi.org/10.1109/ICMEW.2015.7169775",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/ism/FanLMC15",
+            "title": "Smart Toy Car Localization and Navigation Using Projected Light",
+            "authors": [
+                "Mingming Fan",
+                "Qiong Liu",
+                "Shang Ma",
+                "Patrick Chiu"
+            ],
+            "venue": "IEEE International Symposium on Multimedia (ISM)",
+            "venue_abbr": "ISM",
+            "year": "2015",
+            "link": "https://doi.org/10.1109/ISM.2015.113",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/iswc/FanAT14",
+            "title": "Public restroom detection on mobile phone via active probing",
+            "authors": [
+                "Mingming Fan",
+                "Alexander Travis Adams",
+                "Khai N. Truong"
+            ],
+            "venue": "IEEE International Symposium on Wearable Computers (ISWC)",
+            "venue_abbr": "ISWC",
+            "year": "2014",
+            "link": "https://doi.org/10.1145/2634317.2634320",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/wmcsa/FanLTC14",
+            "title": "HiFi: hide and find digital content associated with physical objects via coded light",
+            "authors": [
+                "Mingming Fan",
+                "Qiong Liu",
+                "Hao Tang",
+                "Patrick Chiu"
+            ],
+            "venue": "Workshop on Mobile Computing Systems and Applications (HotMobile)",
+            "venue_abbr": "HotMobile",
+            "year": "2014",
+            "link": "https://doi.org/10.1145/2565585.2565587",
+            "type": "Conference"
+        },
+        {
+            "id": "journals/corr/FanK14",
+            "title": "Predicting a Business Star in Yelp from Its Reviews Text Alone",
+            "authors": [
+                "Mingming Fan",
+                "Maryam Khademi"
+            ],
+            "venue": "Computing Research Repository (CoRR)",
+            "venue_abbr": "CoRR",
+            "year": "2014",
+            "link": "http://arxiv.org/abs/1401.0864",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "conf/uist/KhademiFHL13",
+            "title": "Multi-perspective multi-layer interaction on mobile device",
+            "authors": [
+                "Maryam Khademi",
+                "Mingming Fan",
+                "Hossein Mousavi Hondori",
+                "Cristina Videira Lopes"
+            ],
+            "venue": "ACM Symposium on User Interface Software and Technology (UIST)",
+            "venue_abbr": "UIST (Adjunct Volume)",
+            "year": "2013",
+            "link": "https://doi.org/10.1145/2508468.2514712",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/www/JainJF13",
+            "title": "From health-persona to societal health",
+            "authors": [
+                "Ramesh C. Jain",
+                "Laleh Jalali",
+                "Mingming Fan"
+            ],
+            "venue": "The Web Conference (WWW)",
+            "venue_abbr": "WWW (Companion Volume)",
+            "year": "2013",
+            "link": "https://doi.org/10.1145/2487788.2488171",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/huc/FanGCP12",
+            "title": "Augmenting gesture recognition with erlang-cox models to identify neurological disorders in premature babies",
+            "authors": [
+                "Mingming Fan",
+                "Dana Gravem",
+                "Dan M. Cooper",
+                "Donald J. Patterson"
+            ],
+            "venue": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
+            "venue_abbr": "UbiComp",
+            "year": "2012",
+            "link": "https://doi.org/10.1145/2370216.2370278",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/mhci/FanPS12",
+            "title": "When camera meets accelerometer: a novel way for 3d interaction of mobile phone",
+            "authors": [
+                "Mingming Fan",
+                "Donald J. Patterson",
+                "Yuanchun Shi"
+            ],
+            "venue": "International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI)",
+            "venue_abbr": "Mobile HCI (Companion)",
+            "year": "2012",
+            "link": "https://doi.org/10.1145/2371664.2371689",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/cscw/FanLZTSW11",
+            "title": "Surprise Grabber: a co-located tangible social game using phone hand gesture",
+            "authors": [
+                "Mingming Fan",
+                "Xin Li",
+                "Yu Zhong",
+                "Li Tian",
+                "Yuanchun Shi",
+                "Hao Wang"
+            ],
+            "venue": "Conference on Computer Supported Cooperative Work (CSCW)",
+            "venue_abbr": "CSCW",
+            "year": "2011",
+            "link": "https://doi.org/10.1145/1958824.1958930",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/uist/YuSBMSFQ10",
+            "title": "The satellite cursor: achieving MAGIC pointing without gaze tracking using multiple cursors",
+            "authors": [
+                "Chun Yu",
+                "Yuanchun Shi",
+                "Ravin Balakrishnan",
+                "Xiangliang Meng",
+                "Yue Suo",
+                "Mingming Fan",
+                "Yongqiang Qin"
+            ],
+            "venue": "ACM Symposium on User Interface Software and Technology (UIST)",
+            "venue_abbr": "UIST",
+            "year": "2010",
+            "link": "https://doi.org/10.1145/1866029.1866056",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/hci/FanS09",
+            "title": "Pull and Push: Proximity-Aware User Interface for Navigating in 3D Space Using a Handheld Camera",
+            "authors": [
+                "Mingming Fan",
+                "Yuanchun Shi"
+            ],
+            "venue": "International Conference on Human-Computer Interaction (HCI International)",
+            "venue_abbr": "HCI (3)",
+            "year": "2009",
+            "link": "https://doi.org/10.1007/978-3-642-02580-8_15",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/mm/ZhangSF08",
+            "title": "UCam: direct manipulation using handheld camera for 3d gesture interaction",
+            "authors": [
+                "Liang Zhang",
+                "Yuanchun Shi",
+                "Mingming Fan"
+            ],
+            "venue": "ACM International Conference on Multimedia (MM)",
+            "venue_abbr": "ACM Multimedia",
+            "year": "2008",
+            "link": "https://doi.org/10.1145/1459359.1459491",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/vrst/FanZS08",
+            "title": "Hand's 3D movement detection with one handheld camera",
+            "authors": [
+                "Mingming Fan",
+                "Liang Zhang",
+                "Yuanchun Shi"
+            ],
+            "venue": "ACM Symposium on Virtual Reality Software and Technology (VRST)",
+            "venue_abbr": "VRST",
+            "year": "2008",
+            "link": "https://doi.org/10.1145/1450579.1450640",
+            "type": "Conference"
+        }
+    ]
+}

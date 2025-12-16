@@ -27,40 +27,14 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   
-  <!-- Custom CSS for Publication Tags and Animations -->
+  <!-- Custom CSS for Publications Layout -->
   <style>
-    .publication-tags {
-      margin-top: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-    }
-    
-    .publication-tags .tag {
-      display: inline-block;
-      padding: 3px 8px;
-      background-color: #f8f9fa;
-      color: #495057;
-      border: 1px solid #dee2e6;
-      border-radius: 12px;
-      font-size: 0.75rem;
-      font-weight: 500;
-      text-transform: capitalize;
-      letter-spacing: 0.3px;
-    }
-    
-    .publication-tags .tag:hover {
-      background-color: #e9ecef;
-      border-color: #adb5bd;
+    /* Publication list container（使用默认 container 宽度，不再额外收窄） */
+    .publications-layout {
+      width: 100%;
     }
 
     /* Publication Item Animation */
-    .publication-item {
-      opacity: 0;
-      transform: translateY(30px);
-      animation: fadeInUp 0.6s ease-out forwards;
-    }
-
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -79,24 +53,6 @@
       border-width: 0.3em;
     }
 
-    /* Filter Animation */
-    .filter-item {
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeInUp 0.5s ease-out forwards;
-      transition: all 0.3s ease;
-    }
-
-    .filter-item:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
-    .filter-item.filter-active {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
     /* Container Animation */
     .publications-container {
       opacity: 0;
@@ -109,6 +65,207 @@
       }
       to {
         opacity: 1;
+      }
+    }
+
+    /* 年份标题样式 */
+    .year-header {
+      margin-top: 3rem;
+      margin-bottom: 1.25rem;
+      position: relative;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .year-header:first-child {
+      margin-top: 0;
+    }
+
+    .year-title {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #212529;
+      margin: 0;
+      padding: 0 1rem;
+      letter-spacing: 0.03em;
+      background-color: #fff;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+    }
+
+    .year-header::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 1px;
+      background-color: #dee2e6;
+      z-index: 0;
+    }
+
+    /* Publication item - 恢复原始样式 */
+    .publication-item {
+      margin-bottom: 10px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
+
+    .publication-content {
+      padding: 12px 0 !important;
+      border-bottom: 2px solid #ccc !important;
+    }
+
+    .publication-content:last-child {
+      border-bottom: none;
+    }
+
+    .publication-content h4 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1e3a8a; /* 深蓝色 */
+      margin-bottom: 12px;
+      line-height: 1.4;
+      transition: color 0.3s ease;
+    }
+
+    .publication-content h4:hover {
+      color: #3b82f6; /* 浅蓝色 */
+    }
+
+    .publication-content h4 .pub-index {
+      font-weight: 600;
+      color: #1e3a8a; /* 深蓝色，不随hover变色 */
+      margin-right: 0.5rem;
+    }
+
+    .publication-content h4 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .publication-content .authors {
+      color: var(--text-color);
+      font-size: 16px;
+      margin-bottom: 8px;
+      font-style: italic;
+    }
+
+    .publication-content .venue {
+      color: #64748b; /* 优化的灰色 */
+      font-size: 16px;
+      margin-bottom: 0;
+      line-height: 1.6;
+      font-weight: 600; /* 加粗 */
+      letter-spacing: 0.01em;
+    }
+
+    .publication-item:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    .publication-item:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .publication-item:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    /* 右侧年份导航栏 */
+    .year-navigation {
+      position: fixed;
+      right: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 12px;
+      padding: 1.5rem 1.25rem;
+      z-index: 1000;
+      max-height: 85vh;
+      overflow-y: auto;
+      min-width: 200px;
+    }
+
+    .year-navigation.hidden {
+      display: none;
+    }
+
+    .year-navigation::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .year-navigation::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 3px;
+    }
+
+    .year-navigation::-webkit-scrollbar-thumb {
+      background: #bbb;
+      border-radius: 3px;
+    }
+
+    .year-navigation::-webkit-scrollbar-thumb:hover {
+      background: #999;
+    }
+
+    .year-nav-item {
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border-radius: 6px;
+      margin-bottom: 0.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .year-nav-item:hover {
+      background-color: #f8f9fa;
+      transform: translateX(-2px);
+    }
+
+    .year-nav-item.active {
+      background-color: #e7f3ff;
+      font-weight: 600;
+    }
+
+    .year-nav-item .year-text {
+      font-size: 1rem;
+      color: #495057;
+      font-weight: 500;
+    }
+
+    .year-nav-item.active .year-text {
+      color: #0d6efd;
+      font-weight: 600;
+    }
+
+    .year-nav-item .year-count {
+      font-size: 0.8rem;
+      color: #6c757d;
+      background-color: #e9ecef;
+      padding: 0.25rem 0.6rem;
+      border-radius: 12px;
+      font-weight: 500;
+      min-width: 32px;
+      text-align: center;
+    }
+
+    .year-nav-item.active .year-count {
+      background-color: #cfe2ff;
+      color: #0d6efd;
+      font-weight: 600;
+    }
+
+    /* 移动设备上隐藏 */
+    @media (max-width: 992px) {
+      .year-navigation {
+        display: none;
       }
     }
   </style>
@@ -161,20 +318,19 @@
 
       <div class="container" data-aos="fade-up">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100" id="publication-filters">
-            <!-- 动态生成的过滤器 -->
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-2 isotope-container">
+        <div class="publications-layout">
+          <div class="row gy-4">
             <div id="publications-container">
               <!-- 动态生成的publications -->
             </div>
           </div><!-- End Publication Container -->
-
         </div>
 
+      </div>
+
+      <!-- 右侧年份导航栏 -->
+      <div class="year-navigation" id="year-navigation">
+        <!-- 动态生成的年份导航 -->
       </div>
 
     </section><!-- /Publications Section -->
@@ -220,8 +376,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

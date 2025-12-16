@@ -35,6 +35,240 @@
       "filters": ["filter-at", "filter-hai"],
       "tags": ["Accessible Computing", "Human-AI Interaction"],
       "year": "2025"
+    },
+    {
+      "id": 5,
+      "title": "RemoteChess: Enhancing Older Adults' Social Connectedness via Designing a Virtual Reality Chinese Chess (Xiangqi) Community",
+      "authors": "Qianjie Wei, Xiaoying Wei, Yiqi Liang, Fan Lin, Nuonan Si, Mingming Fan*",
+      "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '25)",
+      "filters": ["filter-at", "filter-vr"],
+      "tags": ["Accessible Computing", "VR/AR/MR"],
+      "year": "2025"
+    },
+    {
+      "id": 6,
+      "title": "\"Watch, Smell, Ask, Touch\": Practices, Challenges, and Technological Support in Ability Assessment of Older Adults from Practitioners' Perspectives in China",
+      "authors": "Zhongyue Zhang, Yuru Huang, Mengyang Wang, Mingming Fan*",
+      "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '25)",
+      "filters": ["filter-at"],
+      "tags": ["Accessible Computing"],
+      "year": "2025"
+    },
+    {
+      "id": 7,
+      "title": "JournalAIde: Empowering Older Adults in Digital Journal Writing",
+      "authors": "Yuru Huang, Zhongyue Zhang, Mengyang Wang, Mingming Fan*",
+      "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '25)",
+      "filters": ["filter-at", "filter-hai"],
+      "tags": ["Accessible Computing", "Human-AI Interaction"],
+      "year": "2025"
+    },
+    {
+      "id": 8,
+      "title": "RemVerse: Supporting Reminiscence Activities for Older Adults through AI-Assisted Virtual Reality",
+      "authors": "Ruohao Li, Jiawei Li, Jia Sun, Zhiqing Wu, Zisu Li, Ziyan Wang, Ge Lin, Mingming Fan*",
+      "venue": "Proceedings of ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT)",
+      "filters": ["filter-at", "filter-hai", "filter-vr"],
+      "tags": ["Accessible Computing", "Human-AI Interaction", "VR/AR/MR"],
+      "year": "2025"
+    },
+    {
+      "id": 9,
+      "title": "SimViews: An Interactive Multi-Agent System Simulating Visitor-to-Visitor Conversational Patterns to Present Diverse Perspectives of Artifacts in Virtual Museums",
+      "authors": "Mingyang Su, Chao LIU, Jingling Zhang, WU Shuang, Mingming Fan*",
+      "venue": "Proceedings of the 33rd ACM International Conference on Multimedia (MM'25)",
+      "filters": ["filter-hai"],
+      "tags": ["Human-AI Interaction"],
+      "year": "2025"
+    },
+    {
+      "id": 10,
+      "title": "ExplorAR: Assisting Older Adults to Learn Smartphone Apps through AR-powered Trial-and-Error with Interactive Guidance",
+      "authors": "Jiawei Li, Linjie Qiu, Zhiqing Wu, Qiongyan Chen, Ziyan Wang, Mingming Fan*",
+      "venue": "Proceedings of the 33rd ACM International Conference on Multimedia (MM'25)",
+      "filters": ["filter-at", "filter-hai", "filter-vr"],
+      "tags": ["Accessible Computing", "Human-AI Interaction", "VR/AR/MR"],
+      "year": "2025"
+    },
+    {
+      "id": 11,
+      "title": "Blossoms Across Time: AI-Assisted Cultural Dialogue Through Diverse Artistic Expressions in VR Intangible Cultural Heritage Experience",
+      "authors": "Yingna Wang, Qingqin Liu, Xiaoying Wei, Mingming Fan*",
+      "venue": "SIGGRAPH'25: Immersive Pavilion",
+      "filters": ["filter-vr"],
+      "tags": ["VR/AR/MR"],
+      "year": "2025"
+    },
+    {
+      "id": 12,
+      "title": "Modeling the Intuitiveness of Mobile GUI Navigation by Understanding and Simulating Users' Attention Distribution",
+      "authors": "Xiaozhu Hu, Xiaoyu Mo, Xiaofu Jin, Yongquan Owen Hu, Mingming Fan, Tristan Braud",
+      "venue": "Companion Proceedings of the ACM Web Conference 2025 (WWW Companion'25)",
+      "filters": ["filter-hai"],
+      "tags": ["Human-AI Interaction"],
+      "year": "2025"
+    },
+    {
+      "id": 13,
+      "title": "Decoding Cognitive Load: Eye-Tracking Insights into Working Memory and Visual Attention",
+      "authors": "Xiaofu Jin, Yunpeng Bai, Lina Xu, Shuai Ma, Danqing Shi, Luwen Yu, Mingming Fan",
+      "venue": "Proceedings of the 2025 Symposium on Eye Tracking Research and Applications",
+      "filters": ["filter-hai"],
+      "tags": ["Human-AI Interaction"],
+      "year": "2025"
+    },
+    {
+      "id": 14,
+      "title": "FinHERtip: Embodied Identity and Human-AI Co-Creation in Accessible Musical Performance",
+      "authors": "Shumeng Zhang, Tiancheng Liu, Mingming Fan",
+      "venue": "SIGGRAPH Asia 2025 Art Papers",
+      "filters": ["filter-at"],
+      "tags": ["Accessible Computing"],
+      "year": "2025"
+    },
+    {
+      "id": 15,
+      "title": "SilverCycling: Exploring the Impact of Bike-Based Locomotion on Spatial Orientation for Older Adults in VR",
+      "authors": "Qiongyan Chen, Zhiqing Wu, Yucheng Liu, Lei Han, Zisu Li, Ge Lin Kan, Mingming Fan*",
+      "venue": "Proceedings of ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+      "filters": ["filter-vr", "filter-at"],
+      "tags": ["VR/AR/MR", "Accessible Computing"],
+      "year": "2024"
+    },
+    {
+      "id": 16,
+      "title": "VR-Mediated Cognitive Defusion: A Comparative Study for Managing Negative Thoughts",
+      "authors": "Kento Shigyo, Yi-Fan Cao, Kentaro Takahira, Mingming Fan, Huamin Qu",
+      "venue": "Proceedings of the 32nd ACM International Conference on Multimedia (MM'24)",
+      "filters": ["filter-vr", "filter-at"],
+      "tags": ["VR/AR/MR", "Accessible Computing"],
+      "year": "2024"
+    },
+    {
+      "id": 17,
+      "title": "Beadwork Bridge: Understanding and Exploring the Opportunities of Beadwork in Enriching School Education for Blind and Low Vision (BLV) People",
+      "authors": "Shumeng Zhang, Weiyue Lin, Zisu Li, Ruiqi Jiang, Chen Liang, Mingming Fan*, Raul Masu*",
+      "venue": "The 26th International ACM SIGACCESS Conference on Computers and Accessibility",
+      "filters": ["filter-at"],
+      "tags": ["Accessible Computing"],
+      "year": "2024"
+    },
+    {
+      "id": 18,
+      "title": "Toward Making Virtual Reality (VR) More Inclusive for Older Adults: Investigating Aging Effects on Object Selection and Manipulation in VR",
+      "authors": "Zhiqing Wu, Duotun Wang#, Shumeng Zhang#, Yuru Huang, Zeyu Wang, Mingming Fan*",
+      "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)",
+      "filters": ["filter-at", "filter-vr"],
+      "tags": ["Accessible Computing", "VR/AR/MR"],
+      "year": "2024"
+    },
+    {
+      "id": 19,
+      "title": "Designing Unobtrusive Modulated Electrotactile Feedback on Fingertip Edge to Assist Blind and Low Vision (BLV) People in Comprehending Charts",
+      "authors": "Chutian Jiang#, Yinan Fan#, Junan Xie, Emily Kuang, Kaihao Zhang*, Mingming Fan*",
+      "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)",
+      "filters": ["filter-at", "filter-st"],
+      "tags": ["Accessible Computing", "Sensing Technique"],
+      "year": "2024"
+    },
+    {
+      "id": 20,
+      "title": "Designing Loving-Kindness Meditation in Virtual Reality for Long-Distance Romantic Relationships",
+      "authors": "Xian Wang, Xiaoyu Mo, Lik-Hang Lee, Xiaoying Wei, Xiaofu Jin, Mingming Fan*, Pan Hui*",
+      "venue": "Proceedings of the 31st ACM International Conference on Multimedia (MM '23)",
+      "filters": ["filter-vr"],
+      "tags": ["VR/AR/MR"],
+      "year": "2023"
+    },
+    {
+      "id": 21,
+      "title": "OperARtistry: An AR-based Interactive Application to Assist the Learning of Chinese Traditional Opera (Xiqu) Makeup",
+      "authors": "Zeyu Xiong#, Shihan Fu#, Mingming Fan*",
+      "venue": "In Proceedings of Chinese CHI 2023 (CHCHI 2023)",
+      "filters": ["filter-at", "filter-vr"],
+      "tags": ["Accessible Computing", "VR/AR/MR"],
+      "year": "2023"
+    },
+    {
+      "id": 22,
+      "title": "Exploring The Opportunities of AR for Enriching Storytelling With Family Photos Among Grandparents and Grandchildren",
+      "authors": "Zisu Li, Li Feng, Chen Liang, Yuru Huang, Mingming Fan*",
+      "venue": "Proceedings of ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+      "filters": ["filter-at", "filter-vr"],
+      "tags": ["Accessible Computing", "VR/AR/MR"],
+      "year": "2023"
+    },
+    {
+      "id": 23,
+      "title": "CoPracTter: Toward Integrating Personalized Practice Scenarios, Timely Feedback and Social Support into An Online Support Tool for Coping with Stuttering in China",
+      "authors": "Li Feng, Zeyu Xiong, Xinyi Li, Mingming Fan*",
+      "venue": "ACM CHI Conference on Human Factors in Computing Systems (CHI'23)",
+      "filters": ["filter-at"],
+      "tags": ["Accessible Computing"],
+      "year": "2023"
+    },
+    {
+      "id": 24,
+      "title": "Synapse: Interactive Guidance by Demonstration with Trial-and-Error Support for Older Adults to Use Smartphone Apps",
+      "authors": "Xiaofu Jin, Xiaozhu Hu, Xiaoying Wei, Mingming Fan*",
+      "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+      "filters": ["filter-at"],
+      "tags": ["Accessible Computing"],
+      "year": "2022"
+    },
+    {
+      "id": 25,
+      "title": "Understanding Older Adults' Perceptions and Challenges in Using AI-enabled Everyday Technologies",
+      "authors": "Esha Shandilya, Mingming Fan*",
+      "venue": "The Tenth International Symposium of Chinese CHI, ACM",
+      "filters": ["filter-at", "filter-hai"],
+      "tags": ["Accessible Computing", "Human-AI Interaction"],
+      "year": "2022"
+    },
+    {
+      "id": 26,
+      "title": "Communication in Immersive Social Virtual Reality: A Systematic Review of 10 Years' Studies",
+      "authors": "Xiaoying Wei#, Xiaofu Jin#, Mingming Fan*",
+      "venue": "The Tenth International Symposium of Chinese CHI, ACM",
+      "filters": ["filter-vr"],
+      "tags": ["VR/AR/MR"],
+      "year": "2022"
+    },
+    {
+      "id": 27,
+      "title": "Older Adults' Concurrent and Retrospective Think-Aloud Verbalizations for Identifying User Experience Problems of VR Games",
+      "authors": "Mingming Fan*, Vinita Tibdewal, Qiwen Zhao, Lizhou Cao, Chao Peng, Runxuan Shu, Yujia Shan",
+      "venue": "Interacting with Computers",
+      "filters": ["filter-at", "filter-vr"],
+      "tags": ["Accessible Computing", "VR/AR/MR"],
+      "year": "2022"
+    },
+    {
+      "id": 28,
+      "title": "Eyelid Gestures for People with Motor Impairments",
+      "authors": "Mingming Fan*, Zhen Li, Franklin Mingzhe Li",
+      "venue": "Communications of the ACM, January 2022, Vol. 65 No. 1, Pages 108-115",
+      "filters": ["filter-at", "filter-st"],
+      "tags": ["Accessible Computing", "Sensing Technique"],
+      "year": "2022"
+    },
+    {
+      "id": 29,
+      "title": "Think-Aloud Verbalizations for Identifying User Experience Problems: Effects of Language Proficiency with Chinese Non-Native English Speakers",
+      "authors": "Mingming Fan, Lingyun (Julie) Zhu",
+      "venue": "The Ninth International Symposium of Chinese CHI (Chinese CHI 2021), ACM",
+      "filters": ["filter-ux"],
+      "tags": ["Computational UX"],
+      "year": "2021"
+    },
+    {
+      "id": 30,
+      "title": "uxSense: Supporting User Experience Analysis with Visualization and Computer Vision",
+      "authors": "Andrea Batch, Yipeng Ji, Mingming Fan, Jian Zhao, and Niklas Elmqvist",
+      "venue": "IEEE Transactions on Visualization and Computer Graphics",
+      "filters": ["filter-hai", "filter-ux"],
+      "tags": ["Human-AI Interaction", "Computational UX"],
+      "year": "2023"
     }
   ],
   "categories": [
