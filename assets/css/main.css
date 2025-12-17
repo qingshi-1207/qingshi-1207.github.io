@@ -60,6 +60,15 @@
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
+html {
+  /**
+   * 右侧浏览器滚动条属于浏览器/系统 UI，元素无法覆盖它。
+   * 这里用 scrollbar-gutter 预留滚动条占位，避免 header/内容被滚动条遮住。
+   * 现代 Chromium / Firefox / Safari(较新版本) 支持。
+   */
+  scrollbar-gutter: stable;
+}
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -1326,7 +1335,7 @@ h6 {
   opacity: 0;
   right: 15px;
   bottom: -15px;
-  z-index: 99999;
+  z-index: 996;
   background-color: var(--accent-color);
   width: 44px;
   height: 44px;
@@ -2323,6 +2332,128 @@ section,
 
 .team .team-member .member-info {
   padding-left: 30px;
+}
+
+/* Team page: square photo + vertical layout */
+.team-page .team .team-member .pic {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.team-page .team .team-member .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-page .team .team-member .member-info {
+  padding-left: 0;
+}
+
+/* Team page: compact card sizing */
+.team-page .team .team-member {
+  padding: 18px;
+}
+
+.team-page .team .team-member .pic {
+  margin-bottom: 10px;
+}
+
+.team-page .team .team-member h4 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.team-page .team .team-member span {
+  font-size: 14px;
+  padding-bottom: 6px;
+}
+
+.team-page .team .team-member p {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* Ensure no text in team cards is smaller than 14px (override <small>) */
+.team-page .team .team-member small {
+  font-size: 14px;
+}
+
+/* Team page: clickable cards */
+.team-page .team .team-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+.team-page .team .team-card-link:hover {
+  color: inherit;
+}
+
+.team-page .team .team-card-static {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure equal-height columns regardless of link wrapper */
+.team-page .team .team-grid-cols > .team-col {
+  display: flex;
+}
+
+.team-page .team .team-card-link .team-member,
+.team-page .team .team-card-static .team-member {
+  width: 100%;
+  height: 100%;
+}
+
+/* Team page: 5 cards per row on large screens (Bootstrap grid can't evenly do 5) */
+.team-page .team .team-grid-cols > .team-col {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .team-page .team .team-grid-cols > .team-col {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .team-page .team .team-grid-cols > .team-col {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-page .team .team-grid-cols > .team-col {
+    width: 20%;
+  }
+}
+
+/* Team page: role-based card colors */
+.team-page .team .team-member.role-faculty {
+  background: color-mix(in srgb, #cfe3ff, #ffffff 15%);
+}
+
+.team-page .team .team-member.role-admin {
+  background: color-mix(in srgb, #f3e8ff, #ffffff 35%);
+}
+
+.team-page .team .team-member.role-phd {
+  background: color-mix(in srgb, #eaf4ff, #ffffff 35%);
+}
+
+.team-page .team .team-member.role-mphil {
+  background: color-mix(in srgb, #fff7e6, #ffffff 35%);
+}
+
+.team-page .team .team-member.role-visiting-ra {
+  background: color-mix(in srgb, #eef2f7, #ffffff 35%);
 }
 
 @media (max-width: 468px) {

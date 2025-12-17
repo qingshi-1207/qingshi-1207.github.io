@@ -1,6 +1,4 @@
 // Publications Dynamic Loading Script
-let publicationsByYearData = []; // 保存年份分组数据供导航栏使用
-
 document.addEventListener('DOMContentLoaded', function() {
   loadPublications();
 });
@@ -8,344 +6,92 @@ document.addEventListener('DOMContentLoaded', function() {
 async function loadPublications() {
   try {
     // 加载JSON数据
-    // 数据源：从 auto-publications.json 读取
-    const response = await fetch('assets/data/auto-publications.json');
+    const response = await fetch('assets/data/publications.json');
     const data = await response.json();
-
-    const rawPublications = Array.isArray(data.publications) ? data.publications : [];
-
-    // 转换为页面需要的格式并按年份分组
-    const publications = transformPublications(rawPublications);
-    publicationsByYearData = groupByYear(publications);
-
-    // 渲染publications（按年份分组）
-    renderPublicationsByYear(publicationsByYearData);
     
-    // 渲染年份导航栏
-    renderYearNavigation(publicationsByYearData);
+    // 渲染过滤器
+    renderFilters(data.categories);
     
-    // 设置滚动监听
-    setupScrollListener();
+    // 渲染publications
+    renderPublications(data.publications);
     
-    // 监听窗口大小变化，重新检测重叠
-    window.addEventListener('resize', () => {
-      setTimeout(checkNavigationOverlap, 100);
-    });
+    // 初始化isotope
+    initIsotope();
     
   } catch (error) {
     console.error('加载publications数据时出错:', error);
   }
 }
 
-/**
- * 从id推断publication类型
- */
-function getPublicationType(id) {
-  if (!id) return 'Other';
-  if (id.startsWith('journals/')) return 'Journal';
-  if (id.startsWith('conf/')) return 'Conference';
-  return 'Other';
-}
-
-/**
- * 将原始数据转换为页面渲染所需的格式
- */
-function transformPublications(rawPublications) {
-  return rawPublications.map(pub => {
-    const authors =
-      Array.isArray(pub.authors) ? pub.authors.join(', ') : (pub.authors || '');
-
-    return {
-      id: pub.id,
-      title: pub.title || '',
-      authors,
-      venue: pub.venue || pub.venue_abbr || '',
-      year: pub.year || '',
-      link: pub.link || '',
-      type: getPublicationType(pub.id)
-    };
-  });
-}
-
-/**
- * 按年份分组publications
- * 2019年及以前的统称为 "2019"
- */
-function groupByYear(publications) {
-  const grouped = {};
-  const BEFORE_2019 = '2019';
+function renderFilters(categories) {
+  const filtersContainer = document.getElementById('publication-filters');
   
-  publications.forEach(pub => {
-    const yearValue = pub.year ? parseInt(pub.year, 10) : 0;
-    let year;
-    
-    if (yearValue === 0 || isNaN(yearValue)) {
-      year = 'Unknown';
-    } else if (yearValue <= 2019) {
-      year = BEFORE_2019;
-    } else {
-      year = pub.year;
+  categories.forEach(category => {
+    const li = document.createElement('li');
+    li.setAttribute('data-filter', category.filter);
+    if (category.active) {
+      li.classList.add('filter-active');
     }
-    
-    if (!grouped[year]) {
-      grouped[year] = [];
-    }
-    grouped[year].push(pub);
+    li.textContent = category.name;
+    filtersContainer.appendChild(li);
   });
-
-  // 转换为数组并按年份排序（从新到旧）
-  return Object.keys(grouped)
-    .sort((a, b) => {
-      if (a === 'Unknown') return 1;
-      if (b === 'Unknown') return -1;
-      if (a === BEFORE_2019) return 1;
-      if (b === BEFORE_2019) return -1;
-      return parseInt(b, 10) - parseInt(a, 10);
-    })
-    .map(year => ({
-      year,
-      publications: grouped[year]
-    }));
 }
 
-/**
- * 生成序号前缀
- * @param {string} type - 类型: 'Journal', 'Conference', 'Other'
- * @param {number} index - 序号
- */
-function getPublicationIndex(type, index) {
-  const prefixMap = {
-    'Journal': 'J',
-    'Conference': 'C',
-    'Other': 'W'
-  };
-  const prefix = prefixMap[type] || 'W';
-  return `[${prefix}${index}]`;
-}
-
-/**
- * 按年份分组渲染publications
- */
-function renderPublicationsByYear(publicationsByYear) {
+function renderPublications(publications) {
   const container = document.getElementById('publications-container');
-  if (!container) return;
-
-  container.innerHTML = '';
-
-  // 全局统计所有publications的类型总数（用于倒序）
-  const globalTypeTotals = {
-    'Journal': 0,
-    'Conference': 0,
-    'Other': 0
-  };
   
-  // 先遍历一遍统计总数
-  publicationsByYear.forEach(({ publications }) => {
-    publications.forEach(pub => {
-      const type = pub.type || 'Other';
-      globalTypeTotals[type] = (globalTypeTotals[type] || 0) + 1;
+  publications.forEach(publication => {
+    const col = document.createElement('div');
+    col.className = 'col-lg-12 isotope-item';
+    
+    // 添加过滤器类
+    publication.filters.forEach(filter => {
+      col.classList.add(filter);
     });
-  });
-
-  // 全局倒序计数器（从总数开始递减）
-  const globalTypeCounters = {
-    'Journal': globalTypeTotals['Journal'],
-    'Conference': globalTypeTotals['Conference'],
-    'Other': globalTypeTotals['Other']
-  };
-
-  publicationsByYear.forEach(({ year, publications }) => {
-    // 创建年份标题，添加id用于跳转
-    const yearId = `year-${year.replace(/\s+/g, '-').toLowerCase()}`;
-    const yearHeader = document.createElement('div');
-    yearHeader.className = 'col-12 year-header';
-    yearHeader.id = yearId;
-    yearHeader.innerHTML = `<h2 class="year-title">${year}</h2>`;
-    container.appendChild(yearHeader);
-
-    // 渲染该年份的所有publications
-    publications.forEach(publication => {
-      const col = document.createElement('div');
-      col.className = 'col-lg-12 publication-item';
-      
-      // 获取类型并分配全局倒序序号
-      const type = publication.type || 'Other';
-      const index = getPublicationIndex(type, globalTypeCounters[type]);
-      globalTypeCounters[type]--; // 递减全局计数器
-      
-      const titleHtml = publication.link
-        ? `<a href="${publication.link}" target="_blank" rel="noopener noreferrer">${publication.title}</a>`
-        : publication.title;
-
-      col.innerHTML = `
-        <div class="publication-content">
-          <h4><span class="pub-index">${index}</span>${titleHtml}</h4>
-          <p class="authors">${publication.authors}</p>
-          <p class="venue">${publication.venue}</p>
+    
+    col.innerHTML = `
+      <div class="publication-content">
+        <h4>${publication.title}</h4>
+        <p class="authors">${publication.authors}</p>
+        <p class="venue">${publication.venue}</p>
+        <div class="publication-tags">
+          ${publication.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
         </div>
-      `;
-      
-      container.appendChild(col);
-    });
-  });
-}
-
-/**
- * 渲染年份导航栏
- */
-function renderYearNavigation(publicationsByYear) {
-  const navContainer = document.getElementById('year-navigation');
-  if (!navContainer) return;
-
-  navContainer.innerHTML = '';
-
-  publicationsByYear.forEach(({ year, publications }) => {
-    const yearId = `year-${year.replace(/\s+/g, '-').toLowerCase()}`;
-    const navItem = document.createElement('div');
-    navItem.className = 'year-nav-item';
-    navItem.setAttribute('data-year-id', yearId);
-    navItem.innerHTML = `
-      <span class="year-text">${year}</span>
-      <span class="year-count">${publications.length}</span>
+      </div>
     `;
     
-    // 点击跳转
-    navItem.addEventListener('click', () => {
-      const targetElement = document.getElementById(yearId);
-      if (targetElement) {
-        const headerOffset = 100; // 考虑header高度
-        const elementPosition = targetElement.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-      }
-    });
-
-    navContainer.appendChild(navItem);
+    container.appendChild(col);
   });
 }
 
-/**
- * 设置滚动监听，高亮当前可见的年份
- */
-function setupScrollListener() {
-  let ticking = false;
-
-  function updateActiveYear() {
-    const yearHeaders = document.querySelectorAll('.year-header');
-    const navItems = document.querySelectorAll('.year-nav-item');
+function initIsotope() {
+  // 等待isotope库和imagesLoaded库加载完成后初始化
+  if (typeof Isotope !== 'undefined' && typeof imagesLoaded !== 'undefined') {
+    const isotopeItem = document.querySelector('.isotope-layout');
+    const container = isotopeItem.querySelector('.isotope-container');
     
-    if (yearHeaders.length === 0 || navItems.length === 0) return;
-
-    const scrollPosition = window.pageYOffset + 150; // 考虑header高度
-
-    let currentActiveId = null;
-
-    // 找到当前可见的年份
-    for (let i = yearHeaders.length - 1; i >= 0; i--) {
-      const header = yearHeaders[i];
-      const headerTop = header.offsetTop;
-      
-      if (scrollPosition >= headerTop) {
-        currentActiveId = header.id;
-        break;
-      }
-    }
-
-    // 如果没有找到，默认选中第一个
-    if (!currentActiveId && yearHeaders.length > 0) {
-      currentActiveId = yearHeaders[0].id;
-    }
-
-    // 更新导航栏高亮状态
-    navItems.forEach(item => {
-      const yearId = item.getAttribute('data-year-id');
-      if (yearId === currentActiveId) {
-        item.classList.add('active');
-      } else {
-        item.classList.remove('active');
-      }
-    });
-
-    ticking = false;
-  }
-
-  let scrollTimeout = null;
-
-  window.addEventListener('scroll', () => {
-    if (!ticking) {
-      window.requestAnimationFrame(() => {
-        updateActiveYear();
-        ticking = false;
+    // 使用imagesLoaded确保内容加载完成
+    imagesLoaded(container, function() {
+      const iso = new Isotope(container, {
+        itemSelector: '.isotope-item',
+        layoutMode: 'masonry',
+        filter: '*',
+        sortBy: 'original-order'
       });
-      ticking = true;
-    }
 
-    // 滚动时延迟检测重叠，避免频繁切换
-    if (scrollTimeout) {
-      clearTimeout(scrollTimeout);
-    }
-    
-    scrollTimeout = setTimeout(() => {
-      checkNavigationOverlap();
-    }, 200);
-  });
-
-  // 初始更新一次
-  updateActiveYear();
-  
-  // 延迟检测重叠，确保页面加载完成
-  setTimeout(() => {
-    checkNavigationOverlap();
-  }, 500);
-}
-
-/**
- * 检测导航栏是否与publication items重叠
- */
-let overlapCheckTimeout = null;
-
-function checkNavigationOverlap() {
-  const navigation = document.getElementById('year-navigation');
-  if (!navigation) return;
-
-  const publicationItems = document.querySelectorAll('.publication-content');
-  if (publicationItems.length === 0) {
-    navigation.classList.remove('hidden');
-    return;
+      // 绑定过滤器点击事件
+      isotopeItem.querySelectorAll('.isotope-filters li').forEach(function(filter) {
+        filter.addEventListener('click', function() {
+          isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
+          this.classList.add('filter-active');
+          iso.arrange({
+            filter: this.getAttribute('data-filter')
+          });
+        }, false);
+      });
+    });
+  } else {
+    // 如果库还没加载，等待一下再试
+    setTimeout(initIsotope, 100);
   }
-
-  const navRect = navigation.getBoundingClientRect();
-  let hasOverlap = false;
-
-  publicationItems.forEach(item => {
-    const itemRect = item.getBoundingClientRect();
-    
-    // 检测是否有重叠（考虑一些边距）
-    if (
-      itemRect.right > navRect.left - 20 &&
-      itemRect.left < navRect.right + 20 &&
-      itemRect.bottom > navRect.top - 20 &&
-      itemRect.top < navRect.bottom + 20
-    ) {
-      hasOverlap = true;
-    }
-  });
-
-  // 清除之前的定时器
-  if (overlapCheckTimeout) {
-    clearTimeout(overlapCheckTimeout);
-  }
-  
-  // 延迟执行，避免滚动时频繁切换
-  overlapCheckTimeout = setTimeout(() => {
-    if (hasOverlap) {
-      navigation.classList.add('hidden');
-    } else {
-      navigation.classList.remove('hidden');
-    }
-  }, 150);
 }

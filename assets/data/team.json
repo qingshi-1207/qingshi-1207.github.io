@@ -1,0 +1,560 @@
+{
+  "team": [
+    {
+      "name": "Mingming Fan",
+      "title": "Associate Professor",
+      "time": "2021-Present",
+      "link": "https://www.mingmingfan.com/",
+      "photo": "assets/img/1_professor/official-2025-headshot.jpg",
+      "role": "faculty"
+    },
+    {
+      "name": "Shenghua Yin",
+      "title": "Admin",
+      "time": "2025 - Present",
+      "link": "",
+      "photo": "assets/img/member/yinshenghua.jpg",
+      "role": "admin"
+    },
+    
+    {
+      "name": "Zisu Li",
+      "title": "Ph.D. Candidate",
+      "time": "2022-Present",
+      "note": "with Prof. Xiaojuan Ma",
+      "link": "",
+      "photo": "assets/img/member/李子苏-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Chutian Jiang",
+      "title": "Ph.D. Candidate",
+      "time": "2022-Present",
+      "note": "with Prof. Pan Hui",
+      "link": "",
+      "photo": "assets/img/member/jiangchutian.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Luyao Shen",
+      "title": "Ph.D. Candidate",
+      "time": "2022-Present",
+      "note": "with Prof. Pan Hui",
+      "link": "",
+      "photo": "assets/img/member/申璐瑶-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Xiaozhu Hu",
+      "title": "Ph.D. Candidate (Co-supervision)",
+      "time": "2022-Present",
+      "note": "with Prof. Tristan Braud",
+      "link": "",
+      "photo": "assets/img/member/胡效竹-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Zhiqing Wu",
+      "title": "Ph.D. Candidate",
+      "time": "2023-Present",
+      "note": "with Prof. Huamin Qu",
+      "link": "",
+      "photo": "assets/img/member/吴芷晴-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Beiyan Cao",
+      "title": "Ph.D. Candidate (co-supervision)",
+      "time": "2022-Present",
+      "note": "with Prof. Muzhi Zhou",
+      "link": "",
+      "photo": "assets/img/member/caobeiyan.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Chao Liu",
+      "title": "Ph.D. Candidate",
+      "time": "2023-Present",
+      "note": "with Prof. Kang Zhang",
+      "link": "",
+      "photo": "assets/img/member/刘超-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Duotun Wang",
+      "title": "Ph.D. Candidate",
+      "time": "2023-Present",
+      "note": "with Prof. Zeyu Wang",
+      "link": "",
+      "photo": "assets/img/member/DuotunWang-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Yuru Huang",
+      "title": "Ph.D. Candidate",
+      "time": "2023-Present",
+      "note": "with Prof. Yun Hou",
+      "link": "",
+      "photo": "assets/img/member/Yuru-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Zhongyue Zhang",
+      "title": "Ph.D. Candidate",
+      "time": "2023-Present",
+      "note": "with Prof. Xu Zhang",
+      "link": "",
+      "photo": "assets/img/member/张钟月-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Shumeng Zhang",
+      "title": "Ph.D. Student (co-supervision), MPhil",
+      "time": "2024-Present, 2022-2024",
+      "note": "with Prof. Raul Masu",
+      "link": "",
+      "photo": "assets/img/member/张书萌-图片.png",
+      "role": "phd"
+    },
+    {
+      "name": "Mengyang Wang",
+      "title": "Ph.D. Student",
+      "time": "2024-Present",
+      "note": "with Prof. Jinoon Shin",
+      "link": "",
+      "photo": "assets/img/member/王萌阳-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Peixuan Xiong",
+      "title": "Ph.D. Student, MPhil",
+      "time": "2024-Present, 2022-2024",
+      "note": "with Prof. Kaishun Wu",
+      "link": "",
+      "photo": "assets/img/member/熊培轩-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Qiongyan Chen",
+      "title": "Ph.D. Student, MPhil",
+      "time": "2024-Present, 2022-2024",
+      "note": "with Prof. Kewei Xu",
+      "link": "",
+      "photo": "assets/img/member/陈琼燕-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Ruohao Li",
+      "title": "Ph.D. Student",
+      "time": "2024-Present",
+      "note": "with Prof. Ge Lin Kan",
+      "link": "",
+      "photo": "assets/img/member/liruohao.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Yan Xiang",
+      "title": "Ph.D. Student",
+      "time": "2024-Present",
+      "note": "with Prof. Theo Papatheodorou",
+      "link": "",
+      "photo": "assets/img/member/向彦-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Xintao Feng",
+      "title": "Ph.D. Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/冯心陶-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Yunna Cai",
+      "title": "Ph.D. Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/blank-girl.png",
+      "role": "phd"
+    },
+    {
+      "name": "Ziyan Wang",
+      "title": "Ph.D. Student (co-supervision)",
+      "time": "2025-Present",
+      "note": "with Prof. Tengjia Zuo",
+      "link": "",
+      "photo": "assets/img/member/王子岩-图片.png",
+      "role": "phd"
+    },
+    {
+      "name": "Jiale Li",
+      "title": "Ph.D. Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/李佳乐-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Xiangyang He",
+      "title": "Ph.D. Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/贺向阳-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Yuqing Zhang",
+      "title": "Ph.D. Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/张羽青-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Zhiyuan Xia",
+      "title": "Ph.D. Student, MPhil",
+      "time": "2025-Present, 2023-2025",
+      "link": "",
+      "photo": "assets/img/member/xiazhiyuan.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Junan Xie",
+      "title": "Ph.D. Student, MPhil",
+      "time": "2025-Present, 2023-2025",
+      "link": "",
+      "photo": "assets/img/member/blank-boy.png",
+      "role": "phd"
+    },
+    {
+      "name": "Jian Yang",
+      "title": "Part-time Ph.D. Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/杨坚-图片.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Jiawei Li",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/lijiawei.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Qing Shi",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/石青-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Yilin Zheng",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/郑亦霖-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Huiyang Liang",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/HuiyangLIANG-图片.JPG",
+      "role": "mphil"
+    },
+    {
+      "name": "Xian Li",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "lance-lee.com",
+      "photo": "assets/img/member/李衔LIXian-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Siyu Chen",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/陈思宇-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Linjie Qiu",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/邱林杰LinjieQiu-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Chunwei Yang",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/ChunweiYang-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Danlin Zheng",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/郑丹琳-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Lingpengkun Meng",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/LingpengkunMeng-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Mingshuo Li",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/blank-girl.png",
+      "role": "mphil"
+    },
+    {
+      "name": "Yan Li",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/blank-girl.png",
+      "role": "mphil"
+    },
+    {
+      "name": "Qingyu Zhang",
+      "title": "MPhil Student",
+      "time": "2024-Present",
+      "link": "",
+      "photo": "assets/img/member/blank-girl.png",
+      "role": "mphil"
+    },
+    {
+      "name": "Yantong Liu",
+      "title": "MPhil Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/YantongLIU-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Yinuo Qin",
+      "title": "MPhil Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/YinuoQin-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Shiyong Liu",
+      "title": "MPhil Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/刘世永-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Bingqian Wang",
+      "title": "MPhil Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/王冰倩-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Xinyu Gai",
+      "title": "MPhil Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/盖新宇XinyuGAI-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Jian Luo",
+      "title": "MPhil Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/罗健-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Minghui Qiu",
+      "title": "MPhil Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/邱铭辉Qiu,Minghui-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Chengwen E",
+      "title": "MPhil Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/鄂呈闻-图片.jpg",
+      "role": "mphil"
+    },
+    {
+      "name": "Mingqing Xu",
+      "title": "Research Assistant, MPhil",
+      "time": "2025-Present, 2023-2025",
+      "link": "",
+      "photo": "assets/img/member/徐铭清-图片.jpg",
+      "role": "visiting-ra"
+    },
+    {
+      "name": "Wei Zhang",
+      "title": "Visiting Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/zhangwei.jpg",
+      "role": "visiting-ra"
+    },
+    {
+      "name": "Bingchen Guo",
+      "title": "Research Assistant",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/blank-boy.png",
+      "role": "visiting-ra"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Emily Kuang",
+      "title": "Ph.D.",
+      "time": "2020-2025",
+      "note": "with Prof. Kristen Shinohara",
+      "link": "",
+      "photo": "",
+      "destination": "AP at York University",
+      "role": "phd"
+    },
+    {
+      "name": "Xiaofu Jin",
+      "title": "Ph.D.",
+      "time": "2020-2025",
+      "note": "with Prof. Huamin Qu",
+      "link": "",
+      "photo": "",
+      "destination": "Postdoc at Aalto University",
+      "role": "phd"
+    },
+    {
+      "name": "Xiaoying Wei",
+      "title": "Ph.D.",
+      "time": "2022-2025",
+      "note": "with Prof. Ge Lin Kan",
+      "link": "",
+      "photo": "",
+      "destination": "Postdoc at HKUST (GZ)",
+      "role": "phd"
+    },
+    {
+      "name": "Ka Man (Janet) Choi",
+      "title": "MPhil",
+      "time": "2022-2024",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Yining Peng",
+      "title": "MPhil",
+      "time": "2022-2024",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Yucheng Liu",
+      "title": "MPhil",
+      "time": "2022-2024",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Yukai Zhang",
+      "title": "MPhil",
+      "time": "2022-2024",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Fan Lin",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Honglei Liu",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Jingling Zhang",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Pengqi Wang",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Qianjie Wei",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Wenqi Zheng",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Yingna Wang",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Yiqi Liang",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    }
+  ]
+}
+
+
