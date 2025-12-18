@@ -10,7 +10,7 @@
     },
     {
       "name": "Shenghua Yin",
-      "title": "Admin",
+      "title": "Administrator",
       "time": "2025 - Present",
       "link": "",
       "photo": "assets/img/member/yinshenghua.jpg",
@@ -174,7 +174,7 @@
       "title": "Ph.D. Student",
       "time": "2024-Present",
       "link": "",
-      "photo": "assets/img/member/blank-girl.png",
+      "photo": "assets/img/member/caiyunna.jpg",
       "role": "phd"
     },
     {
@@ -216,14 +216,6 @@
       "time": "2025-Present, 2023-2025",
       "link": "",
       "photo": "assets/img/member/xiazhiyuan.jpg",
-      "role": "phd"
-    },
-    {
-      "name": "Junan Xie",
-      "title": "Ph.D. Student, MPhil",
-      "time": "2025-Present, 2023-2025",
-      "link": "",
-      "photo": "assets/img/member/blank-boy.png",
       "role": "phd"
     },
     {
@@ -327,7 +319,7 @@
       "title": "MPhil Student",
       "time": "2024-Present",
       "link": "",
-      "photo": "assets/img/member/blank-girl.png",
+      "photo": "assets/img/member/liyan.jpg",
       "role": "mphil"
     },
     {
@@ -524,6 +516,14 @@
     },
     {
       "name": "Qianjie Wei",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "",
+      "role": "mphil"
+    },
+    {
+      "name": "Junan Xie",
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",

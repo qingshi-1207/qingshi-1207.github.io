@@ -69,11 +69,11 @@ function transformPublications(rawPublications) {
 
 /**
  * 按年份分组publications
- * 2019年及以前的统称为 "2019"
+ * 2019年及以前的统称为 "2019 and Before"
  */
 function groupByYear(publications) {
   const grouped = {};
-  const BEFORE_2019 = '2019';
+  const BEFORE_2019 = '2019 and Before';
   
   publications.forEach(pub => {
     const yearValue = pub.year ? parseInt(pub.year, 10) : 0;
@@ -204,8 +204,10 @@ function renderYearNavigation(publicationsByYear) {
     const navItem = document.createElement('div');
     navItem.className = 'year-nav-item';
     navItem.setAttribute('data-year-id', yearId);
+    // 导航栏显示：如果是 "2019 and Before" 则显示为 "2019"
+    const displayYear = year === '2019 and Before' ? '2019' : year;
     navItem.innerHTML = `
-      <span class="year-text">${year}</span>
+      <span class="year-text">${displayYear}</span>
       <span class="year-count">${publications.length}</span>
     `;
     
