@@ -14,8 +14,11 @@ async function loadPublications() {
 
     const rawPublications = Array.isArray(data.publications) ? data.publications : [];
 
+    // 过滤掉所有CoRR来源的条目
+    const deduplicatedPublications = filterCorrPublications(rawPublications);
+
     // 转换为页面需要的格式并按年份分组
-    const publications = transformPublications(rawPublications);
+    const publications = transformPublications(deduplicatedPublications);
     publicationsByYearData = groupByYear(publications);
 
     // 渲染publications（按年份分组）
@@ -35,6 +38,13 @@ async function loadPublications() {
   } catch (error) {
     console.error('加载publications数据时出错:', error);
   }
+}
+
+/**
+ * 过滤掉所有CoRR来源的条目
+ */
+function filterCorrPublications(publications) {
+  return publications.filter(pub => pub.venue_abbr !== 'CoRR');
 }
 
 /**
