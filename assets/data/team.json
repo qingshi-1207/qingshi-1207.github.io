@@ -63,15 +63,6 @@
       "role": "phd"
     },
     {
-      "name": "Beiyan Cao",
-      "title": "Ph.D. Candidate (co-supervision)",
-      "time": "2022-Present",
-      "note": "with Prof. Muzhi Zhou",
-      "link": "",
-      "photo": "assets/img/member/caobeiyan.jpg",
-      "role": "phd"
-    },
-    {
       "name": "Chao Liu",
       "title": "Ph.D. Candidate",
       "time": "2023-Present",
@@ -429,13 +420,22 @@
   ],
   "alumni": [
     {
+      "name": "Beiyan Cao",
+      "title": "Ph.D.",
+      "time": "2022-2025",
+      "note": "with Prof. Muzhi Zhou",
+      "link": "",
+      "photo": "assets/img/member/caobeiyan.jpg",
+      "role": "phd"
+    },
+    {
       "name": "Emily Kuang",
       "title": "Ph.D.",
       "time": "2020-2025",
       "note": "with Prof. Kristen Shinohara",
-      "link": "",
-      "photo": "",
-      "destination": "AP at York University",
+      "link": "https://emilykuang.github.io/",
+      "photo": "assets/img/member/emilykuang.jpg",
+      "destination": "York Uni. AP",
       "role": "phd"
     },
     {
@@ -444,8 +444,8 @@
       "time": "2020-2025",
       "note": "with Prof. Huamin Qu",
       "link": "",
-      "photo": "",
-      "destination": "Postdoc at Aalto University",
+      "photo": "assets/img/member/XiaofuJin.jpg",
+      "destination": "Aalto Uni. Postdoc",
       "role": "phd"
     },
     {
@@ -453,9 +453,9 @@
       "title": "Ph.D.",
       "time": "2022-2025",
       "note": "with Prof. Ge Lin Kan",
-      "link": "",
-      "photo": "",
-      "destination": "Postdoc at HKUST (GZ)",
+      "link": "https://xiaoying-wei.github.io/",
+      "photo": "assets/img/member/xiaoyingwei.jpeg",
+      "destination": "HKUST (GZ) Postdoc",
       "role": "phd"
     },
     {
@@ -512,6 +512,7 @@
       "time": "2023-2025",
       "link": "",
       "photo": "",
+      "destination": "HKUST (GZ) Ph.D.",
       "role": "mphil"
     },
     {
@@ -520,6 +521,7 @@
       "time": "2023-2025",
       "link": "",
       "photo": "",
+      "destination": "Ohio State Uni. Ph.D.",
       "role": "mphil"
     },
     {
@@ -528,6 +530,7 @@
       "time": "2023-2025",
       "link": "",
       "photo": "",
+      "destination": "Uni. of Rochester Ph.D.",
       "role": "mphil"
     },
     {
@@ -536,6 +539,7 @@
       "time": "2023-2025",
       "link": "",
       "photo": "",
+      "destination": "HKUST (GZ) Ph.D.",
       "role": "mphil"
     },
     {
@@ -552,6 +556,7 @@
       "time": "2023-2025",
       "link": "",
       "photo": "",
+      "destination": "PolyU Ph.D.",
       "role": "mphil"
     },
     {
@@ -560,6 +565,7 @@
       "time": "2023-2025",
       "link": "",
       "photo": "",
+      "destination": "HIT (SZ) Ph.D.",
       "role": "mphil"
     }
   ]

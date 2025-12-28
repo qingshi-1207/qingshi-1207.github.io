@@ -1,6 +1,23 @@
 {
-    "last_updated": "2025-12-17",
+    "last_updated": "2025-12-28",
     "publications": [
+        {
+            "id": "journals/ijmms/JiangFXKZF26",
+            "title": "LLM-powered assistant with electrotactile feedback to assist blind and low vision people with maps and routes preview",
+            "authors": [
+                "Chutian Jiang",
+                "Yinan Fan",
+                "Junan Xie",
+                "Emily Kuang",
+                "Kaihao Zhang",
+                "Mingming Fan"
+            ],
+            "venue": "International Journal of Human-Computer Studies",
+            "venue_abbr": "Int. J. Hum. Comput. Stud.",
+            "year": "2026",
+            "link": "https://doi.org/10.1016/j.ijhcs.2025.103682",
+            "type": "Journal"
+        },
         {
             "id": "journals/ijhci/ShenWLLFH25",
             "title": "EmojiChat: Toward Designing Emoji-Driven Social Interaction in VR Museums",
@@ -35,6 +52,24 @@
             "venue_abbr": "Int. J. Hum. Comput. Stud.",
             "year": "2025",
             "link": "https://doi.org/10.1016/j.ijhcs.2024.103411",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/ijmms/HuMJCHFB25",
+            "title": "Toward AI-driven UI transition intuitiveness inspection for smartphone apps",
+            "authors": [
+                "Xiaozhu Hu",
+                "Xiaoyu Mo",
+                "Xiaofu Jin",
+                "Yuan Chai",
+                "Yongquan Hu",
+                "Mingming Fan",
+                "Tristan Braud"
+            ],
+            "venue": "International Journal of Human-Computer Studies",
+            "venue_abbr": "Int. J. Hum. Comput. Stud.",
+            "year": "2025",
+            "link": "https://doi.org/10.1016/j.ijhcs.2025.103661",
             "type": "Journal"
         },
         {
