@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-12-31",
+    "last_updated": "2026-01-13",
     "publications": [
         {
             "id": "journals/ijmms/JiangFXKZF26",
@@ -104,6 +104,42 @@
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3749479",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/imwut/LinLWLJF25",
+            "title": "VR-Shuttlecock: Toward Enhancing Older Adults' Balance Through Kicking Shuttlecock in VR with Multi-Sensory Feedback",
+            "authors": [
+                "Fan Lin",
+                "Yiqi Liang",
+                "Qianjie Wei",
+                "Mingshuo Li",
+                "Chutian Jiang",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3770691",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/imwut/XiongOWZLGWF25",
+            "title": "Toward Designing Motor Imagery-driven Hand Redirection in Virtual Reality for Upper Limb Rehabilitation",
+            "authors": [
+                "Peixuan Xiong",
+                "Jinhui Ouyang",
+                "Zhiqing Wu",
+                "Yukai Zhang",
+                "Xian Li",
+                "Chen Gong",
+                "Yuling Wang",
+                "Mingming Fan"
+            ],
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3770642",
             "type": "Journal"
         },
         {
@@ -2327,7 +2363,7 @@
             "authors": [
                 "Xian Xu",
                 "Leni Yang",
-                "David Yip",
+                "David Kei-Man Yip",
                 "Mingming Fan",
                 "Zheng Wei",
                 "Huamin Qu"
@@ -2358,7 +2394,7 @@
             "authors": [
                 "Xian Xu",
                 "Leni Yang",
-                "David Yip",
+                "David Kei-Man Yip",
                 "Mingming Fan",
                 "Zheng Wei",
                 "Huamin Qu"

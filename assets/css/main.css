@@ -2452,6 +2452,10 @@ section,
   background: color-mix(in srgb, #fff7e6, #ffffff 35%);
 }
 
+.team-page .team .team-member.role-phd-mphil {
+  background: linear-gradient(to right, color-mix(in srgb, #eaf4ff, #ffffff 35%), color-mix(in srgb, #fff7e6, #ffffff 35%));
+}
+
 .team-page .team .team-member.role-visiting-ra {
   background: color-mix(in srgb, #eef2f7, #ffffff 35%);
 }

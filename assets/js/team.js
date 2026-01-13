@@ -29,6 +29,8 @@
         return "role-phd";
       case "mphil":
         return "role-mphil";
+      case "phd-mphil":
+        return "role-phd-mphil";
       case "visiting-ra":
       case "visiting":
       case "ra":
