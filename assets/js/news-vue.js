@@ -41,7 +41,7 @@ createApp({
     <div v-else>
       <ul class="simple-news-list">
         <li v-for="item in news" :key="item.id">
-          <strong>{{ item.date }}:</strong> {{ item.content }}
+          <strong>{{ item.date }}:</strong> <span v-html="item.content"></span>
           <a v-if="item.link" :href="item.link.url" target="_blank" class="ms-1">
             [{{ item.link.text }}]
           </a>

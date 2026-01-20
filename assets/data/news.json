@@ -1,9 +1,23 @@
 {
   "news": [
     {
-      "id": 7,
+      "id": 9,
       "date": "Dec, 2025",
       "content": "Congratulations to Prof. Fan on becoming the Acting Head of the Base of Red Bird MPhil (RBM), College of Future Technology (CFT)!"
+    },
+    {
+      "id": 8,
+      "date": "Nov, 2025",
+      "content": "Our paper <i>'Electrical Muscle Stimulation Around the Neck for Eyes-Free Target Acquisition in Virtual Reality'</i> won the Best Paper Award at ICHEC 2025 (Chinese CHI)."
+    },
+    {
+      "id": 7,
+      "date": "Nov, 2025",
+      "content": "Our paper <i>'Proposed and studied four interaction modes between AI agents and human for exchanging diverse perspectives'</i> won the Outstanding Paper Award at ACM MM 2025. Congratulations to Mingyang and Chao!",
+      "link": {
+        "text": "link",
+        "url": "https://mp.weixin.qq.com/s/OWW4lBzHAuCJtec0nf4QGA"
+      }
     },
     {
       "id": 6,
