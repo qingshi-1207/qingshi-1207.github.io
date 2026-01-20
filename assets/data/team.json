@@ -162,7 +162,7 @@
     },
     {
       "name": "Ziyan Wang",
-      "title": "Ph.D. Student (co-supervision), MPhil",
+      "title": "Ph.D. Student (Co-supervision), MPhil",
       "time": "2025-Present, 2022-2024",
       "note": "with Prof. Tengjia Zuo",
       "link": "",
@@ -203,6 +203,15 @@
       "note": "with Prof. Nan Tang",
       "link": "",
       "photo": "assets/img/member/xiazhiyuan.jpg",
+      "role": "phd"
+    },
+    {
+      "name": "Minghui Qiu",
+      "title": "Ph.D. Student (Co-supervision)",
+      "time": "2025-Present",
+      "link": "",
+      "note": "with Prof. Kaishun Wu",
+      "photo": "assets/img/member/邱铭辉Qiu,Minghui-图片.jpg",
       "role": "phd"
     },
     {
@@ -366,14 +375,6 @@
       "role": "mphil"
     },
     {
-      "name": "Minghui Qiu",
-      "title": "MPhil Student",
-      "time": "2025-Present",
-      "link": "",
-      "photo": "assets/img/member/邱铭辉Qiu,Minghui-图片.jpg",
-      "role": "mphil"
-    },
-    {
       "name": "Chengwen E",
       "title": "MPhil Student",
       "time": "2025-Present",
@@ -387,14 +388,6 @@
       "time": "2025-Present, 2023-2025",
       "link": "",
       "photo": "assets/img/member/徐铭清-图片.jpg",
-      "role": "visiting-ra"
-    },
-    {
-      "name": "Yixuan Fang",
-      "title": "Visiting Student",
-      "time": "2025-Present",
-      "link": "",
-      "photo": "assets/img/member/fangyixuan.jpg",
       "role": "visiting-ra"
     },
     {
@@ -460,8 +453,8 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
-      "destination": "HKUST (GZ) Ph.D.",
+      "photo": "assets/img/member/xiejunan.jpg",
+      "destination": "HKUST (GZ) Ph.D. student",
       "role": "mphil"
     },
     {
@@ -469,7 +462,7 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
+      "photo": "assets/img/member/liuhonglei.jpg",
       "destination": "Oppo",
       "role": "mphil"
     },
@@ -478,8 +471,8 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
-      "destination": "Uni. of Rochester Ph.D.",
+      "photo": "assets/img/member/weiqianjie.jpg",
+      "destination": "Uni. of Rochester Ph.D. student",
       "role": "mphil"
     },
     {
@@ -487,8 +480,8 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
-      "destination": "HIT (SZ) Ph.D.",
+      "photo": "assets/img/member/liangyiqi.jpg",
+      "destination": "HIT (SZ) Ph.D. student",
       "role": "mphil"
     },
     {
@@ -496,8 +489,8 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
-      "destination": "OSU Ph.D.",
+      "photo": "assets/img/member/wangpengqi.jpg",
+      "destination": "OSU Ph.D. student",
       "role": "mphil"
     },
     {
@@ -505,7 +498,7 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
+      "photo": "assets/img/member/blank-girl.png",
       "destination": "Tencent",
       "role": "mphil"
     },
@@ -514,8 +507,8 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
-      "destination": "HKUST (GZ) Ph.D.",
+      "photo": "assets/img/member/zhangjingling.jpeg",
+      "destination": "HKUST (GZ) Ph.D. student",
       "role": "mphil"
     },
     {
@@ -523,17 +516,17 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
+      "photo": "assets/img/member/pengyining.jpeg",
       "destination": "",
       "role": "mphil"
     },
     {
-      "name": "Yukai Zhang",
+      "name": "Zhiyuan Xia",
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
-      "destination": "",
+      "photo": "assets/img/member/xiazhiyuan.jpg",
+      "destination": "HKUST (GZ) Ph.D. student",
       "role": "mphil"
     },
     {
@@ -541,7 +534,7 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
+      "photo": "assets/img/member/linfan.jpg",
       "role": "mphil"
     },
     {
@@ -549,8 +542,8 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
-      "destination": "PolyU Ph.D.",
+      "photo": "assets/img/member/wangyingna.png",
+      "destination": "PolyU Ph.D. student",
       "role": "mphil"
     },
     {
@@ -558,7 +551,16 @@
       "title": "MPhil",
       "time": "2023-2025",
       "link": "",
-      "photo": "",
+      "photo": "assets/img/member/zhengwenqi.png",
+      "role": "mphil"
+    },
+    {
+      "name": "Yukai Zhang",
+      "title": "MPhil",
+      "time": "2022-2025",
+      "link": "",
+      "photo": "assets/img/member/zhangyukai.jpeg",
+      "destination": "",
       "role": "mphil"
     },
     {
@@ -566,16 +568,8 @@
       "title": "MPhil",
       "time": "2022-2025",
       "link": "",
-      "photo": "",
-      "destination": "HKUST Ph.D.",
-      "role": "mphil"
-    },
-    {
-      "name": "Qianyu Liu",
-      "title": "MPhil",
-      "time": "2022-2025",
-      "link": "",
-      "photo": "",
+      "photo": "assets/img/member/choikaman.jpg",
+      "destination": "HKUST Ph.D. student",
       "role": "mphil"
     },
     {
@@ -583,7 +577,7 @@
       "title": "MPhil",
       "time": "2022-2025",
       "link": "",
-      "photo": "",
+      "photo": "assets/img/member/liuyucheng.jpeg",
       "destination": "Luoyuan Tech. CEO",
       "role": "mphil"
     },
@@ -592,8 +586,17 @@
       "title": "MPhil",
       "time": "2022-2024",
       "link": "",
-      "photo": "",
-      "destination": "ETH Zurich Ph.D.",
+      "photo": "assets/img/member/xiongzeyu.jpg",
+      "destination": "ETH Zurich Ph.D. student",
+      "role": "mphil"
+    },
+    {
+      "name": "Ziyan Wang",
+      "title": "MPhil",
+      "time": "2022-2024",
+      "link": "",
+      "photo": "assets/img/member/王子岩-图片.png",
+      "destination": "HKUST (GZ) Ph.D. student",
       "role": "mphil"
     },
     {
@@ -601,8 +604,8 @@
       "title": "MPhil",
       "time": "2022-2024",
       "link": "",
-      "photo": "",
-      "destination": "HKUST Ph.D.",
+      "photo": "assets/img/member/zhuoyuchao.jpeg",
+      "destination": "HKUST Ph.D. student",
       "role": "mphil"
     },
     {
@@ -610,8 +613,8 @@
       "title": "MPhil",
       "time": "2022-2024",
       "link": "",
-      "photo": "",
-      "destination": "Northeastern Uni. Ph.D.",
+      "photo": "assets/img/member/fushihan.jpeg",
+      "destination": "Northeastern Uni. Ph.D. student",
       "role": "mphil"
     },
     {
@@ -619,9 +622,44 @@
       "title": "MPhil",
       "time": "2022-2024",
       "link": "",
-      "photo": "",
-      "destination": "HKUST Ph.D.",
+      "photo": "assets/img/member/zhoushixu.jpeg",
+      "destination": "HKUST Ph.D. student",
       "role": "mphil"
+    },
+    {
+      "name": "Peixuan Xiong",
+      "title": "MPhil",
+      "time": "2022-2024",
+      "link": "",
+      "photo": "assets/img/member/熊培轩-图片.jpg",
+      "destination": "HKUST (GZ) Ph.D. student",
+      "role": "mphil"
+    },
+    {
+      "name": "Qiongyan Chen",
+      "title": "MPhil",
+      "time": "2022-2024",
+      "link": "",
+      "photo": "assets/img/member/陈琼燕-图片.jpg",
+      "destination": "HKUST (GZ) Ph.D. student",
+      "role": "mphil"
+    },
+    {
+      "name": "Li (Felicia) Feng",
+      "title": "MPhil",
+      "time": "2022-2024",
+      "link": "",
+      "photo": "assets/img/member/fengli.jpg",
+      "destination": "Uni. of Waterloo Ph.D. student",
+      "role": "mphil"
+    },
+    {
+      "name": "Yixuan Fang",
+      "title": "Visiting Student",
+      "time": "2025-Present",
+      "link": "",
+      "photo": "assets/img/member/fangyixuan.jpg",
+      "role": "visiting-ra"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-01-13",
+    "last_updated": "2026-01-20",
     "publications": [
         {
             "id": "journals/ijmms/JiangFXKZF26",
@@ -346,6 +346,43 @@
             "venue_abbr": "3DV",
             "year": "2025",
             "link": "https://doi.org/10.1109/3DV66043.2025.00025",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/assets/ZhangLYFXK0FWG025",
+            "title": "A11yShape: AI-Assisted 3-D Modeling for Blind and Low-Vision Programmers",
+            "authors": [
+                "Zhuohao (Jerry) Zhang",
+                "Haichang Li",
+                "Chun Meng Yu",
+                "Faraz Faruqi",
+                "Junan Xie",
+                "Gene S.-H. Kim",
+                "Mingming Fan",
+                "Angus G. Forbes",
+                "Jacob O. Wobbrock",
+                "Anhong Guo",
+                "Liang He"
+            ],
+            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue_abbr": "ASSETS",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3663547.3746362",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/assets/ZhangMB025",
+            "title": "Accessibility and Social Inclusivity: A Literature Review of Music Technology for Blind and Low Vision People",
+            "authors": [
+                "Shumeng Zhang",
+                "Raul Masu",
+                "Mela Bettega",
+                "Mingming Fan"
+            ],
+            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue_abbr": "ASSETS",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3663547.3746466",
             "type": "Conference"
         },
         {
