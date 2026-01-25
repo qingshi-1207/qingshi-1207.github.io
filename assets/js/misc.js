@@ -53,12 +53,18 @@ function renderMiscItems(miscItems) {
     const col = document.createElement('div');
     col.className = `col-lg-4 col-md-6 portfolio-item isotope-item ${item.filter}`;
     
+    // 构造描述内容：如果有description则显示，可以包含HTML；如果有日期也加上
+    let description = item.description || '';
+    if (item.date) {
+      description = description ? `${description}<br><small>${item.date}</small>` : item.date;
+    }
+    
     col.innerHTML = `
       <img src="${item.image}" class="img-fluid" alt="${item.title}">
       <div class="portfolio-info">
         <h4>${item.title}</h4>
         <p>${item.date}</p>
-        <a href="${item.image}" title="${item.title}" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <a href="${item.image}" title="${item.title}" data-description="${description}" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
       </div>
     `;
     

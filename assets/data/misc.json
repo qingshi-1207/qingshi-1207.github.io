@@ -1,6 +1,14 @@
 {
   "miscItems": [
     {
+      "id": 0,
+      "title": "Retreat 2026",
+      "date": "Jan 2026",
+      "description": "APEX Group Retreat on January 25, 2026. A wonderful time with the team! We enjoyed fun games and a barbecue at the farm.",
+      "image": "assets/img/main_bg/retreat.jpg",
+      "filter": "filter-2026"
+    },
+    {
       "id": 1,
       "title": "Teachers' Day 2025",
       "date": "September 2025",
@@ -41,6 +49,11 @@
       "filter": "*",
       "name": "All",
       "active": true
+    },
+    {
+      "filter": ".filter-2026",
+      "name": "2026",
+      "active": false
     },
     {
       "filter": ".filter-2025",
