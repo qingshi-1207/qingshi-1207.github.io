@@ -1,6 +1,22 @@
 {
   "miscItems": [
     {
+      "id": 7,
+      "title": "Retreat 2026",
+      "date": "Jan 2026",
+      "description": "APEX Group Retreat on January 25, 2026. A wonderful time with the team! We enjoyed fun games and a barbecue at the farm.",
+      "image": "assets/img/misc/retreat3.jpg",
+      "filter": "filter-2026"
+    },
+    {
+      "id": 6,
+      "title": "Retreat 2026",
+      "date": "Jan 2026",
+      "description": "APEX Group Retreat on January 25, 2026. A wonderful time with the team! We enjoyed fun games and a barbecue at the farm.",
+      "image": "assets/img/misc/retreat2.jpg",
+      "filter": "filter-2026"
+    },
+    {
       "id": 0,
       "title": "Retreat 2026",
       "date": "Jan 2026",
