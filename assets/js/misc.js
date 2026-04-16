@@ -1,4 +1,6 @@
 // MISC Dynamic Loading Script
+window.miscContentReady = false;
+
 document.addEventListener('DOMContentLoaded', function() {
   loadMisc();
 });
@@ -20,9 +22,18 @@ async function loadMisc() {
     
     // 初始化glightbox
     initGlightbox();
+
+    // 首批图片加载完成后，通知 main.js 移除 preloader
+    waitForMiscImages().then(() => {
+      window.miscContentReady = true;
+      window.dispatchEvent(new Event('misc:content-ready'));
+    });
     
   } catch (error) {
     console.error('加载misc数据时出错:', error);
+    // 出错时也要结束加载态，避免 preloader 一直不消失
+    window.miscContentReady = true;
+    window.dispatchEvent(new Event('misc:content-ready'));
   }
 }
 
@@ -118,4 +129,31 @@ function initGlightbox() {
     // 如果glightbox还没加载，等待一下再试
     setTimeout(initGlightbox, 100);
   }
+}
+
+function waitForMiscImages() {
+  return new Promise((resolve) => {
+    const images = Array.from(document.querySelectorAll('.isotope-container img'));
+    if (!images.length) {
+      resolve();
+      return;
+    }
+
+    let loadedCount = 0;
+    const done = () => {
+      loadedCount += 1;
+      if (loadedCount >= images.length) {
+        resolve();
+      }
+    };
+
+    images.forEach((img) => {
+      if (img.complete) {
+        done();
+      } else {
+        img.addEventListener('load', done, { once: true });
+        img.addEventListener('error', done, { once: true });
+      }
+    });
+  });
 }

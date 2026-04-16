@@ -1,6 +1,15 @@
 {
   "news": [
     {
+      "id": 10,
+      "date": "Apr, 2026",
+      "content": "11 papers were accepted by CHI 2026. Congratulations to all authors, and see you in Barcelona!",
+      "link": {
+        "text": "CHI 2026",
+        "url": "https://chi2026.acm.org/"
+      }
+    },
+    {
       "id": 9,
       "date": "Dec, 2025",
       "content": "Congratulations to Prof. Fan on becoming the Acting Head of the Base of Red Bird MPhil (RBM), College of Future Technology (CFT)!"

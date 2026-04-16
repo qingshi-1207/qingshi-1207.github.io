@@ -66,6 +66,12 @@
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
+      if (document.body.classList.contains('misc-page') && !window.miscContentReady) {
+        window.addEventListener('misc:content-ready', () => preloader.remove(), {
+          once: true
+        });
+        return;
+      }
       preloader.remove();
     });
   }
