@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-01-20",
+    "last_updated": "2026-03-02",
     "publications": [
         {
             "id": "journals/ijmms/JiangFXKZF26",
@@ -12,7 +12,7 @@
                 "Kaihao Zhang",
                 "Mingming Fan"
             ],
-            "venue": "International Journal of Human-Computer Studies",
+            "venue": "International Journal of Human-Computer Studies, Volume 207",
             "venue_abbr": "Int. J. Hum. Comput. Stud.",
             "year": "2026",
             "link": "https://doi.org/10.1016/j.ijhcs.2025.103682",
@@ -29,7 +29,7 @@
                 "Mingming Fan",
                 "Pan Hui"
             ],
-            "venue": "International Journal of Human-Computer Interaction",
+            "venue": "International Journal of Human-Computer Interaction, Volume 41",
             "venue_abbr": "Int. J. Hum. Comput. Interact.",
             "year": "2025",
             "link": "https://doi.org/10.1080/10447318.2024.2387902",
@@ -48,7 +48,7 @@
                 "Xiaoke Qi",
                 "Lu Wang"
             ],
-            "venue": "International Journal of Human-Computer Studies",
+            "venue": "International Journal of Human-Computer Studies, Volume 196",
             "venue_abbr": "Int. J. Hum. Comput. Stud.",
             "year": "2025",
             "link": "https://doi.org/10.1016/j.ijhcs.2024.103411",
@@ -66,7 +66,7 @@
                 "Mingming Fan",
                 "Tristan Braud"
             ],
-            "venue": "International Journal of Human-Computer Studies",
+            "venue": "International Journal of Human-Computer Studies, Volume 206",
             "venue_abbr": "Int. J. Hum. Comput. Stud.",
             "year": "2025",
             "link": "https://doi.org/10.1016/j.ijhcs.2025.103661",
@@ -85,7 +85,7 @@
                 "Ge Lin",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 9",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3749505",
@@ -100,7 +100,7 @@
                 "Mingming Fan",
                 "Kaishun Wu"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 9",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3749479",
@@ -117,7 +117,7 @@
                 "Chutian Jiang",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 9",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3770691",
@@ -136,7 +136,7 @@
                 "Yuling Wang",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 9",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3770642",
@@ -153,7 +153,7 @@
                 "Muzhi Zhou",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 9",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3711048",
@@ -171,7 +171,7 @@
                 "Dongdong Weng",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 9",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3710924",
@@ -190,7 +190,7 @@
                 "Yi Li",
                 "Di Wu"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 9",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3710907",
@@ -205,7 +205,7 @@
                 "Yukai Zhang",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 9",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3710943",
@@ -221,7 +221,7 @@
                 "Yukang Yan",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 9",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3711078",
@@ -237,7 +237,7 @@
                 "Xu Zhang",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 9",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3711094",
@@ -255,7 +255,7 @@
                 "Mingming Fan",
                 "Zeyu Wang"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 9",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3757579",
@@ -269,10 +269,24 @@
                 "Emily Kuang",
                 "Mingming Fan"
             ],
-            "venue": "ACM Transactions on Accessible Computing (TACCESS)",
+            "venue": "ACM Transactions on Accessible Computing, Volume 18",
             "venue_abbr": "ACM Trans. Access. Comput.",
             "year": "2025",
             "link": "https://doi.org/10.1145/3711931",
+            "type": "Journal"
+        },
+        {
+            "id": "journals/taccess/JiangKF25a",
+            "title": "Corrigendum: How Can Haptic Feedback Assist People with Blind and Low Vision (BLV): A Systematic Literature Review",
+            "authors": [
+                "Chutian Jiang",
+                "Emily Kuang",
+                "Mingming Fan"
+            ],
+            "venue": "ACM Transactions on Accessible Computing, Volume 18",
+            "venue_abbr": "ACM Trans. Access. Comput.",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3770087",
             "type": "Journal"
         },
         {
@@ -287,7 +301,7 @@
                 "Huamin Qu",
                 "Meng Xia"
             ],
-            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics, Volume 31",
             "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
             "year": "2025",
             "link": "https://doi.org/10.1109/TVCG.2024.3372104",
@@ -306,7 +320,7 @@
                 "Zeyu Wang",
                 "Mingming Fan"
             ],
-            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics, Volume 31",
             "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
             "year": "2025",
             "link": "https://doi.org/10.1109/TVCG.2025.3549554",
@@ -322,7 +336,7 @@
                 "Mingming Fan",
                 "Lik-Hang Lee"
             ],
-            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics, Volume 31",
             "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
             "year": "2025",
             "link": "https://doi.org/10.1109/TVCG.2025.3549569",
@@ -342,7 +356,7 @@
                 "Xiaohang Zhan",
                 "Zeyu Wang"
             ],
-            "venue": "International Conference on 3D Vision (3DV)",
+            "venue": "3DV 2025: Singapore",
             "venue_abbr": "3DV",
             "year": "2025",
             "link": "https://doi.org/10.1109/3DV66043.2025.00025",
@@ -364,7 +378,7 @@
                 "Anhong Guo",
                 "Liang He"
             ],
-            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue": "27th ASSETS 2025:\nDenver, CO, USA",
             "venue_abbr": "ASSETS",
             "year": "2025",
             "link": "https://doi.org/10.1145/3663547.3746362",
@@ -379,7 +393,7 @@
                 "Mela Bettega",
                 "Mingming Fan"
             ],
-            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue": "27th ASSETS 2025:\nDenver, CO, USA",
             "venue_abbr": "ASSETS",
             "year": "2025",
             "link": "https://doi.org/10.1145/3663547.3746466",
@@ -397,7 +411,7 @@
                 "Kaihao Zhang",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3713677",
@@ -415,7 +429,7 @@
                 "Kang Zhang",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3714228",
@@ -430,7 +444,7 @@
                 "Mengyang Wang",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3714166",
@@ -448,7 +462,7 @@
                 "Xiaojuan Ma",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3713339",
@@ -468,7 +482,7 @@
                 "Xiaojuan Ma",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3713882",
@@ -485,7 +499,7 @@
                 "Mingming Fan",
                 "Xiaojuan Ma"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3713791",
@@ -500,7 +514,7 @@
                 "Mingming Fan",
                 "Pan Hui"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3713569",
@@ -521,7 +535,7 @@
                 "Qianying Wang",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3713810",
@@ -536,7 +550,7 @@
                 "Xiaoying Wei",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3713409",
@@ -553,7 +567,7 @@
                 "Nuonan Si",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2025:\nYokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2025",
             "link": "https://doi.org/10.1145/3706598.3714236",
@@ -571,10 +585,97 @@
                 "Luwen Yu",
                 "Mingming Fan"
             ],
-            "venue": "Eye Tracking Research & Application (ETRA)",
+            "venue": "ETRA 2025:\nTokyo, Japan",
             "venue_abbr": "ETRA",
             "year": "2025",
             "link": "https://doi.org/10.1145/3715669.3725864",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/huc/WuW0LZ025",
+            "title": "Phanthera: An Adaptive VR Exergame for Posture-Aware Recovery During Work Breaks",
+            "authors": [
+                "Zhiqing Wu",
+                "Ziyan Wang",
+                "Jiawei Li",
+                "Junkun Long",
+                "Tengjia Zuo",
+                "Mingming Fan"
+            ],
+            "venue": "UbiComp 2025:\nEspoo, Finland - Companion",
+            "venue_abbr": "UbiComp Companion",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3714394.3754410",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/mm/SuLZSF25",
+            "title": "SimViews: An Interactive Multi-Agent System Simulating Visitor-to-Visitor Conversational Patterns to Present Diverse Perspectives of Artifacts in Virtual Museums",
+            "authors": [
+                "Mingyang Su",
+                "Chao Liu",
+                "Jingling Zhang",
+                "Shuang Wu",
+                "Mingming Fan"
+            ],
+            "venue": "33rd MM 2025:\nDublin, Ireland",
+            "venue_abbr": "ACM Multimedia",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3746027.3754593",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/mm/0009QWCW025",
+            "title": "ExplorAR: Assisting Older Adults to Learn Smartphone Apps through AR-powered Trial-and-Error with Interactive Guidance",
+            "authors": [
+                "Jiawei Li",
+                "Linjie Qiu",
+                "Zhiqing Wu",
+                "Qiongyan Chen",
+                "Ziyan Wang",
+                "Mingming Fan"
+            ],
+            "venue": "33rd MM 2025:\nDublin, Ireland",
+            "venue_abbr": "ACM Multimedia",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3746027.3755578",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/siggrapha/WangLSLZ0025",
+            "title": "HybridDeform4D: Joint Refinement of Mesh and Gaussian Splatting for Video-to-4D Object Generation",
+            "authors": [
+                "Duotun Wang",
+                "Yuhang Li",
+                "Zhijing Shao",
+                "Wanjun Lv",
+                "Liuxin Zhang",
+                "Mingming Fan",
+                "Zeyu Wang"
+            ],
+            "venue": "SIGGRAPH Asia 2025 Posters:\nHong Kong, SAR, China",
+            "venue_abbr": "SIGGRAPH Asia Posters",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3757374.3771441",
+            "type": "Conference"
+        },
+        {
+            "id": "conf/vinci/ZhangXZJS00L25",
+            "title": "Pick the Right Thing: GenAI-Supported Design and Production Workflows of Curators",
+            "authors": [
+                "Jingling Zhang",
+                "Yan Xiang",
+                "Yuanjin Zhao",
+                "Xiaofu Jin",
+                "Jia Sun",
+                "Xin Tong",
+                "Mingming Fan",
+                "Ray LC"
+            ],
+            "venue": "VINCI 2025:\nLinz, Austria",
+            "venue_abbr": "VINCI",
+            "year": "2025",
+            "link": "https://doi.org/10.1145/3769534.3769605",
             "type": "Conference"
         },
         {
@@ -588,7 +689,7 @@
                 "Mingming Fan",
                 "Tristan Braud"
             ],
-            "venue": "The Web Conference (WWW)",
+            "venue": "34th WWW 2025:\nSydney, NSW, Australia - Companion Volume",
             "venue_abbr": "WWW (Companion Volume)",
             "year": "2025",
             "link": "https://doi.org/10.1145/3701716.3717552",
@@ -604,7 +705,7 @@
                 "Mingming Fan",
                 "Lik-Hang Lee"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, December 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2501.17768",
@@ -624,7 +725,7 @@
                 "Xiaojuan Ma",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2502.09973",
@@ -641,7 +742,7 @@
                 "Nuonan Si",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2502.11627",
@@ -656,7 +757,7 @@
                 "Xiaoying Wei",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2503.06122",
@@ -672,7 +773,7 @@
                 "Yang Yang",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, June 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2506.16010",
@@ -691,7 +792,7 @@
                 "Ge Lin Kan",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, July 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2507.13247",
@@ -706,7 +807,7 @@
                 "Mela Bettega",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, August 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2508.00929",
@@ -723,7 +824,7 @@
                 "Ziyan Wang",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, August 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2508.01282",
@@ -745,7 +846,7 @@
                 "Anhong Guo",
                 "Liang He"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, August 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2508.03852",
@@ -761,7 +862,7 @@
                 "WU Shuang",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, August 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2508.07730",
@@ -780,7 +881,7 @@
                 "Moyan Li",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, August 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2508.08236",
@@ -801,10 +902,28 @@
                 "Mingming Fan",
                 "Chen Liang"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, October 2025",
             "venue_abbr": "CoRR",
             "year": "2025",
             "link": "https://doi.org/10.48550/arXiv.2510.10047",
+            "type": "Preprint/Workshop"
+        },
+        {
+            "id": "journals/corr/abs-2512-01960",
+            "title": "SpriteHand: Real-Time Versatile Hand-Object Interaction with Autoregressive Video Generation",
+            "authors": [
+                "Zisu Li",
+                "Hengye Lyu",
+                "Jiaxin Shi",
+                "Yufeng Zeng",
+                "Mingming Fan",
+                "Hanwang Zhang",
+                "Chen Liang"
+            ],
+            "venue": "CoRR",
+            "venue_abbr": "CoRR",
+            "year": "2025",
+            "link": "https://doi.org/10.48550/arXiv.2512.01960",
             "type": "Preprint/Workshop"
         },
         {
@@ -820,7 +939,7 @@
                 "Yang Wang",
                 "Mingming Fan"
             ],
-            "venue": "International Journal of Human-Computer Interaction",
+            "venue": "Int. J. Hum. Comput. Interact.",
             "venue_abbr": "Int. J. Hum. Comput. Interact.",
             "year": "2024",
             "link": "https://doi.org/10.1080/10447318.2023.2176806",
@@ -838,7 +957,7 @@
                 "Ge Lin Kan",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 8",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2024",
             "link": "https://doi.org/10.1145/3678522",
@@ -855,7 +974,7 @@
                 "Pan Hui",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 8",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2024",
             "link": "https://doi.org/10.1145/3686934",
@@ -868,7 +987,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 8",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2024",
             "link": "https://doi.org/10.1145/3676499",
@@ -884,7 +1003,7 @@
                 "Jian Zhao",
                 "Niklas Elmqvist"
             ],
-            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics, Volume 30",
             "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
             "year": "2024",
             "link": "https://doi.org/10.1109/TVCG.2023.3241581",
@@ -900,7 +1019,7 @@
                 "Shumeng Zhang",
                 "Mingming Fan"
             ],
-            "venue": "Conference on Designing Interactive Systems (DIS)",
+            "venue": "DIS 2024:\nCopenhagen, Denmark",
             "venue_abbr": "Conference on Designing Interactive Systems",
             "year": "2024",
             "link": "https://doi.org/10.1145/3643834.3660703",
@@ -918,7 +1037,7 @@
                 "Mingming Fan",
                 "Raul Masu"
             ],
-            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue": "26th ASSETS 2024:\nSt. John's, NL, Canada",
             "venue_abbr": "ASSETS",
             "year": "2024",
             "link": "https://doi.org/10.1145/3663548.3675623",
@@ -933,7 +1052,7 @@
                 "Mingming Fan",
                 "Kristen Shinohara"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642168",
@@ -952,7 +1071,7 @@
                 "Huamin Qu",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3641901",
@@ -969,7 +1088,7 @@
                 "Zeyu Wang",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642558",
@@ -983,7 +1102,7 @@
                 "Zeyu Xiong",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642213",
@@ -1002,7 +1121,7 @@
                 "Yafeng Niu",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642884",
@@ -1018,7 +1137,7 @@
                 "Jingting Li",
                 "Su-Jing Wang"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642378",
@@ -1038,7 +1157,7 @@
                 "Xiquan Hu",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642912",
@@ -1053,7 +1172,7 @@
                 "Yi Cai",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI Extended Abstracts",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613905.3648670",
@@ -1070,7 +1189,7 @@
                 "Kaihao Zhang",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642546",
@@ -1087,7 +1206,7 @@
                 "Dongdong Weng",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642187",
@@ -1107,7 +1226,7 @@
                 "Xin Geng",
                 "Yong Rui"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642545",
@@ -1122,7 +1241,7 @@
                 "Emily Kuang",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642423",
@@ -1142,7 +1261,7 @@
                 "Teng Han",
                 "Feng Tian"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642047",
@@ -1159,7 +1278,7 @@
                 "Jian Zhao",
                 "Zhicong Lu"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642212",
@@ -1176,7 +1295,7 @@
                 "Xiaojuan Ma",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642261",
@@ -1192,7 +1311,7 @@
                 "Mingming Fan",
                 "Pan Hui"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642105",
@@ -1209,7 +1328,7 @@
                 "Mingming Fan",
                 "Zeyu Wang"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2024:\nHonolulu, HI, USA",
             "venue_abbr": "CHI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3613904.3642096",
@@ -1228,7 +1347,7 @@
                 "Mingming Fan",
                 "Zeyu Wang"
             ],
-            "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+            "venue": "CVPR 2024:\nSeattle, WA, USA",
             "venue_abbr": "CVPR",
             "year": "2024",
             "link": "https://doi.org/10.1109/CVPR52733.2024.00159",
@@ -1244,7 +1363,7 @@
                 "Mingming Fan",
                 "Huamin Qu"
             ],
-            "venue": "ACM International Conference on Multimedia (MM)",
+            "venue": "32nd MM 2024:\nMelbourne, VIC, Australia",
             "venue_abbr": "ACM Multimedia",
             "year": "2024",
             "link": "https://doi.org/10.1145/3664647.3681504",
@@ -1262,7 +1381,7 @@
                 "Jinni Zhou",
                 "Mingming Fan"
             ],
-            "venue": "International Symposium on Visual Information Communication and Interaction (VINCI)",
+            "venue": "VINCI 2024:\nHsinchu, Taiwan",
             "venue_abbr": "VINCI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3678698.3678706",
@@ -1278,7 +1397,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "International Symposium on Visual Information Communication and Interaction (VINCI)",
+            "venue": "VINCI 2024:\nHsinchu, Taiwan",
             "venue_abbr": "VINCI",
             "year": "2024",
             "link": "https://doi.org/10.1145/3678698.3687174",
@@ -1295,7 +1414,7 @@
                 "Mingyang Su",
                 "Mingming Fan"
             ],
-            "venue": "ACM Symposium on Virtual Reality Software and Technology (VRST)",
+            "venue": "VRST 2024:\nTrier, Germany",
             "venue_abbr": "VRST",
             "year": "2024",
             "link": "https://doi.org/10.1145/3641825.3687742",
@@ -1314,7 +1433,7 @@
                 "Huamin Qu",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2402.04991",
@@ -1331,7 +1450,7 @@
                 "Xiaojuan Ma",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2402.15719",
@@ -1345,7 +1464,7 @@
                 "Zeyu Xiong",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2402.15723",
@@ -1362,7 +1481,7 @@
                 "Dongdong Weng",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2403.05031",
@@ -1381,7 +1500,7 @@
                 "Mingming Fan",
                 "Zeyu Wang"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2403.05087",
@@ -1401,7 +1520,7 @@
                 "Xiquan Hu",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2403.05264",
@@ -1416,7 +1535,7 @@
                 "Li Feng",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2403.05785",
@@ -1437,7 +1556,7 @@
                 "Xiaohang Zhan",
                 "Zeyu Wang"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2403.09326",
@@ -1456,7 +1575,7 @@
                 "Yafeng Niu",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2403.16107",
@@ -1474,7 +1593,7 @@
                 "Ge Lin Kan",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2407.06846",
@@ -1490,7 +1609,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2408.06107",
@@ -1508,7 +1627,7 @@
                 "Jinni Zhou",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2408.08018",
@@ -1525,7 +1644,7 @@
                 "Pan Hui",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2410.01585",
@@ -1542,7 +1661,7 @@
                 "Muzhi Zhou",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2410.11810",
@@ -1558,7 +1677,7 @@
                 "Yukang Yan",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2410.11869",
@@ -1573,7 +1692,7 @@
                 "Yukai Zhang",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2410.12205",
@@ -1588,7 +1707,7 @@
                 "Xiaoying Wei",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2410.15092",
@@ -1606,7 +1725,7 @@
                 "Dongdong Weng",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2410.17909",
@@ -1622,7 +1741,7 @@
                 "Xu Zhang",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2411.00351",
@@ -1636,7 +1755,7 @@
                 "Emily Kuang",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2024",
             "link": "https://doi.org/10.48550/arXiv.2412.19105",
@@ -1652,7 +1771,7 @@
                 "Franklin Mingzhe Li",
                 "Chunyang Chen"
             ],
-            "venue": "International Journal of Human-Computer Interaction",
+            "venue": "International Journal of Human-Computer Interaction, Volume 39",
             "venue_abbr": "Int. J. Hum. Comput. Interact.",
             "year": "2023",
             "link": "https://doi.org/10.1080/10447318.2022.2064609",
@@ -1668,7 +1787,7 @@
                 "Yuru Huang",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 7",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2023",
             "link": "https://doi.org/10.1145/3610903",
@@ -1683,7 +1802,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue": "25th ASSETS 2023:\nNew York, NY, USA",
             "venue_abbr": "ASSETS",
             "year": "2023",
             "link": "https://doi.org/10.1145/3597638.3608384",
@@ -1699,7 +1818,7 @@
                 "Teng Han",
                 "Mingming Fan"
             ],
-            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue": "25th ASSETS 2023:\nNew York, NY, USA",
             "venue_abbr": "ASSETS",
             "year": "2023",
             "link": "https://doi.org/10.1145/3597638.3608423",
@@ -1713,7 +1832,7 @@
                 "Shihan Fu",
                 "Mingming Fan"
             ],
-            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue": "11th CCHI 2023:\nDenpasar, Bali, Indonesia",
             "venue_abbr": "CCHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3629606.3629622",
@@ -1731,7 +1850,7 @@
                 "Li Feng",
                 "Mingming Fan"
             ],
-            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue": "11th CCHI 2023:\nDenpasar, Bali, Indonesia",
             "venue_abbr": "CCHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3629606.3629658",
@@ -1745,7 +1864,7 @@
                 "Ruihuan Chen",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2023: Hamburg, Germany",
             "venue_abbr": "CHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3544548.3581105",
@@ -1760,7 +1879,7 @@
                 "Muzhi Zhou",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2023: Hamburg, Germany",
             "venue_abbr": "CHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3544548.3581053",
@@ -1776,7 +1895,7 @@
                 "Jian Zhao",
                 "Kristen Shinohara"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2023: Hamburg, Germany",
             "venue_abbr": "CHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3544548.3581247",
@@ -1791,7 +1910,7 @@
                 "Xinyi Li",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2023: Hamburg, Germany",
             "venue_abbr": "CHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3544548.3581309",
@@ -1810,7 +1929,7 @@
                 "Mingming Fan",
                 "Yuanchun Shi"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2023: Hamburg, Germany",
             "venue_abbr": "CHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3544548.3581008",
@@ -1828,7 +1947,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2023: Hamburg, Germany",
             "venue_abbr": "CHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3544548.3581405",
@@ -1848,7 +1967,7 @@
                 "Guyue Zhou",
                 "Jiangtao Gong"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2023: Hamburg, Germany",
             "venue_abbr": "CHI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3544548.3580884",
@@ -1868,7 +1987,7 @@
                 "Chun Yu",
                 "Yuanchun Shi"
             ],
-            "venue": "International Conference on Intelligent User Interfaces (IUI)",
+            "venue": "28th IUI 2023: Sydney, NSW, Australia",
             "venue_abbr": "IUI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3581641.3584069",
@@ -1886,7 +2005,7 @@
                 "Mingming Fan",
                 "Pan Hui"
             ],
-            "venue": "ACM International Conference on Multimedia (MM)",
+            "venue": "31st ACM Multimedia 2023:\nOttawa, ON, Canada",
             "venue_abbr": "ACM Multimedia",
             "year": "2023",
             "link": "https://doi.org/10.1145/3581783.3612438",
@@ -1902,7 +2021,7 @@
                 "Liang He",
                 "Yuhang Zhao"
             ],
-            "venue": "ACM Symposium on User Interface Software and Technology (UIST)",
+            "venue": "36th UIST 2023:\nSan Francisco, CA, USA - Adjunct Volume",
             "venue_abbr": "UIST (Adjunct Volume)",
             "year": "2023",
             "link": "https://doi.org/10.1145/3586182.3616646",
@@ -1920,7 +2039,7 @@
                 "Chun Yu",
                 "Yuanchun Shi"
             ],
-            "venue": "ACM Symposium on User Interface Software and Technology (UIST)",
+            "venue": "36th UIST 2023:\nSan Francisco, CA, USA",
             "venue_abbr": "UIST",
             "year": "2023",
             "link": "https://doi.org/10.1145/3586183.3606785",
@@ -1938,7 +2057,7 @@
                 "Zeyu Wang",
                 "Mingming Fan"
             ],
-            "venue": "International Symposium on Visual Information Communication and Interaction (VINCI)",
+            "venue": "VINCI 2023:\nGuangzhou, China",
             "venue_abbr": "VINCI",
             "year": "2023",
             "link": "https://doi.org/10.1145/3615522.3615544",
@@ -1958,7 +2077,7 @@
                 "Guyue Zhou",
                 "Jiangtao Gong"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2023",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2302.03481",
@@ -1973,7 +2092,7 @@
                 "Xinyi Li",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2023",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2302.10702",
@@ -1988,7 +2107,7 @@
                 "Muzhi Zhou",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2023",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2302.14682",
@@ -2006,7 +2125,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2023",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2302.14717",
@@ -2020,7 +2139,7 @@
                 "Ruihuan Chen",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, March 2023",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2303.03626",
@@ -2036,7 +2155,7 @@
                 "Jian Zhao",
                 "Kristen Shinohara"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, March 2023",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2303.03638",
@@ -2055,7 +2174,7 @@
                 "Mingming Fan",
                 "Yuanchun Shi"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, March 2023",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2303.10441",
@@ -2071,7 +2190,7 @@
                 "Yuru Huang",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2309.03533",
@@ -2089,7 +2208,7 @@
                 "Mingming Fan",
                 "Pan Hui"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2309.11816",
@@ -2105,7 +2224,7 @@
                 "Jian Zhao",
                 "Niklas Elmqvist"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2310.07300",
@@ -2122,7 +2241,7 @@
                 "Jian Zhao",
                 "Zhicong Lu"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2310.09235",
@@ -2136,7 +2255,7 @@
                 "Shihan Fu",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, November 2023",
             "venue_abbr": "CoRR",
             "year": "2023",
             "link": "https://doi.org/10.48550/arXiv.2311.11269",
@@ -2150,7 +2269,7 @@
                 "Zhen Li",
                 "Franklin Mingzhe Li"
             ],
-            "venue": "Communications of the ACM",
+            "venue": "Communications of the ACM, Volume 65",
             "venue_abbr": "Commun. ACM",
             "year": "2022",
             "link": "https://doi.org/10.1145/3498367",
@@ -2165,7 +2284,7 @@
                 "Xiaoying Wei",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 6",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2022",
             "link": "https://doi.org/10.1145/3550321",
@@ -2183,7 +2302,7 @@
                 "Runxuan Shu",
                 "Yujia Shan"
             ],
-            "venue": "Interacting with Computers (IWC)",
+            "venue": "Interacting with Computers, Volume 34",
             "venue_abbr": "Interact. Comput.",
             "year": "2022",
             "link": "https://doi.org/10.1093/iwc/iwac039",
@@ -2199,7 +2318,7 @@
                 "Vera Q. Liao",
                 "Jian Zhao"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 6",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2022",
             "link": "https://doi.org/10.1145/3512943",
@@ -2214,7 +2333,7 @@
                 "Li Feng",
                 "Mingming Fan"
             ],
-            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction, Volume 6",
             "venue_abbr": "Proc. ACM Hum. Comput. Interact.",
             "year": "2022",
             "link": "https://doi.org/10.1145/3555758",
@@ -2231,7 +2350,7 @@
                 "Xian Zhan",
                 "Yang Liu"
             ],
-            "venue": "IEEE Transactions on Software Engineering (TSE)",
+            "venue": "IEEE Transactions on Software Engineering, Volume 48",
             "venue_abbr": "IEEE Trans. Software Eng.",
             "year": "2022",
             "link": "https://doi.org/10.1109/TSE.2021.3108162",
@@ -2246,7 +2365,7 @@
                 "Mingming Fan",
                 "Jian Zhao"
             ],
-            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics, Volume 28",
             "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
             "year": "2022",
             "link": "https://doi.org/10.1109/TVCG.2021.3114822",
@@ -2260,7 +2379,7 @@
                 "Mingming Fan",
                 "Mi Feng"
             ],
-            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics, Volume 28",
             "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
             "year": "2022",
             "link": "https://doi.org/10.1109/TVCG.2020.3018724",
@@ -2275,7 +2394,7 @@
                 "Zhicong Lu",
                 "Mingming Fan"
             ],
-            "venue": "Conference on Designing Interactive Systems (DIS)",
+            "venue": "DIS 2022: Virtual Event, Australia",
             "venue_abbr": "Conference on Designing Interactive Systems",
             "year": "2022",
             "link": "https://doi.org/10.1145/3532106.3533514",
@@ -2288,7 +2407,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue": "24th ASSETS 2022: Athens, Greece",
             "venue_abbr": "ASSETS",
             "year": "2022",
             "link": "https://doi.org/10.1145/3517428.3544820",
@@ -2302,7 +2421,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue": "10th CCHI 2022:\nHybrid Event / Guangzhou, China",
             "venue_abbr": "CCHI",
             "year": "2022",
             "link": "https://doi.org/10.1145/3565698.3565767",
@@ -2315,7 +2434,7 @@
                 "Esha Shandilya",
                 "Mingming Fan"
             ],
-            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue": "10th CCHI 2022:\nHybrid Event / Guangzhou, China",
             "venue_abbr": "CCHI",
             "year": "2022",
             "link": "https://doi.org/10.1145/3565698.3565774",
@@ -2332,7 +2451,7 @@
                 "Bertram E. Shi",
                 "Pan Hui"
             ],
-            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue": "10th CCHI 2022:\nHybrid Event / Guangzhou, China",
             "venue_abbr": "CCHI",
             "year": "2022",
             "link": "https://doi.org/10.1145/3565698.3565781",
@@ -2346,7 +2465,7 @@
                 "Mingming Fan",
                 "Teng Han"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2022: New Orleans, LA, USA",
             "venue_abbr": "CHI",
             "year": "2022",
             "link": "https://doi.org/10.1145/3491102.3517552",
@@ -2360,7 +2479,7 @@
                 "Mingming Fan",
                 "Juliann Thang"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2022: New Orleans, LA, USA",
             "venue_abbr": "CHI",
             "year": "2022",
             "link": "https://doi.org/10.1145/3491102.3502063",
@@ -2374,7 +2493,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2022: New Orleans, LA, USA",
             "venue_abbr": "CHI",
             "year": "2022",
             "link": "https://doi.org/10.1145/3491102.3517647",
@@ -2388,7 +2507,7 @@
                 "Mingming Fan",
                 "Garreth W. Tigwell"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2022: New Orleans, LA, USA",
             "venue_abbr": "CHI",
             "year": "2022",
             "link": "https://doi.org/10.1145/3491102.3517514",
@@ -2405,7 +2524,7 @@
                 "Zheng Wei",
                 "Huamin Qu"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2022: New Orleans, LA, USA",
             "venue_abbr": "CHI",
             "year": "2022",
             "link": "https://doi.org/10.1145/3491102.3501896",
@@ -2419,7 +2538,7 @@
                 "Mingming Fan",
                 "Juliann Thang"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://arxiv.org/abs/2202.02704",
@@ -2436,7 +2555,7 @@
                 "Zheng Wei",
                 "Huamin Qu"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://arxiv.org/abs/2202.02709",
@@ -2449,7 +2568,7 @@
                 "Mingming Fan",
                 "Lingyun Zhu"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://arxiv.org/abs/2202.02970",
@@ -2463,7 +2582,7 @@
                 "Mingming Fan",
                 "Teng Han"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://arxiv.org/abs/2202.06000",
@@ -2479,7 +2598,7 @@
                 "Franklin Mingzhe Li",
                 "Chunyang Chen"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://arxiv.org/abs/2202.11441",
@@ -2496,7 +2615,7 @@
                 "Xian Zhan",
                 "Yang Liu"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, March 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://doi.org/10.48550/arXiv.2203.06422",
@@ -2510,7 +2629,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://doi.org/10.48550/arXiv.2204.02823",
@@ -2525,7 +2644,7 @@
                 "Zhicong Lu",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://doi.org/10.48550/arXiv.2204.11247",
@@ -2538,7 +2657,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, July 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://doi.org/10.48550/arXiv.2207.12935",
@@ -2553,7 +2672,7 @@
                 "Xiaoying Wei",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, September 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://doi.org/10.48550/arXiv.2209.09596",
@@ -2570,7 +2689,7 @@
                 "Bertram E. Shi",
                 "Pan Hui"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, September 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://doi.org/10.48550/arXiv.2209.14645",
@@ -2584,7 +2703,7 @@
                 "Xiaofu Jin",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, October 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://doi.org/10.48550/arXiv.2210.01365",
@@ -2597,7 +2716,7 @@
                 "Esha Shandilya",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, October 2022",
             "venue_abbr": "CoRR",
             "year": "2022",
             "link": "https://doi.org/10.48550/arXiv.2210.01369",
@@ -2618,7 +2737,7 @@
                 "Feng Tian",
                 "Teng Han"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 5",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2021",
             "link": "https://doi.org/10.1145/3463527",
@@ -2632,7 +2751,7 @@
                 "Emily Kuang",
                 "Mingming Fan"
             ],
-            "venue": "Conference on Designing Interactive Systems (DIS)",
+            "venue": "DIS 2021: Virtual Event, USA",
             "venue_abbr": "Conference on Designing Interactive Systems",
             "year": "2021",
             "link": "https://doi.org/10.1145/3461778.3462127",
@@ -2645,7 +2764,7 @@
                 "Mingming Fan",
                 "Lingyun Zhu"
             ],
-            "venue": "International Symposium of Chinese CHI (CCHI)",
+            "venue": "9th CCHI 2021: Online Event / Hong Kong",
             "venue_abbr": "CCHI",
             "year": "2021",
             "link": "https://doi.org/10.1145/3490355.3490358",
@@ -2664,7 +2783,7 @@
                 "Teng Han",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2021: Virtual Event / Yokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2021",
             "link": "https://doi.org/10.1145/3411764.3445537",
@@ -2678,7 +2797,7 @@
                 "Qiwen Zhao",
                 "Vinita Tibdewal"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2021: Virtual Event / Yokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2021",
             "link": "https://doi.org/10.1145/3411764.3445680",
@@ -2693,7 +2812,7 @@
                 "Mingming Fan",
                 "Khai N. Truong"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2021: Virtual Event / Yokohama, Japan",
             "venue_abbr": "CHI",
             "year": "2021",
             "link": "https://doi.org/10.1145/3411764.3445321",
@@ -2708,7 +2827,7 @@
                 "Mingming Fan",
                 "Khai N. Truong"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, January 2021",
             "venue_abbr": "CoRR",
             "year": "2021",
             "link": "https://arxiv.org/abs/2101.09348",
@@ -2723,7 +2842,7 @@
                 "Xuan Zhao",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, February 2021",
             "venue_abbr": "CoRR",
             "year": "2021",
             "link": "https://arxiv.org/abs/2102.10685",
@@ -2739,7 +2858,7 @@
                 "Vera Q. Liao",
                 "Jian Zhao"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, December 2021",
             "venue_abbr": "CoRR",
             "year": "2021",
             "link": "https://arxiv.org/abs/2112.12387",
@@ -2753,7 +2872,7 @@
                 "Yue Li",
                 "Khai N. Truong"
             ],
-            "venue": "ACM Transactions on Interactive Intelligent Systems",
+            "venue": "ACM Trans. Interact. Intell. Syst.",
             "venue_abbr": "ACM Trans. Interact. Intell. Syst.",
             "year": "2020",
             "link": "https://doi.org/10.1145/3385732",
@@ -2770,7 +2889,7 @@
                 "Winter Wei",
                 "Khai N. Truong"
             ],
-            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue": "IEEE Trans. Vis. Comput. Graph.",
             "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
             "year": "2020",
             "link": "https://doi.org/10.1109/TVCG.2019.2934797",
@@ -2784,7 +2903,7 @@
                 "Zhen Li",
                 "Franklin Mingzhe Li"
             ],
-            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue": "ASSETS",
             "venue_abbr": "ASSETS",
             "year": "2020",
             "link": "https://doi.org/10.1145/3373625.3416987",
@@ -2802,7 +2921,7 @@
                 "Feng Tian",
                 "Mingming Fan"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI",
             "venue_abbr": "CHI",
             "year": "2020",
             "link": "https://doi.org/10.1145/3313831.3376138",
@@ -2817,7 +2936,7 @@
                 "Ying Han",
                 "Khai N. Truong"
             ],
-            "venue": "ACM International Conference on Multimedia (MM)",
+            "venue": "HUMA @ ACM Multimedia",
             "venue_abbr": "HUMA @ ACM Multimedia",
             "year": "2020",
             "link": "https://doi.org/10.1145/3422852.3423479",
@@ -2844,7 +2963,7 @@
                 "Mingming Fan",
                 "Khai N. Truong"
             ],
-            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 3",
             "venue_abbr": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
             "year": "2019",
             "link": "https://doi.org/10.1145/3351253",
@@ -2859,7 +2978,7 @@
                 "Mingming Fan",
                 "Phillip C.-Y. Sheu"
             ],
-            "venue": "Internet of Things",
+            "venue": "Internet of Things, Volume 6",
             "venue_abbr": "Internet Things",
             "year": "2019",
             "link": "https://doi.org/10.1016/j.iot.2019.02.004",
@@ -2874,7 +2993,7 @@
                 "Christina Chung",
                 "Khai N. Truong"
             ],
-            "venue": "ACM Transactions on Computer-Human Interaction (TOCHI)",
+            "venue": "ACM Transactions on Computer-Human Interaction, Volume 26",
             "venue_abbr": "ACM Trans. Comput. Hum. Interact.",
             "year": "2019",
             "link": "https://doi.org/10.1145/3325281",
@@ -2891,7 +3010,7 @@
                 "Michelle Annett",
                 "Daniel Wigdor"
             ],
-            "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics, Volume 25",
             "venue_abbr": "IEEE Trans. Vis. Comput. Graph.",
             "year": "2019",
             "link": "https://doi.org/10.1109/TVCG.2018.2864887",
@@ -2906,7 +3025,7 @@
                 "Mingming Fan",
                 "Daniel Wigdor"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2019: Glasgow, Scotland, UK",
             "venue_abbr": "CHI",
             "year": "2019",
             "link": "https://doi.org/10.1145/3290605.3300459",
@@ -2927,7 +3046,7 @@
                 "Edward Lank",
                 "Pourang Irani"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2019: Glasgow, Scotland, UK",
             "venue_abbr": "CHI",
             "year": "2019",
             "link": "https://doi.org/10.1145/3290605.3300731",
@@ -2940,7 +3059,7 @@
                 "Mingming Fan",
                 "Khai N. Truong"
             ],
-            "venue": "ACM Transactions on Accessible Computing (TACCESS)",
+            "venue": "ACM Trans. Access. Comput.",
             "venue_abbr": "ACM Trans. Access. Comput.",
             "year": "2018",
             "link": "https://doi.org/10.1145/3209882",
@@ -2954,7 +3073,7 @@
                 "Mingming Fan",
                 "Khai N. Truong"
             ],
-            "venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+            "venue": "19th ASSETS 2017: Baltimore, MD, USA",
             "venue_abbr": "ASSETS",
             "year": "2017",
             "link": "https://doi.org/10.1145/3132525.3132528",
@@ -2970,7 +3089,7 @@
                 "Seyong Ha",
                 "Priyank Gupta"
             ],
-            "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+            "venue": "CHI 2017: Denver, CO, USA",
             "venue_abbr": "CHI Extended Abstracts",
             "year": "2017",
             "link": "https://doi.org/10.1145/3027063.3053092",
@@ -2986,7 +3105,7 @@
                 "Weiwei Li",
                 "Mingming Fan"
             ],
-            "venue": "IEEE International Symposium on Wearable Computers (ISWC)",
+            "venue": "21st ISWC 2017: Maui, HI, USA",
             "venue_abbr": "ISWC",
             "year": "2017",
             "link": "https://doi.org/10.1145/3123021.3123049",
@@ -3002,7 +3121,7 @@
                 "Yuhui You",
                 "Zhi Yu"
             ],
-            "venue": "IEEE International Symposium on Wearable Computers (ISWC)",
+            "venue": "21st ISWC 2017: Maui, HI, USA",
             "venue_abbr": "ISWC",
             "year": "2017",
             "link": "https://doi.org/10.1145/3123021.3123043",
@@ -3018,7 +3137,7 @@
                 "Weiwei Li",
                 "Mingming Fan"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, October 2017",
             "venue_abbr": "CoRR",
             "year": "2017",
             "link": "http://arxiv.org/abs/1710.04608",
@@ -3031,7 +3150,7 @@
                 "Mingming Fan",
                 "Khai N. Truong"
             ],
-            "venue": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
+            "venue": "UbiComp 2015: Osaka, Japan",
             "venue_abbr": "UbiComp",
             "year": "2015",
             "link": "https://doi.org/10.1145/2750858.2804264",
@@ -3046,7 +3165,7 @@
                 "Hao Tang",
                 "Patrick Chiu"
             ],
-            "venue": "IEEE International Conference on Multimedia and Expo (ICME)",
+            "venue": "ICME Workshops 2015: Turin, Italy",
             "venue_abbr": "ICME Workshops",
             "year": "2015",
             "link": "https://doi.org/10.1109/ICMEW.2015.7169775",
@@ -3061,7 +3180,7 @@
                 "Shang Ma",
                 "Patrick Chiu"
             ],
-            "venue": "IEEE International Symposium on Multimedia (ISM)",
+            "venue": "ISM",
             "venue_abbr": "ISM",
             "year": "2015",
             "link": "https://doi.org/10.1109/ISM.2015.113",
@@ -3075,7 +3194,7 @@
                 "Alexander Travis Adams",
                 "Khai N. Truong"
             ],
-            "venue": "IEEE International Symposium on Wearable Computers (ISWC)",
+            "venue": "18th ISWC 2014: Seattle, WA, USA",
             "venue_abbr": "ISWC",
             "year": "2014",
             "link": "https://doi.org/10.1145/2634317.2634320",
@@ -3090,7 +3209,7 @@
                 "Hao Tang",
                 "Patrick Chiu"
             ],
-            "venue": "Workshop on Mobile Computing Systems and Applications (HotMobile)",
+            "venue": "15th HotMobile 2014: Santa Barbara, CA, USA",
             "venue_abbr": "HotMobile",
             "year": "2014",
             "link": "https://doi.org/10.1145/2565585.2565587",
@@ -3103,7 +3222,7 @@
                 "Mingming Fan",
                 "Maryam Khademi"
             ],
-            "venue": "Computing Research Repository (CoRR)",
+            "venue": "CoRR, January 2014",
             "venue_abbr": "CoRR",
             "year": "2014",
             "link": "http://arxiv.org/abs/1401.0864",
@@ -3118,7 +3237,7 @@
                 "Hossein Mousavi Hondori",
                 "Cristina Videira Lopes"
             ],
-            "venue": "ACM Symposium on User Interface Software and Technology (UIST)",
+            "venue": "26. UIST 2013: St. Andrews, UK",
             "venue_abbr": "UIST (Adjunct Volume)",
             "year": "2013",
             "link": "https://doi.org/10.1145/2508468.2514712",
@@ -3132,7 +3251,7 @@
                 "Laleh Jalali",
                 "Mingming Fan"
             ],
-            "venue": "The Web Conference (WWW)",
+            "venue": "WWW (Companion Volume)",
             "venue_abbr": "WWW (Companion Volume)",
             "year": "2013",
             "link": "https://doi.org/10.1145/2487788.2488171",
@@ -3147,7 +3266,7 @@
                 "Dan M. Cooper",
                 "Donald J. Patterson"
             ],
-            "venue": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
+            "venue": "UbiComp 2012: Pittsburgh, PA, USA",
             "venue_abbr": "UbiComp",
             "year": "2012",
             "link": "https://doi.org/10.1145/2370216.2370278",
@@ -3161,7 +3280,7 @@
                 "Donald J. Patterson",
                 "Yuanchun Shi"
             ],
-            "venue": "International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI)",
+            "venue": "14. Mobile HCI 2012: San Francsico, CA, USA - Companion",
             "venue_abbr": "Mobile HCI (Companion)",
             "year": "2012",
             "link": "https://doi.org/10.1145/2371664.2371689",
@@ -3178,7 +3297,7 @@
                 "Yuanchun Shi",
                 "Hao Wang"
             ],
-            "venue": "Conference on Computer Supported Cooperative Work (CSCW)",
+            "venue": "CSCW 2011: Hangzhou, China",
             "venue_abbr": "CSCW",
             "year": "2011",
             "link": "https://doi.org/10.1145/1958824.1958930",
@@ -3196,7 +3315,7 @@
                 "Mingming Fan",
                 "Yongqiang Qin"
             ],
-            "venue": "ACM Symposium on User Interface Software and Technology (UIST)",
+            "venue": "23. UIST 2010: New York, NY, USA",
             "venue_abbr": "UIST",
             "year": "2010",
             "link": "https://doi.org/10.1145/1866029.1866056",
@@ -3209,7 +3328,7 @@
                 "Mingming Fan",
                 "Yuanchun Shi"
             ],
-            "venue": "International Conference on Human-Computer Interaction (HCI International)",
+            "venue": "13th HCI 2009: San Diego, CA, USA",
             "venue_abbr": "HCI (3)",
             "year": "2009",
             "link": "https://doi.org/10.1007/978-3-642-02580-8_15",
@@ -3223,7 +3342,7 @@
                 "Yuanchun Shi",
                 "Mingming Fan"
             ],
-            "venue": "ACM International Conference on Multimedia (MM)",
+            "venue": "16th ACM Multimedia 2008: Vancouver, British Columbia, Canada",
             "venue_abbr": "ACM Multimedia",
             "year": "2008",
             "link": "https://doi.org/10.1145/1459359.1459491",
@@ -3237,7 +3356,7 @@
                 "Liang Zhang",
                 "Yuanchun Shi"
             ],
-            "venue": "ACM Symposium on Virtual Reality Software and Technology (VRST)",
+            "venue": "VRST",
             "venue_abbr": "VRST",
             "year": "2008",
             "link": "https://doi.org/10.1145/1450579.1450640",

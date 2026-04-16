@@ -1,6 +1,30 @@
 {
   "miscItems": [
     {
+      "id": 10,
+      "title": "CHI 2026",
+      "date": "2026",
+      "description": "CHI 2026 moments.",
+      "image": "assets/img/misc/chi2026-3.jpg",
+      "filter": "filter-2026"
+    },
+    {
+      "id": 9,
+      "title": "CHI 2026",
+      "date": "2026",
+      "description": "CHI 2026 moments.",
+      "image": "assets/img/misc/chi2026-2.jpg",
+      "filter": "filter-2026"
+    },
+    {
+      "id": 8,
+      "title": "CHI 2026",
+      "date": "2026",
+      "description": "CHI 2026 moments.",
+      "image": "assets/img/misc/chi2026-1.jpg",
+      "filter": "filter-2026"
+    },
+    {
       "id": 7,
       "title": "Retreat 2026",
       "date": "Jan 2026",

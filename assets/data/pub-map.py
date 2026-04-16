@@ -6,9 +6,10 @@ import time
 import re
 
 # --- 配置部分 ---
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DBLP_URL = "https://dblp.org/pid/50/6579.html" # 请替换为你的 DBLP PID URL
-OUTPUT_FILE = "assets/data/auto-publications.json"
-VENUE_MAP_FILE = "assets/data/venue_map.json"
+OUTPUT_FILE = os.path.join(_SCRIPT_DIR, "auto-publications.json")
+VENUE_MAP_FILE = os.path.join(_SCRIPT_DIR, "venue_map.json")
 
 class VenueMapper:
     def __init__(self, map_file):
@@ -18,12 +19,19 @@ class VenueMapper:
         self.modified = False
 
     def load_mapping(self):
+        abs_path = os.path.abspath(self.map_file)
+        print(f"[VenueMapper] 尝试读取: {abs_path}")
+        print(f"[VenueMapper] 文件存在: {os.path.exists(self.map_file)}")
         if os.path.exists(self.map_file):
             try:
                 with open(self.map_file, 'r', encoding='utf-8') as f:
                     self.mapping = json.load(f)
-            except:
+                print(f"[VenueMapper] 已加载 {len(self.mapping)} 条 venue 映射")
+            except Exception as e:
+                print(f"[VenueMapper] 读取失败: {e}")
                 self.mapping = {}
+        else:
+            print("[VenueMapper] 文件不存在，使用空映射")
 
     def save_mapping(self):
         if self.modified:
@@ -35,34 +43,24 @@ class VenueMapper:
         # 如果没有 URL，直接返回缩写
         if not venue_url:
             return venue_abbr
-        
-        # 尝试将具体年份的 URL 转换为系列主页 URL (Series URL)
-        # 例如: db/conf/cvpr/cvpr2022.html -> db/conf/cvpr/index.html
-        # 这样能获得更通用的全称
-        try:
-            base_path = venue_url.rsplit('/', 1)[0]
-            series_url = f"{base_path}/index.html"
-        except:
-            series_url = venue_url
-
         # 检查缓存
-        if series_url in self.mapping:
-            return self.mapping[series_url]
+        if venue_url in self.mapping:
+            return self.mapping[venue_url]
 
         # 如果缓存没有，去爬取
-        print(f"Fetching full name for: {venue_abbr} ({series_url})")
-        full_name = self.fetch_remote_title(series_url)
-        
-        # 如果获取失败，回退到使用缩写，但也存入缓存避免重复请求
-        final_name = full_name if full_name else venue_abbr
-        
-        self.mapping[series_url] = final_name
-        self.modified = True
-        
-        # 礼貌性延时，防止触发 DBLP 频率限制
-        time.sleep(1) 
-        
-        return final_name
+        print(f"[VenueMapper] 缓存未命中，爬取: {venue_abbr} ({venue_url})")
+        full_name = self.fetch_remote_title(venue_url)
+
+        # 只在拿到「全称」时才写入映射；失败时不把简称写进映射
+        if full_name:
+            self.mapping[venue_url] = full_name
+            self.modified = True
+            # 礼貌性延时，防止触发 DBLP 频率限制
+            time.sleep(1)
+            return full_name
+
+        # 获取失败时，运行时回退到缩写，但不污染映射文件
+        return venue_abbr
 
     def fetch_remote_title(self, url):
         try:
@@ -77,7 +75,7 @@ class VenueMapper:
                     return text.strip()
                 
                 # 备选：从 title 标签取 (格式通常是 "Full Name (Abbr) - dblp")
-                title_tag = soup.title.string
+                title_tag = soup.title.string if soup.title else None
                 if title_tag:
                     clean_name = title_tag.replace(" - dblp", "").strip()
                     # 尝试去掉括号里的缩写，例如 "Computer Vision (ICCV)" -> "Computer Vision"
@@ -157,13 +155,39 @@ def fetch_and_save():
                 # 尝试查找 db/conf/... 的链接
                 for a in entry.find_all('a'):
                     href = a.get('href', '')
-                    if 'db/conf/' in href or 'db/journals/' in href:
+                    if ('db/conf/' in href or 'db/journals/' in href) and '/index.html' not in href:
                         venue_url = href
                         break
             else:
                 venue_url = venue_link_tag['href']
 
-            # 获取全称！
+            # 规范化 venue_url，确保是系列主页 URL，且与 venue_map 的 key 格式一致
+            if venue_url:
+                try:
+                    # 1. 先处理带 fragment 的情况，比如：
+                    #    https://dblp.org/db/journals/ijmms/ijmms207.html#journals/ijmms/index.html
+                    if '#' in venue_url:
+                        base, frag = venue_url.split('#', 1)
+                        frag_path = frag.lstrip('/#')
+                        # fragment 里如果是 journals/... 或 conf/... 的路径，就转成带 /db/ 的系列 URL
+                        if frag_path.startswith('journals/') or frag_path.startswith('conf/'):
+                            venue_url = 'https://dblp.org/db/' + frag_path
+                        else:
+                            # 否则退回到 base（不带 # 的那部分）
+                            venue_url = base
+
+                    # 2. 统一成 index.html 结尾（不带 fragment 的情况）
+                    if '/index.html' not in venue_url:
+                        base_path = venue_url.rsplit('/', 1)[0]
+                        venue_url = f"{base_path}/index.html"
+
+                    # 3. 确保是完整 URL（处理相对路径）
+                    if not venue_url.startswith('http'):
+                        venue_url = ('https://dblp.org' + venue_url) if venue_url.startswith('/') else ('https://dblp.org/' + venue_url)
+                except:
+                    pass
+
+            # 获取全称！（优先从 venue_map 缓存读取，匹配成功则无需爬取）
             full_venue_name = mapper.get_full_name(venue_abbr, venue_url)
 
             # 构造数据
