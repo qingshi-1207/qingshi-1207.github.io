@@ -29,11 +29,21 @@ createApp({
     async loadData() {
       try {
         this.loading = true;
-        const response = await fetch('assets/data/publications.json');
+        const response = await fetch('assets/data/auto-pub-list-openalex.json');
         const data = await response.json();
-        
-        this.publications = data.publications;
-        this.categories = data.categories;
+
+        // 兼容 auto-pub-list-openalex.json 的字段结构
+        this.publications = (data.publications || []).map((item, index) => ({
+          id: item.id || `openalex-${index}`,
+          title: item.title || 'Untitled',
+          authors: Array.isArray(item.authors) ? item.authors.join(', ') : (item.authors || ''),
+          venue: [item.venue, item.year].filter(Boolean).join(', '),
+          filters: ['filter-openalex'],
+          tags: [item.type || 'Unknown', 'OpenAlex']
+        }));
+        this.categories = [
+          { filter: '*', name: 'All', active: true }
+        ];
         
         this.loading = false;
       } catch (error) {

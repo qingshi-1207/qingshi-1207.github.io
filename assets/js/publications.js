@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
 async function loadPublications() {
   try {
     // 加载JSON数据
-    // 数据源：从 auto-publications.json 读取
-    const response = await fetch('assets/data/auto-publications.json');
+    // 数据源：从 auto-pub-list-openalex.json 读取
+    const response = await fetch('assets/data/auto-pub-list-openalex.json');
     const data = await response.json();
 
     const rawPublications = Array.isArray(data.publications) ? data.publications : [];
@@ -44,7 +44,10 @@ async function loadPublications() {
  * 过滤掉所有CoRR来源的条目
  */
 function filterCorrPublications(publications) {
-  return publications.filter(pub => pub.venue_abbr !== 'CoRR');
+  return publications.filter(pub => {
+    const venue = (pub.venue || pub.venue_abbr || '').toLowerCase();
+    return !venue.includes('corr');
+  });
 }
 
 /**
@@ -64,6 +67,7 @@ function transformPublications(rawPublications) {
   return rawPublications.map(pub => {
     const authors =
       Array.isArray(pub.authors) ? pub.authors.join(', ') : (pub.authors || '');
+    const type = pub.type || getPublicationType(pub.id);
 
     return {
       id: pub.id,
@@ -72,7 +76,7 @@ function transformPublications(rawPublications) {
       venue: pub.venue || pub.venue_abbr || '',
       year: pub.year || '',
       link: pub.link || '',
-      type: getPublicationType(pub.id)
+      type: ['Journal', 'Conference'].includes(type) ? type : 'Other'
     };
   });
 }
