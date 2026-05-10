@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-09 18:06:27",
+  "last_updated": "2026-05-10 14:45:15",
   "source": "OpenAlex",
-  "total_count": 186,
+  "total_count": 120,
   "publications": [
     {
       "id": "https://openalex.org/W7160543659",
@@ -446,7 +446,7 @@
       "backfill_processed": true,
       "backfill_source": "crossref",
       "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:02:47"
+      "backfill_updated_at": "2026-05-10 14:45:10"
     },
     {
       "id": "https://openalex.org/W4410512944",
@@ -533,23 +533,6 @@
       "backfill_updated_at": "2026-05-09 18:02:53"
     },
     {
-      "id": "https://openalex.org/W4408071985",
-      "title": "Portfolio of China's renewable energy legal measures: Conflicts in application and functional harmonization",
-      "authors": [
-        "Mingming Fan",
-        "Linlin Liu"
-      ],
-      "venue": "Energy",
-      "year": "2025",
-      "link": "https://doi.org/10.1016/j.energy.2025.135377",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1016/j.energy.2025.135377",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:02:54"
-    },
-    {
       "id": "https://openalex.org/W4410636794",
       "title": "Modeling the Intuitiveness of Mobile GUI Navigation by Understanding and Simulating Users' Attention Distribution",
       "authors": [
@@ -614,28 +597,6 @@
       "backfill_updated_at": "2026-05-09 18:02:58"
     },
     {
-      "id": "https://openalex.org/W4415629989",
-      "title": "Investigation and evaluation of injection strategy for improving combustion performance of a methanol rotary engine with jet ignition",
-      "authors": [
-        "Baowei Fan",
-        "Haidong Yang",
-        "Jianfeng Pan",
-        "Yonghao Zeng",
-        "Mingming Fan",
-        "Xin Wu",
-        "Wenming Yang"
-      ],
-      "venue": "Fuel",
-      "year": "2025",
-      "link": "https://doi.org/10.1016/j.fuel.2025.137288",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1016/j.fuel.2025.137288",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:02:59"
-    },
-    {
       "id": "https://openalex.org/W4406331886",
       "title": "How Can Haptic Feedback Assist People with Blind and Low Vision (BLV): A Systematic Literature Review",
       "authors": [
@@ -698,25 +659,7 @@
       "backfill_processed": true,
       "backfill_source": "crossref",
       "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:08"
-    },
-    {
-      "id": "https://openalex.org/W4412759557",
-      "title": "Dynamical behavior for the nonautonomous logistic equation",
-      "authors": [
-        "Ming-Ming Fan",
-        "Yi-Fei Su",
-        "Jian-Wen Sun"
-      ],
-      "venue": "Discrete and Continuous Dynamical Systems - B",
-      "year": "2025",
-      "link": "https://doi.org/10.3934/dcdsb.2025122",
-      "type": "Journal",
-      "doi": "https://doi.org/10.3934/dcdsb.2025122",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:09"
+      "backfill_updated_at": "2026-05-10 14:45:11"
     },
     {
       "id": "https://openalex.org/W4410536704",
@@ -871,25 +814,6 @@
       "backfill_updated_at": "2026-05-09 18:03:18"
     },
     {
-      "id": "https://openalex.org/W4412566170",
-      "title": "Author response for \"Recent progress in high-entropy intermetallics for advanced catalysis\"",
-      "authors": [
-        "Jingchun Guo",
-        "Huiling Zheng",
-        "Xu-Cheng Fu",
-        "Ming-Ming Fan"
-      ],
-      "venue": "",
-      "year": "2025",
-      "link": "https://doi.org/10.1039/d5ta04394h/v2/response1",
-      "type": "Unknown",
-      "doi": "https://doi.org/10.1039/d5ta04394h/v2/response1",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:19"
-    },
-    {
       "id": "https://openalex.org/W4410538859",
       "title": "AI as a Bridge Across Ages: Exploring The Opportunities of Artificial Intelligence in Supporting Inter-Generational Communication in Virtual Reality",
       "authors": [
@@ -910,26 +834,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:03:21"
-    },
-    {
-      "id": "https://openalex.org/W4413824561",
-      "title": "Aerodynamic Interference of Lift Surfaces During Transition Phase for VTOL Fixed-Wing UAVs with Canard Configuration",
-      "authors": [
-        "Minglong Fan",
-        "Lei Wang",
-        "Yi Sun",
-        "Jinwu Xiang",
-        "Haiting Xia"
-      ],
-      "venue": "Aerospace",
-      "year": "2025",
-      "link": "https://doi.org/10.3390/aerospace12090784",
-      "type": "Journal",
-      "doi": "https://doi.org/10.3390/aerospace12090784",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:22"
     },
     {
       "id": "https://openalex.org/W4409748980",
@@ -995,7 +899,7 @@
       "backfill_processed": true,
       "backfill_source": "crossref",
       "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:26"
+      "backfill_updated_at": "2026-05-10 14:45:08"
     },
     {
       "id": "https://openalex.org/W4409884189",
@@ -1184,29 +1088,6 @@
       "backfill_updated_at": "2026-05-09 18:03:41"
     },
     {
-      "id": "https://openalex.org/W4403171900",
-      "title": "The coupling effect of turbulent jet ignition and injection strategy on the combustion performance of a pure methanol rotary engine",
-      "authors": [
-        "Baowei Fan",
-        "Wei Li",
-        "Yonghao Zeng",
-        "Mingming Fan",
-        "Haidong Yang",
-        "Jianfeng Pan",
-        "Yi Zhang",
-        "Chao Jiang"
-      ],
-      "venue": "Applied Thermal Engineering",
-      "year": "2024",
-      "link": "https://doi.org/10.1016/j.applthermaleng.2024.124544",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1016/j.applthermaleng.2024.124544",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:42"
-    },
-    {
       "id": "https://openalex.org/W4402716022",
       "title": "SplattingAvatar: Realistic Real-Time Human Avatars With Mesh-Embedded Gaussian Splatting",
       "authors": [
@@ -1227,7 +1108,7 @@
       "backfill_processed": true,
       "backfill_source": "crossref",
       "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:43"
+      "backfill_updated_at": "2026-05-10 14:45:12"
     },
     {
       "id": "https://openalex.org/W4402350072",
@@ -1274,28 +1155,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:03:46"
-    },
-    {
-      "id": "https://openalex.org/W4404770131",
-      "title": "Research and evaluation of turbulent jet ignition mode for improving combustion performance of ethanol rotary engine",
-      "authors": [
-        "Baowei Fan",
-        "Mingming Fan",
-        "Jianfeng Pan",
-        "Wenming Yang",
-        "Yonghao Zeng",
-        "Haidong Yang",
-        "Xin Wu"
-      ],
-      "venue": "Applied Thermal Engineering",
-      "year": "2024",
-      "link": "https://doi.org/10.1016/j.applthermaleng.2024.125067",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1016/j.applthermaleng.2024.125067",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:47"
     },
     {
       "id": "https://openalex.org/W4403346440",
@@ -1439,29 +1298,6 @@
       "backfill_updated_at": "2026-05-09 18:03:57"
     },
     {
-      "id": "https://openalex.org/W4403905741",
-      "title": "Evaluation of blunt body setting for improving the combustion performance of a jet ignition hydrogen/natural gas rotary engine",
-      "authors": [
-        "Longtu Wu",
-        "Yingxin Wu",
-        "Baowei Fan",
-        "Jianfeng Pan",
-        "Mingming Fan",
-        "Haidong Yang",
-        "Yi Zhang",
-        "Qingbo Lu"
-      ],
-      "venue": "International Journal of Hydrogen Energy",
-      "year": "2024",
-      "link": "https://doi.org/10.1016/j.ijhydene.2024.10.305",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1016/j.ijhydene.2024.10.305",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:03:58"
-    },
-    {
       "id": "https://openalex.org/W4396831897",
       "title": "Enhancing UX Evaluation Through Collaboration with Conversational AI Assistants: Effects of Proactive Dialogue and Timing",
       "authors": [
@@ -1479,26 +1315,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:03:59"
-    },
-    {
-      "id": "https://openalex.org/W4399788682",
-      "title": "Endocytosis at the maternal-fetal interface: balancing nutrient transport and pathogen defense",
-      "authors": [
-        "Mingming Fan",
-        "Hongyu Wu",
-        "Amanda N. Sferruzzi-Perri",
-        "Yan-Ling Wang",
-        "Xuan Shao"
-      ],
-      "venue": "Frontiers in Immunology",
-      "year": "2024",
-      "link": "https://doi.org/10.3389/fimmu.2024.1415794",
-      "type": "Journal",
-      "doi": "https://doi.org/10.3389/fimmu.2024.1415794",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:04:01"
     },
     {
       "id": "https://openalex.org/W4401650361",
@@ -1746,45 +1562,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:04:22"
-    },
-    {
-      "id": "https://openalex.org/W4404523233",
-      "title": "A Study on the Aerodynamic Impact of Rotors on Fixed Wings During the Transition Phase in Compound-Wing UAVs",
-      "authors": [
-        "Longjin Ai",
-        "Haiting Xia",
-        "Jianting Yang",
-        "Ying He",
-        "Weibo Tang",
-        "Minglong Fan",
-        "Jinwu Xiang"
-      ],
-      "venue": "Aerospace",
-      "year": "2024",
-      "link": "https://doi.org/10.3390/aerospace11110945",
-      "type": "Journal",
-      "doi": "https://doi.org/10.3390/aerospace11110945",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:04:23"
-    },
-    {
-      "id": "https://openalex.org/W4403294606",
-      "title": "A simple proof of uniqueness for the nonlocal positive solutions",
-      "authors": [
-        "Ming-Ming Fan",
-        "Jian-Wen Sun"
-      ],
-      "venue": "Nonlinear Analysis Real World Applications",
-      "year": "2024",
-      "link": "https://doi.org/10.1016/j.nonrwa.2024.104233",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1016/j.nonrwa.2024.104233",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:04:24"
     },
     {
       "id": "https://openalex.org/W4415685742",
@@ -2042,24 +1819,6 @@
       "backfill_updated_at": "2026-05-09 18:04:42"
     },
     {
-      "id": "https://openalex.org/W4387685737",
-      "title": "Dynamic behavior of reaction–diffusion equation with Holling II predation",
-      "authors": [
-        "Jian-Wen Sun",
-        "Ming-Ming Fan",
-        "Xi Zhang"
-      ],
-      "venue": "Nonlinear Analysis Real World Applications",
-      "year": "2023",
-      "link": "https://doi.org/10.1016/j.nonrwa.2023.104019",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1016/j.nonrwa.2023.104019",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:04:43"
-    },
-    {
       "id": "https://openalex.org/W4387969547",
       "title": "Designing Loving-Kindness Meditation in Virtual Reality for Long-Distance Romantic Relationships",
       "authors": [
@@ -2080,24 +1839,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:04:44"
-    },
-    {
-      "id": "https://openalex.org/W4388568092",
-      "title": "Curcumin Reduces Hypoxia/Reperfusion Injury of Cardiomyocytes byStimulating Vascular Endothelial Cells to Secrete FGF2",
-      "authors": [
-        "Jian-kun Cui",
-        "Mingming Fan",
-        "Qinwen Wang"
-      ],
-      "venue": "Combinatorial Chemistry & High Throughput Screening",
-      "year": "2023",
-      "link": "https://doi.org/10.2174/0113862073239166231103102648",
-      "type": "Journal",
-      "doi": "https://doi.org/10.2174/0113862073239166231103102648",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:04:45"
     },
     {
       "id": "https://openalex.org/W4387993606",
@@ -2307,23 +2048,6 @@
       "backfill_updated_at": "2026-05-09 18:04:59"
     },
     {
-      "id": "https://openalex.org/W4313357475",
-      "title": "Perturbation problem for the indefinite nonlocal periodic-parabolic equation",
-      "authors": [
-        "Jian-Wen Sun",
-        "Ming-Ming Fan"
-      ],
-      "venue": "Zeitschrift für angewandte Mathematik und Physik",
-      "year": "2022",
-      "link": "https://doi.org/10.1007/s00033-022-01919-1",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1007/s00033-022-01919-1",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:00"
-    },
-    {
       "id": "https://openalex.org/W4313701988",
       "title": "Older Adults’ Concurrent and Retrospective Think-Aloud Verbalizations for Identifying User Experience Problems of VR Games",
       "authors": [
@@ -2405,123 +2129,6 @@
       "backfill_updated_at": "2026-05-09 18:05:08"
     },
     {
-      "id": "https://openalex.org/W3173215149",
-      "title": "”Too old to bank digitally? ”: A Survey of Banking Practices and Challenges Among Older Adults in China",
-      "authors": [
-        "Xiaofu Jin",
-        "Emily Kuang",
-        "Mingming Fan"
-      ],
-      "venue": "Designing Interactive Systems Conference 2021",
-      "year": "2021",
-      "link": "https://doi.org/10.1145/3461778.3462127",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3461778.3462127",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:10"
-    },
-    {
-      "id": "https://openalex.org/W3161113980",
-      "title": "“I Choose Assistive Devices That Save My Face”",
-      "authors": [
-        "Franklin Mingzhe Li",
-        "Di Laura Chen",
-        "Mingming Fan",
-        "Khai N. Truong"
-      ],
-      "venue": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
-      "year": "2021",
-      "link": "https://doi.org/10.1145/3411764.3445321",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3411764.3445321",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:11"
-    },
-    {
-      "id": "https://openalex.org/W3162475189",
-      "title": "vMirror: Enhancing the Interaction with Occluded or Distant Objects in VR with Virtual Mirrors",
-      "authors": [
-        "Nianlong Li",
-        "Zhengquan Zhang",
-        "Can Liu",
-        "Zengyao Yang",
-        "Yinan Fu",
-        "Feng Tian",
-        "Teng Han",
-        "Mingming Fan"
-      ],
-      "venue": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
-      "year": "2021",
-      "link": "https://doi.org/10.1145/3411764.3445537",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3411764.3445537",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:13"
-    },
-    {
-      "id": "https://openalex.org/W3120214362",
-      "title": "Study on Reactive Power Compensation Strategies for Long Distance Submarine Cables Considering Electrothermal Coordination",
-      "authors": [
-        "Gang Liu",
-        "Mingming Fan",
-        "Pengyu Wang",
-        "Ming Zheng"
-      ],
-      "venue": "Journal of Marine Science and Engineering",
-      "year": "2021",
-      "link": "https://doi.org/10.3390/jmse9010090",
-      "type": "Journal",
-      "doi": "https://doi.org/10.3390/jmse9010090",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:14"
-    },
-    {
-      "id": "https://openalex.org/W3161683830",
-      "title": "Older Adults’ Think-Aloud Verbalizations and Speech Features for Identifying User Experience Problems",
-      "authors": [
-        "Mingming Fan",
-        "Qiwen Zhao",
-        "Vinita Tibdewal"
-      ],
-      "venue": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
-      "year": "2021",
-      "link": "https://doi.org/10.1145/3411764.3445680",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3411764.3445680",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:15"
-    },
-    {
-      "id": "https://openalex.org/W3171350965",
-      "title": "Infrared small target detection based on region proposal and CNN classifier",
-      "authors": [
-        "Mingming Fan",
-        "Shaoqing Tian",
-        "Kai Liu",
-        "Jiaxin Zhao",
-        "Yunsong Li"
-      ],
-      "venue": "Signal Image and Video Processing",
-      "year": "2021",
-      "link": "https://doi.org/10.1007/s11760-021-01936-z",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1007/s11760-021-01936-z",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:16"
-    },
-    {
       "id": "https://openalex.org/W4200171428",
       "title": "Eyelid gestures for people with motor impairments",
       "authors": [
@@ -2537,7 +2144,7 @@
       "backfill_processed": true,
       "backfill_source": "crossref",
       "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:17"
+      "backfill_updated_at": "2026-05-10 14:45:13"
     },
     {
       "id": "https://openalex.org/W3176818137",
@@ -2565,26 +2172,6 @@
       "backfill_updated_at": "2026-05-09 18:05:19"
     },
     {
-      "id": "https://openalex.org/W3174522854",
-      "title": "An Infrared Small Target Detection Method Using Segmentation Based Region Proposal and CNN",
-      "authors": [
-        "Shan Wen",
-        "Kai Liu",
-        "Shaoqing Tian",
-        "Mingming Fan",
-        "Lin Yan"
-      ],
-      "venue": "2021 13th International Conference on Machine Learning and Computing",
-      "year": "2021",
-      "link": "https://doi.org/10.1145/3457682.3457705",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3457682.3457705",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:20"
-    },
-    {
       "id": "https://openalex.org/W3197536693",
       "title": "Accessible or Not? An Empirical Investigation of Android App Accessibility",
       "authors": [
@@ -2604,251 +2191,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:05:21"
-    },
-    {
-      "id": "https://openalex.org/W3043126041",
-      "title": "The application of computer graphics processing in visual communication design",
-      "authors": [
-        "Mingming Fan",
-        "Yunsong Li"
-      ],
-      "venue": "Journal of Intelligent & Fuzzy Systems",
-      "year": "2020",
-      "link": "https://doi.org/10.3233/jifs-189003",
-      "type": "Journal",
-      "doi": "https://doi.org/10.3233/jifs-189003",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:22"
-    },
-    {
-      "id": "https://openalex.org/W4243039068",
-      "title": "Table of Contents",
-      "authors": [
-        "Yan Li",
-        "Cheng Long",
-        "Weiqi Xie",
-        "Wang Jian-hua",
-        "Dongfang Zhang",
-        "Hongyi Yu",
-        "Yijun Zhu",
-        "Yi Zhang",
-        "Yao Wang",
-        "Jia‐Mei Chen",
-        "Bin Zhao",
-        "Chao Gao",
-        "Jing Dong",
-        "Xiju Zong",
-        "Zhenzhen Chen",
-        "Jiangtao Zheng",
-        "Xianglei Zhu",
-        "Lu Zhang",
-        "Bolin Zhou",
-        "Shuai Zhao",
-        "Yang Zhai",
-        "Quanshan Shuaizhao",
-        "Yang Hou",
-        "Dapeng Xu",
-        "Zhihua Liu",
-        "Wenbo Li",
-        "Yi Gong",
-        "Yingying Chi",
-        "Haifeng Zhang",
-        "Zhe Zheng",
-        "Rui Liu",
-        "Lei Qiao",
-        "Wenpeng Cui",
-        "Wang Zhiqiang",
-        "Zixi Liu",
-        "Ming Tong",
-        "Xiaoyu Liu",
-        "Du Zhixiong",
-        "Weicong Chen",
-        "Combine Relu With Tanh",
-        "Xinru Li",
-        "Zelin Hu",
-        "Xiaoping Huang",
-        "Mingming Fan",
-        "Ming Ma",
-        "Guanghao Jin",
-        "Wei Yuan",
-        "Ping Qian",
-        "Haiqiang Feng",
-        "Jingfeng Shao",
-        "Runnan Lang",
-        "Songsong Wu",
-        "Songhao Zhu",
-        "Zuoyong Li",
-        "Xiuzhong Gong",
-        "Qingbo Mao",
-        "Chuangang Wang",
-        "Bo Jiang",
-        "Haixiang Sun",
-        "Zhixin Wang",
-        "Yi Luo",
-        "Tan Xiansi",
-        "Hong Wang",
-        "Zhiguo Qu",
-        "Tongxiao Li",
-        "Xiaolong Li",
-        "Chaoyong Deng",
-        "Qiwei Wu",
-        "Ruirui Cui",
-        "Jintian Tang",
-        "Yandong Zhang",
-        "Xizhi Hu",
-        "Zhihui Jiang",
-        "Xu Congcong",
-        "Yiping Fan",
-        "Leibin Yang",
-        "Qingdong Li",
-        "Cheng Nong",
-        "Zhi‐Ming Zheng",
-        "Fei Xue",
-        "Mingyan Song",
-        "Ji Cheng",
-        "Chu Wang",
-        "Shicheng Li",
-        "Na Li",
-        "Fengmin Wang",
-        "Chi Qin",
-        "Yang Peng",
-        "Tong Zhao",
-        "Ding Wang",
-        "Lan Zhuo",
-        "Hongzu Han",
-        "Xun Shen",
-        "Hongtu Zhao",
-        "Xiaoying Wang",
-        "Jun Xie",
-        "Yu Lu",
-        "Xingliu Tao",
-        "Chao Jia",
-        "Weili Chen"
-      ],
-      "venue": "2020 IEEE 4th Information Technology, Networking, Electronic and Automation Control Conference (ITNEC)",
-      "year": "2020",
-      "link": "https://doi.org/10.1109/itnec48623.2020.9084820",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1109/itnec48623.2020.9084820",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:23"
-    },
-    {
-      "id": "https://openalex.org/W3029324340",
-      "title": "Mouillé: Exploring Wetness Illusion on Fingertips to Enhance Immersive Experience in VR",
-      "authors": [
-        "Teng Han",
-        "Sirui Wang",
-        "Sijia Wang",
-        "Xiangmin Fan",
-        "Jie Liu",
-        "Feng Tian",
-        "Mingming Fan"
-      ],
-      "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
-      "year": "2020",
-      "link": "https://doi.org/10.1145/3313831.3376138",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3313831.3376138",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:24"
-    },
-    {
-      "id": "https://openalex.org/W3093288439",
-      "title": "iWink: Exploring Eyelid Gestures on Mobile Devices",
-      "authors": [
-        "Zhen Li",
-        "Mingming Fan",
-        "Ying Han",
-        "Khai N. Truong"
-      ],
-      "venue": "Proceedings of the 1st International Workshop on Human-centric Multimedia Analysis",
-      "year": "2020",
-      "link": "https://doi.org/10.1145/3422852.3423479",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3422852.3423479",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:25"
-    },
-    {
-      "id": "https://openalex.org/W3095133436",
-      "title": "Eyelid Gestures on Mobile Devices for People with Motor Impairments",
-      "authors": [
-        "Mingming Fan",
-        "Zhen Li",
-        "Franklin Mingzhe Li"
-      ],
-      "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
-      "year": "2020",
-      "link": "https://doi.org/10.1145/3373625.3416987",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3373625.3416987",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:26"
-    },
-    {
-      "id": "https://openalex.org/W3021784069",
-      "title": "Design of a Smartwatch for IoT Application under 5G Environment",
-      "authors": [
-        "Mingming Fan",
-        "Chao Wen",
-        "Junjie Tang"
-      ],
-      "venue": "2020 IEEE 4th Information Technology, Networking, Electronic and Automation Control Conference (ITNEC)",
-      "year": "2020",
-      "link": "https://doi.org/10.1109/itnec48623.2020.9085198",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1109/itnec48623.2020.9085198",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:27"
-    },
-    {
-      "id": "https://openalex.org/W3080485811",
-      "title": "ChartSeer: Interactive Steering Exploratory Visual Analysis With Machine Intelligence",
-      "authors": [
-        "Jian Zhao",
-        "Mingming Fan",
-        "Mi Feng"
-      ],
-      "venue": "IEEE Transactions on Visualization and Computer Graphics",
-      "year": "2020",
-      "link": "https://doi.org/10.1109/tvcg.2020.3018724",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1109/tvcg.2020.3018724",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:28"
-    },
-    {
-      "id": "https://openalex.org/W3048030566",
-      "title": "Automatic Detection of Usability Problem Encounters in Think-aloud Sessions",
-      "authors": [
-        "Mingming Fan",
-        "Yue Li",
-        "Khai N. Truong"
-      ],
-      "venue": "ACM Transactions on Interactive Intelligent Systems",
-      "year": "2020",
-      "link": "https://doi.org/10.1145/3385732",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1145/3385732",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:29"
     },
     {
       "id": "https://openalex.org/W2969525524",
@@ -2990,28 +2332,6 @@
       "backfill_updated_at": "2026-05-09 18:05:39"
     },
     {
-      "id": "https://openalex.org/W2945698361",
-      "title": "Mondrian Virtual Art Gallery",
-      "authors": [
-        "Hongwei Xu",
-        "Xu Miao",
-        "Jiarui Li",
-        "Mingming Fan",
-        "Lei Wang",
-        "Hui Zheng",
-        "Chao Wen"
-      ],
-      "venue": "2018 International Conference on Virtual Reality and Visualization (ICVRV)",
-      "year": "2018",
-      "link": "https://doi.org/10.1109/icvrv.2018.00044",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1109/icvrv.2018.00044",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:40"
-    },
-    {
       "id": "https://openalex.org/W2888081003",
       "title": "InkPlanner: Supporting Prewriting via Intelligent Visual Diagramming",
       "authors": [
@@ -3030,7 +2350,7 @@
       "backfill_processed": true,
       "backfill_source": "crossref",
       "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:41"
+      "backfill_updated_at": "2026-05-10 14:45:15"
     },
     {
       "id": "https://openalex.org/W2807821917",
@@ -3048,24 +2368,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:05:42"
-    },
-    {
-      "id": "https://openalex.org/W2744107144",
-      "title": "Fast query of Big Data Based on rich Network Distribution Monitoring Information Flow",
-      "authors": [
-        "Zhijian Qu",
-        "Liang Zhao",
-        "Mingming Fan"
-      ],
-      "venue": "Proceedings of the 2017 2nd International Conference on Control, Automation and Artificial Intelligence (CAAI 2017)",
-      "year": "2017",
-      "link": "https://doi.org/10.2991/caai-17.2017.93",
-      "type": "Conference",
-      "doi": "https://doi.org/10.2991/caai-17.2017.93",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:43"
     },
     {
       "id": "https://openalex.org/W2610614682",
@@ -3126,26 +2428,6 @@
       "backfill_updated_at": "2026-05-09 18:05:47"
     },
     {
-      "id": "https://openalex.org/W2270804963",
-      "title": "A high-voltage supply used on miniaturized RLG",
-      "authors": [
-        "Zhifei Miao",
-        "Mingming Fan",
-        "Yuepeng Wang",
-        "Yan Yin",
-        "Dongmei Wang"
-      ],
-      "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
-      "year": "2016",
-      "link": "https://doi.org/10.1117/12.2228939",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1117/12.2228939",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:48"
-    },
-    {
       "id": "https://openalex.org/W3206582594",
       "title": "Use teaching aids to build eciency “Student-Centered” class in vocational colleges",
       "authors": [
@@ -3160,23 +2442,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:05:49"
-    },
-    {
-      "id": "https://openalex.org/W1999691406",
-      "title": "SoQr",
-      "authors": [
-        "Mingming Fan",
-        "Khai N. Truong"
-      ],
-      "venue": "Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
-      "year": "2015",
-      "link": "https://doi.org/10.1145/2750858.2804264",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/2750858.2804264",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:50"
     },
     {
       "id": "https://openalex.org/W2307253293",
@@ -3196,628 +2461,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:05:51"
-    },
-    {
-      "id": "https://openalex.org/W2088549155",
-      "title": "Smart Energy Harvesting Routing Protocol for WSN based E-Health Systems",
-      "authors": [
-        "Jingwen Bai",
-        "Mingming Fan",
-        "Jinze Yang",
-        "Yan Sun",
-        "Chris Phillips"
-      ],
-      "venue": "Proceedings of the 2015 Workshop on Pervasive Wireless Healthcare",
-      "year": "2015",
-      "link": "https://doi.org/10.1145/2757290.2757296",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/2757290.2757296",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:53"
-    },
-    {
-      "id": "https://openalex.org/W2296605336",
-      "title": "POLI: Interactive multimedia authoring and retrieval on mobile phone by leveraging its audio channel and coded light",
-      "authors": [
-        "Mingming Fan",
-        "Qiong Liu",
-        "Hao Tang",
-        "Patrick Chiu"
-      ],
-      "venue": "2015 IEEE International Conference on Multimedia &amp; Expo Workshops (ICMEW)",
-      "year": "2015",
-      "link": "https://doi.org/10.1109/icmew.2015.7169775",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1109/icmew.2015.7169775",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:54"
-    },
-    {
-      "id": "https://openalex.org/W1026682836",
-      "title": "Analysis of Applying UCD in Android App Design",
-      "authors": [
-        "M.Y. Fan"
-      ],
-      "venue": "Advances in engineering research/Advances in Engineering Research",
-      "year": "2015",
-      "link": "https://doi.org/10.2991/eame-15.2015.81",
-      "type": "Conference",
-      "doi": "https://doi.org/10.2991/eame-15.2015.81",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:54"
-    },
-    {
-      "id": "https://openalex.org/W1985970254",
-      "title": "Public restroom detection on mobile phone via active probing",
-      "authors": [
-        "Mingming Fan",
-        "Alexander Travis Adams",
-        "Khai N. Truong"
-      ],
-      "venue": "Proceedings of the 2014 ACM International Symposium on Wearable Computers",
-      "year": "2014",
-      "link": "https://doi.org/10.1145/2634317.2634320",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/2634317.2634320",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:55"
-    },
-    {
-      "id": "https://openalex.org/W2018456432",
-      "title": "HiFi",
-      "authors": [
-        "Mingming Fan",
-        "Qiong Liu",
-        "Hao Tang",
-        "Patrick Chiu"
-      ],
-      "venue": "Proceedings of the 15th Workshop on Mobile Computing Systems and Applications",
-      "year": "2014",
-      "link": "https://doi.org/10.1145/2565585.2565587",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/2565585.2565587",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:56"
-    },
-    {
-      "id": "https://openalex.org/W1988019041",
-      "title": "Multi-perspective multi-layer interaction on mobile device",
-      "authors": [
-        "Maryam Khademi",
-        "Mingming Fan",
-        "Hossein Mousavi Hondori",
-        "Cristina Videira Lopes"
-      ],
-      "venue": "Proceedings of the adjunct publication of the 26th annual ACM symposium on User interface software and technology - UIST '13 Adjunct",
-      "year": "2013",
-      "link": "https://doi.org/10.1145/2508468.2514712",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/2508468.2514712",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:58"
-    },
-    {
-      "id": "https://openalex.org/W197479618",
-      "title": "From health-persona to societal health",
-      "authors": [
-        "Ramesh Jain",
-        "Laleh Jalali",
-        "Mingming Fan"
-      ],
-      "venue": "Proceedings of the 22nd International Conference on World Wide Web",
-      "year": "2013",
-      "link": "https://doi.org/10.1145/2487788.2488171",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/2487788.2488171",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:59"
-    },
-    {
-      "id": "https://openalex.org/W2008998901",
-      "title": "When camera meets accelerometer",
-      "authors": [
-        "Mingming Fan",
-        "Donald Patterson",
-        "Yuanchun Shi"
-      ],
-      "venue": "Proceedings of the 14th international conference on Human-computer interaction with mobile devices and services companion",
-      "year": "2012",
-      "link": "https://doi.org/10.1145/2371664.2371689",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/2371664.2371689",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:00"
-    },
-    {
-      "id": "https://openalex.org/W1980762002",
-      "title": "Augmenting gesture recognition with erlang-cox models to identify neurological disorders in premature babies",
-      "authors": [
-        "Mingming Fan",
-        "Dana Gravem",
-        "Dan M. Cooper",
-        "Donald J. Patterson"
-      ],
-      "venue": "Proceedings of the 2012 ACM Conference on Ubiquitous Computing",
-      "year": "2012",
-      "link": "https://doi.org/10.1145/2370216.2370278",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/2370216.2370278",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:01"
-    },
-    {
-      "id": "https://openalex.org/W2060263800",
-      "title": "Surprise Grabber",
-      "authors": [
-        "Mingming Fan",
-        "Xin Li",
-        "Yu Zhong",
-        "Li Tian",
-        "Yuanchun Shi",
-        "Hao Wang"
-      ],
-      "venue": "Proceedings of the ACM 2011 conference on Computer supported cooperative work",
-      "year": "2011",
-      "link": "https://doi.org/10.1145/1958824.1958930",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/1958824.1958930",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:06"
-    },
-    {
-      "id": "https://openalex.org/W2749170829",
-      "title": "Back-to-Back: A Novel Approach for Real Time 3D Hand Gesture Interaction",
-      "authors": [
-        "Mingming Fan",
-        "Yuanchun Shi"
-      ],
-      "venue": "",
-      "year": "2011",
-      "link": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.663.6600",
-      "type": "Unknown",
-      "doi": "",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "skipped_no_doi",
-      "backfill_updated_at": "2026-05-09 18:06:06"
-    },
-    {
-      "id": "https://openalex.org/W2369815329",
-      "title": "A Preliminary Study on the Anhui Workhouse in the New Deal Period of Late Qing Dynasty",
-      "authors": [
-        "Mingming Fan"
-      ],
-      "venue": "Journal of Anqing Teachers College",
-      "year": "2011",
-      "link": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-AQSS201108016.htm",
-      "type": "Journal",
-      "doi": "",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "skipped_no_doi",
-      "backfill_updated_at": "2026-05-09 18:06:06"
-    },
-    {
-      "id": "https://openalex.org/W2110517203",
-      "title": "The satellite cursor",
-      "authors": [
-        "Chun Yu",
-        "Yuanchun Shi",
-        "Ravin Balakrishnan",
-        "Xiangliang Meng",
-        "Yue Suo",
-        "Mingming Fan",
-        "Yongqiang Qin"
-      ],
-      "venue": "Proceedings of the 23nd annual ACM symposium on User interface software and technology",
-      "year": "2010",
-      "link": "https://doi.org/10.1145/1866029.1866056",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/1866029.1866056",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:07"
-    },
-    {
-      "id": "https://openalex.org/W2358275586",
-      "title": "Research and implementcotion of benchmark energy testing in embedded operating system",
-      "authors": [
-        "Mingming Fan"
-      ],
-      "venue": "Jisuanji yingyong yanjiu",
-      "year": "2009",
-      "link": "http://en.cnki.com.cn/Article_en/CJFDTotal-JSYJ200907045.htm",
-      "type": "Journal",
-      "doi": "",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "skipped_no_doi",
-      "backfill_updated_at": "2026-05-09 18:06:07"
-    },
-    {
-      "id": "https://openalex.org/W1487788735",
-      "title": "Pull and Push: Proximity-Aware User Interface for Navigating in 3D Space Using a Handheld Camera",
-      "authors": [
-        "Mingming Fan",
-        "Yuanchun Shi"
-      ],
-      "venue": "Lecture notes in computer science",
-      "year": "2009",
-      "link": "https://doi.org/10.1007/978-3-642-02580-8_15",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1007/978-3-642-02580-8_15",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:08"
-    },
-    {
-      "id": "https://openalex.org/W2008456634",
-      "title": "Doodle space",
-      "authors": [
-        "Yu Zhong",
-        "Xin Li",
-        "Mingming Fan",
-        "Yuanchun Shi"
-      ],
-      "venue": "Proceedings of the 2009 workshop on Ambient media computing",
-      "year": "2009",
-      "link": "https://doi.org/10.1145/1631005.1631010",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/1631005.1631010",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:09"
-    },
-    {
-      "id": "https://openalex.org/W1978476154",
-      "title": "UCam",
-      "authors": [
-        "Liang Zhang",
-        "Yuanchun Shi",
-        "Mingming Fan"
-      ],
-      "venue": "Proceedings of the 16th ACM international conference on Multimedia",
-      "year": "2008",
-      "link": "https://doi.org/10.1145/1459359.1459491",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/1459359.1459491",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:10"
-    },
-    {
-      "id": "https://openalex.org/W2088756779",
-      "title": "Hand's 3D movement detection with one handheld camera",
-      "authors": [
-        "Mingming Fan",
-        "Liang Zhang",
-        "Yuanchun Shi"
-      ],
-      "venue": "Proceedings of the 2008 ACM symposium on Virtual reality software and technology",
-      "year": "2008",
-      "link": "https://doi.org/10.1145/1450579.1450640",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/1450579.1450640",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:11"
-    },
-    {
-      "id": "https://openalex.org/W225437383",
-      "title": "Blind deconvolution of astronomical images with band limitation determined by optical system parameters",
-      "authors": [
-        "Lei Luo",
-        "Mingming Fan",
-        "Minxian Shen"
-      ],
-      "venue": "Acta Astronomica Sinica",
-      "year": "2007",
-      "link": "https://ui.adsabs.harvard.edu/abs/2007AcASn..48..374L/abstract",
-      "type": "Journal",
-      "doi": "",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "skipped_no_doi",
-      "backfill_updated_at": "2026-05-09 18:06:11"
-    },
-    {
-      "id": "https://openalex.org/W204934003",
-      "title": "Multivariate Chaotic Time Series Prediction Based on Radial Basis Function Neural Network",
-      "authors": [
-        "Min Han",
-        "Wei Guo",
-        "Mingming Fan"
-      ],
-      "venue": "Lecture notes in computer science",
-      "year": "2006",
-      "link": "https://doi.org/10.1007/11760023_109",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1007/11760023_109",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:12"
-    },
-    {
-      "id": "https://openalex.org/W2153857679",
-      "title": "Application of neural networks on multivariate time series modeling and prediction",
-      "authors": [
-        "Min Han",
-        "Mingming Fan"
-      ],
-      "venue": "2006 American Control Conference",
-      "year": "2006",
-      "link": "https://doi.org/10.1109/acc.2006.1657293",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1109/acc.2006.1657293",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:13"
-    },
-    {
-      "id": "https://openalex.org/W1543203265",
-      "title": "Study of Nonlinear Multivariate Time Series Prediction Based on Neural Networks",
-      "authors": [
-        "Min Han",
-        "Mingming Fan",
-        "Jianhui Xi"
-      ],
-      "venue": "Lecture notes in computer science",
-      "year": "2005",
-      "link": "https://doi.org/10.1007/11427445_101",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1007/11427445_101",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:14"
-    },
-    {
-      "id": "https://openalex.org/W2499242144",
-      "title": "Vorticity Confinement - Recent Results: Turbulent Wake Simulations and A New, Conservative Formulation",
-      "authors": [
-        "J. Steinhoff",
-        "M. Fan",
-        "L. Wang"
-      ],
-      "venue": "WORLD SCIENTIFIC eBooks",
-      "year": "2003",
-      "link": "https://doi.org/10.1142/9789812796837_0021",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1142/9789812796837_0021",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:15"
-    },
-    {
-      "id": "https://openalex.org/W2128284485",
-      "title": "Application of Vorticity Confinement to Prediction of the Flow over Complex Bodies",
-      "authors": [
-        "Y. Wenren",
-        "M. Fan",
-        "L. Wang",
-        "M. Xiao",
-        "J. Steinhoff"
-      ],
-      "venue": "AIAA Journal",
-      "year": "2003",
-      "link": "https://doi.org/10.2514/2.2042",
-      "type": "Journal",
-      "doi": "https://doi.org/10.2514/2.2042",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:16"
-    },
-    {
-      "id": "https://openalex.org/W2312396333",
-      "title": "Computing complex flows on coarse grids using vorticity confinement",
-      "authors": [
-        "M. Fan",
-        "W. Dietz",
-        "Y. Wenren",
-        "J. Steinhoff"
-      ],
-      "venue": "40th AIAA Aerospace Sciences Meeting &amp; Exhibit",
-      "year": "2002",
-      "link": "https://doi.org/10.2514/6.2002-135",
-      "type": "Conference",
-      "doi": "https://doi.org/10.2514/6.2002-135",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:18"
-    },
-    {
-      "id": "https://openalex.org/W1986811383",
-      "title": "Computing Blunt Body Flows on Coarse Grids Using Vorticity Confinement",
-      "authors": [
-        "M. Fan",
-        "Y. Wenren",
-        "W. Dietz",
-        "M. Xiao",
-        "J. Steinhoff"
-      ],
-      "venue": "Journal of Fluids Engineering",
-      "year": "2002",
-      "link": "https://doi.org/10.1115/1.1517573",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1115/1.1517573",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:19"
-    },
-    {
-      "id": "https://openalex.org/W2330850618",
-      "title": "Efficient Eulerian computation of realistic rotorcraft flows using Vorticity Confinement - A survey of recent results",
-      "authors": [
-        "Y. Wenren",
-        "M. Fan",
-        "W. Dietz",
-        "G. Hu",
-        "C. Braun",
-        "J. Steinhoff",
-        "B. Grossman"
-      ],
-      "venue": "39th Aerospace Sciences Meeting and Exhibit",
-      "year": "2001",
-      "link": "https://doi.org/10.2514/6.2001-996",
-      "type": "Journal",
-      "doi": "https://doi.org/10.2514/6.2001-996",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:20"
-    },
-    {
-      "id": "https://openalex.org/W2996140253",
-      "title": "Application of Vorticity Confinement to the Prediction of the Flow over Complex Bodies",
-      "authors": [
-        "J. Steinhoff",
-        "Y. Wenren",
-        "C. Braun",
-        "L. Wang",
-        "M. Fan"
-      ],
-      "venue": "WORLD SCIENTIFIC eBooks",
-      "year": "2001",
-      "link": "https://doi.org/10.1142/9789812810793_0011",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1142/9789812810793_0011",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:21"
-    },
-    {
-      "id": "https://openalex.org/W2319375765",
-      "title": "Application of vorticity confinement to the prediction of flows over complex bodies - A survey of recent results",
-      "authors": [
-        "W. Dietz",
-        "Y. Wenren",
-        "J. Steinhoff",
-        "M. Fan"
-      ],
-      "venue": "15th AIAA Computational Fluid Dynamics Conference",
-      "year": "2001",
-      "link": "https://doi.org/10.2514/6.2001-2642",
-      "type": "Conference",
-      "doi": "https://doi.org/10.2514/6.2001-2642",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:22"
-    },
-    {
-      "id": "https://openalex.org/W2334828551",
-      "title": "Application of vorticity confinement to the prediction of the flow over complex bodies",
-      "authors": [
-        "Y. Wenren",
-        "J. Steinhoff",
-        "L. Wang",
-        "M. Fan",
-        "M. Xiao"
-      ],
-      "venue": "Fluids 2000 Conference and Exhibit",
-      "year": "2000",
-      "link": "https://doi.org/10.2514/6.2000-2621",
-      "type": "Conference",
-      "doi": "https://doi.org/10.2514/6.2000-2621",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:23"
-    },
-    {
-      "id": "https://openalex.org/W2138950253",
-      "title": "The 5S rRNA and the rRNA intergenic spacer of the two varieties of<i>Cryptococcus neoformans</i>",
-      "authors": [
-        "M. Fan",
-        "L.-C. Chen",
-        "M.A. Ragan",
-        "R.R. Gutell",
-        "J.R. Warner",
-        "B.P. Currie",
-        "A. Casadevall"
-      ],
-      "venue": "Medical Mycology",
-      "year": "1995",
-      "link": "https://doi.org/10.1080/02681219580000451",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1080/02681219580000451",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:24"
-    },
-    {
-      "id": "https://openalex.org/W2000839588",
-      "title": "The 16S-like, 5.8S and 23S-like rRNAs of the two varieties of<i>Cryptococcus neoformans</i>: sequence, secondary structure, phylogenetic analysis and restriction fragment polymorphisms",
-      "authors": [
-        "M. Fan",
-        "B.P. Currie",
-        "R.R. Gutell",
-        "M.A. Ragan",
-        "A. Casadevall"
-      ],
-      "venue": "Medical Mycology",
-      "year": "1994",
-      "link": "https://doi.org/10.1080/02681219480000231",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1080/02681219480000231",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:25"
-    },
-    {
-      "id": "https://openalex.org/W1934288202",
-      "title": "Molecular and idiotypic analysis of antibodies to Cryptococcus neoformans glucuronoxylomannan",
-      "authors": [
-        "A Casadevall",
-        "M DeShaw",
-        "M Fan",
-        "F Dromer",
-        "T R Kozel",
-        "L A Pirofski"
-      ],
-      "venue": "Infection and Immunity",
-      "year": "1994",
-      "link": "https://doi.org/10.1128/iai.62.9.3864-3872.1994",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1128/iai.62.9.3864-3872.1994",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:06:26"
     },
     {
       "id": "https://openalex.org/W2413969668",
