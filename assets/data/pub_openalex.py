@@ -36,6 +36,7 @@ OPENALEX_API = "https://api.openalex.org"
 CROSSREF_API = "https://api.crossref.org/works"
 DEFAULT_AUTHOR_NAME = "Mingming Fan"
 DEFAULT_OUTPUT_FILE = "assets/data/auto-pub-list-openalex.json"
+DEFAULT_DBLP_FILE = "assets/data/auto-pub-list.json"
 REQUEST_TIMEOUT = 20
 PREPRINT_KEYWORDS = ("arxiv", "corr", "preprint", "biorxiv", "medrxiv", "ssrn")
 
@@ -64,6 +65,36 @@ DEFAULT_AFFILIATION_SUBSTRINGS = (
     "university of toronto",
     "utoronto",
 )
+
+# DBLP id 前缀到全称 venue（优先用于 2020 年前条目，避免缩写）
+DBLP_VENUE_CODE_TO_FULLNAME = {
+    "chi": "ACM Conference on Human Factors in Computing Systems",
+    "assets": "International ACM SIGACCESS Conference on Computers and Accessibility",
+    "ubicomp": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
+    "huc": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
+    "uist": "ACM Symposium on User Interface Software and Technology",
+    "mm": "ACM International Conference on Multimedia",
+    "vrst": "ACM Symposium on Virtual Reality Software and Technology",
+    "iswc": "IEEE International Symposium on Wearable Computers",
+    "hotmobile": "Workshop on Mobile Computing Systems and Applications",
+    "wmcsa": "Workshop on Mobile Computing Systems and Applications",
+    "www": "The Web Conference",
+    "mhci": "International Conference on Human-Computer Interaction with Mobile Devices and Services",
+    "cscw": "Conference on Computer Supported Cooperative Work",
+    "hci": "International Conference on Human-Computer Interaction",
+    "imwut": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+    "pacmhci": "Proceedings of the ACM on Human-Computer Interaction",
+    "tochi": "ACM Transactions on Computer-Human Interaction",
+    "taccess": "ACM Transactions on Accessible Computing",
+    "tvcg": "IEEE Transactions on Visualization and Computer Graphics",
+    "iwc": "Interacting with Computers",
+    "cacm": "Communications of the ACM",
+    "tiis": "ACM Transactions on Interactive Intelligent Systems",
+    "iot": "Internet of Things",
+    "corr": "Computing Research Repository",
+    "ijhci": "International Journal of Human-Computer Interaction",
+    "ijmms": "International Journal of Human-Computer Studies",
+}
 
 
 def request_json(url: str, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
@@ -446,6 +477,13 @@ def publication_key(pub: Dict[str, Any]) -> str:
     return f'ty::{pub.get("title", "").strip().lower()}::{str(pub.get("year", "")).strip()}'
 
 
+def year_as_int(pub: Dict[str, Any]) -> int:
+    try:
+        return int(str(pub.get("year", "")).strip())
+    except Exception:
+        return 0
+
+
 def load_existing_output(output_file: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     output_path = Path(output_file)
     if not output_path.exists():
@@ -458,6 +496,48 @@ def load_existing_output(output_file: str) -> Tuple[List[Dict[str, Any]], Dict[s
     if not isinstance(pubs, list):
         pubs = []
     return pubs, data
+
+
+def load_dblp_publications(dblp_file: str) -> List[Dict[str, Any]]:
+    path = Path(dblp_file)
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    pubs = data.get("publications") or []
+    if not isinstance(pubs, list):
+        return []
+    return pubs
+
+
+def expand_dblp_venue(pub: Dict[str, Any]) -> Dict[str, Any]:
+    pid = str(pub.get("id") or "")
+    parts = pid.split("/")
+    if len(parts) >= 2 and parts[0] in {"conf", "journals"}:
+        code = parts[1].lower()
+        full = DBLP_VENUE_CODE_TO_FULLNAME.get(code)
+        if full:
+            pub = dict(pub)
+            pub["venue"] = full
+    return pub
+
+
+def apply_dblp_priority_before_year(
+    publications: List[Dict[str, Any]],
+    dblp_publications: List[Dict[str, Any]],
+    cutoff_year: int,
+) -> Tuple[List[Dict[str, Any]], int, int]:
+    """year < cutoff_year 的条目优先用 DBLP。"""
+    kept_modern = [p for p in publications if year_as_int(p) >= cutoff_year]
+    removed_early = len(publications) - len(kept_modern)
+
+    chosen_dblp = [
+        expand_dblp_venue(p) for p in dblp_publications if 0 < year_as_int(p) < cutoff_year
+    ]
+    merged = dedupe_publications(kept_modern + chosen_dblp)
+    return merged, removed_early, len(chosen_dblp)
 
 
 def merge_incremental(
@@ -545,6 +625,17 @@ def main() -> int:
         default=[],
         help="Extra affiliation substring (repeatable). Matched case-insensitively in author affiliation text.",
     )
+    parser.add_argument(
+        "--dblp-file",
+        default=DEFAULT_DBLP_FILE,
+        help="DBLP-derived JSON file used for early-year override.",
+    )
+    parser.add_argument(
+        "--dblp-priority-before-year",
+        type=int,
+        default=2020,
+        help="Use DBLP as primary source for publications with year < this value.",
+    )
     args = parser.parse_args()
 
     author_id = args.author_id.strip() or find_author_id(args.author_name)
@@ -595,6 +686,19 @@ def main() -> int:
     backfill_stats = backfill_from_crossref(
         merged,
         reprocess=args.reprocess_backfill,
+    )
+
+    dblp_publications = load_dblp_publications(args.dblp_file)
+    merged, removed_early, added_dblp = apply_dblp_priority_before_year(
+        merged,
+        dblp_publications,
+        cutoff_year=args.dblp_priority_before_year,
+    )
+    print(
+        "[INFO] Early-year override: "
+        f"cutoff<{args.dblp_priority_before_year}, "
+        f"removed_openalex_early={removed_early}, "
+        f"added_dblp_early={added_dblp}"
     )
 
     merged.sort(

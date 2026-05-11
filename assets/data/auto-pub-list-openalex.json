@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-10 14:45:15",
+  "last_updated": "2026-05-11 16:23:52",
   "source": "OpenAlex",
-  "total_count": 120,
+  "total_count": 132,
   "publications": [
     {
       "id": "https://openalex.org/W7160543659",
@@ -2193,65 +2193,22 @@
       "backfill_updated_at": "2026-05-09 18:05:21"
     },
     {
-      "id": "https://openalex.org/W2969525524",
-      "title": "VisTA: Integrating Machine Intelligence with Visualization to Support the Investigation of Think-Aloud Sessions",
-      "authors": [
-        "Mingming Fan",
-        "Ke Wu",
-        "Jian Zhao",
-        "Yue Li",
-        "Winter Wei",
-        "Khai N. Truong"
-      ],
-      "venue": "IEEE Transactions on Visualization and Computer Graphics",
-      "year": "2019",
-      "link": "https://doi.org/10.1109/tvcg.2019.2934797",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1109/tvcg.2019.2934797",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:30"
-    },
-    {
-      "id": "https://openalex.org/W3014262442",
-      "title": "Research on Interactive Art Form Based on Artificial Intelligence Technology",
-      "authors": [
-        "Mingming Fan",
-        "Chao Lung Wen"
-      ],
-      "venue": "",
-      "year": "2019",
-      "link": "https://webofproceedings.org/proceedings_series/ESSP/ICLAHD 2019/HD1220027.pdf",
-      "type": "Unknown",
-      "doi": "",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "skipped_no_doi",
-      "backfill_updated_at": "2026-05-09 18:05:30"
-    },
-    {
-      "id": "https://openalex.org/W2920272258",
+      "id": "journals/iot/Ma00S19",
       "title": "Projected visible light for 3D finger tracking and device augmentation on everyday objects",
       "authors": [
         "Shang Ma",
         "Qiong Liu",
         "Mingming Fan",
-        "Phillip Sheu"
+        "Phillip C.-Y. Sheu"
       ],
       "venue": "Internet of Things",
       "year": "2019",
       "link": "https://doi.org/10.1016/j.iot.2019.02.004",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1016/j.iot.2019.02.004",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:32"
+      "type": "Journal"
     },
     {
-      "id": "https://openalex.org/W2941846422",
-      "title": "PinchList",
+      "id": "conf/chi/HanLHFKLF0LI19",
+      "title": "PinchList: Leveraging Pinch Gestures for Hierarchical List Navigation on Smartphones",
       "authors": [
         "Teng Han",
         "Jie Liu",
@@ -2264,75 +2221,24 @@
         "Edward Lank",
         "Pourang Irani"
       ],
-      "venue": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+      "venue": "ACM Conference on Human Factors in Computing Systems",
       "year": "2019",
       "link": "https://doi.org/10.1145/3290605.3300731",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3290605.3300731",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:36"
+      "type": "Conference"
     },
     {
-      "id": "https://openalex.org/W2972899537",
-      "title": "FMT",
+      "id": "phd/ca/Fan19",
+      "title": "Leveraging Subtle Verbalization and Speech Patterns to Help Evaluators Identify Usability Problem Encounters in Concurrent Think-aloud Sessions",
       "authors": [
-        "Franklin Mingzhe Li",
-        "Di Laura Chen",
-        "Mingming Fan",
-        "Khai N. Truong"
+        "Mingming Fan"
       ],
-      "venue": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+      "venue": "",
       "year": "2019",
-      "link": "https://doi.org/10.1145/3351253",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1145/3351253",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:37"
+      "link": "http://hdl.handle.net/1807/97423",
+      "type": "unknown"
     },
     {
-      "id": "https://openalex.org/W2963838871",
-      "title": "Concurrent Think-Aloud Verbalizations and Usability Problems",
-      "authors": [
-        "Mingming Fan",
-        "Jinglan Lin",
-        "Christina Chung",
-        "Khai N. Truong"
-      ],
-      "venue": "ACM Transactions on Computer-Human Interaction",
-      "year": "2019",
-      "link": "https://doi.org/10.1145/3325281",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1145/3325281",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:38"
-    },
-    {
-      "id": "https://openalex.org/W2940803735",
-      "title": "\"I feel it is my responsibility to stream\"",
-      "authors": [
-        "Zhicong Lu",
-        "Michelle Annett",
-        "Mingming Fan",
-        "Daniel Wigdor"
-      ],
-      "venue": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
-      "year": "2019",
-      "link": "https://doi.org/10.1145/3290605.3300459",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3290605.3300459",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:39"
-    },
-    {
-      "id": "https://openalex.org/W2888081003",
+      "id": "journals/tvcg/LuFWZAW19",
       "title": "InkPlanner: Supporting Prewriting via Intelligent Visual Diagramming",
       "authors": [
         "Zhicong Lu",
@@ -2343,17 +2249,54 @@
         "Daniel Wigdor"
       ],
       "venue": "IEEE Transactions on Visualization and Computer Graphics",
-      "year": "2018",
-      "link": "https://doi.org/10.1109/tvcg.2018.2864887",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1109/tvcg.2018.2864887",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-10 14:45:15"
+      "year": "2019",
+      "link": "https://doi.org/10.1109/TVCG.2018.2864887",
+      "type": "Journal"
     },
     {
-      "id": "https://openalex.org/W2807821917",
+      "id": "journals/imwut/LiC0T19",
+      "title": "FMT: A Wearable Camera-Based Object Tracking Memory Aid for Older Adults",
+      "authors": [
+        "Franklin Mingzhe Li",
+        "Di Laura Chen",
+        "Mingming Fan",
+        "Khai N. Truong"
+      ],
+      "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+      "year": "2019",
+      "link": "https://doi.org/10.1145/3351253",
+      "type": "Journal"
+    },
+    {
+      "id": "journals/tochi/FanLCT19",
+      "title": "Concurrent Think-Aloud Verbalizations and Usability Problems",
+      "authors": [
+        "Mingming Fan",
+        "Jinglan Lin",
+        "Christina Chung",
+        "Khai N. Truong"
+      ],
+      "venue": "ACM Transactions on Computer-Human Interaction",
+      "year": "2019",
+      "link": "https://doi.org/10.1145/3325281",
+      "type": "Journal"
+    },
+    {
+      "id": "conf/chi/LuA0W19",
+      "title": "\"I feel it is my responsibility to stream\": Streaming and Engaging with Intangible Cultural Heritage through Livestreaming",
+      "authors": [
+        "Zhicong Lu",
+        "Michelle Annett",
+        "Mingming Fan",
+        "Daniel Wigdor"
+      ],
+      "venue": "ACM Conference on Human Factors in Computing Systems",
+      "year": "2019",
+      "link": "https://doi.org/10.1145/3290605.3300459",
+      "type": "Conference"
+    },
+    {
+      "id": "journals/taccess/FanT18",
       "title": "Guidelines for Creating Senior-Friendly Product Instructions",
       "authors": [
         "Mingming Fan",
@@ -2362,15 +2305,10 @@
       "venue": "ACM Transactions on Accessible Computing",
       "year": "2018",
       "link": "https://doi.org/10.1145/3209882",
-      "type": "Journal",
-      "doi": "https://doi.org/10.1145/3209882",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:42"
+      "type": "Journal"
     },
     {
-      "id": "https://openalex.org/W2610614682",
+      "id": "conf/chi/FanHLHG17",
       "title": "Comparing Mid-air Finger Motion with Touch for Small Target Acquisition on Wearable Devices",
       "authors": [
         "Mingming Fan",
@@ -2379,36 +2317,41 @@
         "Seyong Ha",
         "Priyank Gupta"
       ],
-      "venue": "Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
+      "venue": "ACM Conference on Human Factors in Computing Systems",
       "year": "2017",
       "link": "https://doi.org/10.1145/3027063.3053092",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3027063.3053092",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:45"
+      "type": "Conference"
     },
     {
-      "id": "https://openalex.org/W2766477191",
-      "title": "BrailleSketch",
+      "id": "conf/assets/LiFT17",
+      "title": "BrailleSketch: A Gesture-based Text Input Method for People with Visual Impairments",
       "authors": [
-        "Mingzhe Li",
+        "Franklin Mingzhe Li",
         "Mingming Fan",
         "Khai N. Truong"
       ],
-      "venue": "Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility",
+      "venue": "International ACM SIGACCESS Conference on Computers and Accessibility",
       "year": "2017",
       "link": "https://doi.org/10.1145/3132525.3132528",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3132525.3132528",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:46"
+      "type": "Conference"
     },
     {
-      "id": "https://openalex.org/W2750971774",
+      "id": "conf/iswc/ZhaoQYLF17",
+      "title": "An empirical study of touch-based authentication methods on smartwatches",
+      "authors": [
+        "Yue Zhao",
+        "Zhongtian Qiu",
+        "Yiqing Yang",
+        "Weiwei Li",
+        "Mingming Fan"
+      ],
+      "venue": "IEEE International Symposium on Wearable Computers",
+      "year": "2017",
+      "link": "https://doi.org/10.1145/3123021.3123049",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/iswc/FanDSYY17",
       "title": "An empirical study of foot gestures for hands-occupied mobile interaction",
       "authors": [
         "Mingming Fan",
@@ -2417,34 +2360,25 @@
         "Yuhui You",
         "Zhi Yu"
       ],
-      "venue": "Proceedings of the 2017 ACM International Symposium on Wearable Computers",
+      "venue": "IEEE International Symposium on Wearable Computers",
       "year": "2017",
       "link": "https://doi.org/10.1145/3123021.3123043",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3123021.3123043",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:47"
+      "type": "Conference"
     },
     {
-      "id": "https://openalex.org/W3206582594",
-      "title": "Use teaching aids to build eciency “Student-Centered” class in vocational colleges",
+      "id": "conf/huc/FanT15",
+      "title": "SoQr: sonically quantifying the content level inside containers",
       "authors": [
-        "Mingming Fan"
+        "Mingming Fan",
+        "Khai N. Truong"
       ],
-      "venue": "Computing, Control, Information and Education Engineering",
+      "venue": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
       "year": "2015",
-      "link": "https://doi.org/10.1201/b18828-127",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1201/b18828-127",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:49"
+      "link": "https://doi.org/10.1145/2750858.2804264",
+      "type": "Conference"
     },
     {
-      "id": "https://openalex.org/W2307253293",
+      "id": "conf/ism/FanLMC15",
       "title": "Smart Toy Car Localization and Navigation Using Projected Light",
       "authors": [
         "Mingming Fan",
@@ -2452,33 +2386,188 @@
         "Shang Ma",
         "Patrick Chiu"
       ],
-      "venue": "2015 IEEE International Symposium on Multimedia (ISM)",
+      "venue": "ISM",
       "year": "2015",
-      "link": "https://doi.org/10.1109/ism.2015.113",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1109/ism.2015.113",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:05:51"
+      "link": "https://doi.org/10.1109/ISM.2015.113",
+      "type": "Conference"
     },
     {
-      "id": "https://openalex.org/W2413969668",
-      "title": "A New Eulerian Computational Method For ThePropagation Of Short Acoustic AndElectromagnetic Pulses",
+      "id": "conf/icmcs/FanLTC15",
+      "title": "POLI: Interactive multimedia authoring and retrieval on mobile phone by leveraging its audio channel and coded light",
       "authors": [
-        "J. Steinhoff",
         "Mingming Fan",
-        "L. Wang."
+        "Qiong Liu",
+        "Hao Tang",
+        "Patrick Chiu"
       ],
-      "venue": "WIT transactions on engineering sciences",
-      "year": "1970",
-      "link": "https://www.witpress.com/Secure/elibrary/papers/AFM00/AFM00064FU.pdf",
-      "type": "Journal",
-      "doi": "https://doi.org/10.2495/afm000641",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "not_found",
-      "backfill_updated_at": "2026-05-09 18:06:27"
+      "venue": "ICME Workshops",
+      "year": "2015",
+      "link": "https://doi.org/10.1109/ICMEW.2015.7169775",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/iswc/FanAT14",
+      "title": "Public restroom detection on mobile phone via active probing",
+      "authors": [
+        "Mingming Fan",
+        "Alexander Travis Adams",
+        "Khai N. Truong"
+      ],
+      "venue": "IEEE International Symposium on Wearable Computers",
+      "year": "2014",
+      "link": "https://doi.org/10.1145/2634317.2634320",
+      "type": "Conference"
+    },
+    {
+      "id": "journals/corr/FanK14",
+      "title": "Predicting a Business Star in Yelp from Its Reviews Text Alone",
+      "authors": [
+        "Mingming Fan",
+        "Maryam Khademi"
+      ],
+      "venue": "Computing Research Repository",
+      "year": "2014",
+      "link": "http://arxiv.org/abs/1401.0864",
+      "type": "Preprint/Workshop"
+    },
+    {
+      "id": "conf/wmcsa/FanLTC14",
+      "title": "HiFi: hide and find digital content associated with physical objects via coded light",
+      "authors": [
+        "Mingming Fan",
+        "Qiong Liu",
+        "Hao Tang",
+        "Patrick Chiu"
+      ],
+      "venue": "Workshop on Mobile Computing Systems and Applications",
+      "year": "2014",
+      "link": "https://doi.org/10.1145/2565585.2565587",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/uist/KhademiFHL13",
+      "title": "Multi-perspective multi-layer interaction on mobile device",
+      "authors": [
+        "Maryam Khademi",
+        "Mingming Fan",
+        "Hossein Mousavi Hondori",
+        "Cristina Videira Lopes"
+      ],
+      "venue": "ACM Symposium on User Interface Software and Technology",
+      "year": "2013",
+      "link": "https://doi.org/10.1145/2508468.2514712",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/www/JainJF13",
+      "title": "From health-persona to societal health",
+      "authors": [
+        "Ramesh C. Jain",
+        "Laleh Jalali",
+        "Mingming Fan"
+      ],
+      "venue": "The Web Conference",
+      "year": "2013",
+      "link": "https://doi.org/10.1145/2487788.2488171",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/mhci/FanPS12",
+      "title": "When camera meets accelerometer: a novel way for 3d interaction of mobile phone",
+      "authors": [
+        "Mingming Fan",
+        "Donald J. Patterson",
+        "Yuanchun Shi"
+      ],
+      "venue": "International Conference on Human-Computer Interaction with Mobile Devices and Services",
+      "year": "2012",
+      "link": "https://doi.org/10.1145/2371664.2371689",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/huc/FanGCP12",
+      "title": "Augmenting gesture recognition with erlang-cox models to identify neurological disorders in premature babies",
+      "authors": [
+        "Mingming Fan",
+        "Dana Gravem",
+        "Dan M. Cooper",
+        "Donald J. Patterson"
+      ],
+      "venue": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
+      "year": "2012",
+      "link": "https://doi.org/10.1145/2370216.2370278",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/cscw/FanLZTSW11",
+      "title": "Surprise Grabber: a co-located tangible social game using phone hand gesture",
+      "authors": [
+        "Mingming Fan",
+        "Xin Li",
+        "Yu Zhong",
+        "Li Tian",
+        "Yuanchun Shi",
+        "Hao Wang"
+      ],
+      "venue": "Conference on Computer Supported Cooperative Work",
+      "year": "2011",
+      "link": "https://doi.org/10.1145/1958824.1958930",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/uist/YuSBMSFQ10",
+      "title": "The satellite cursor: achieving MAGIC pointing without gaze tracking using multiple cursors",
+      "authors": [
+        "Chun Yu",
+        "Yuanchun Shi",
+        "Ravin Balakrishnan",
+        "Xiangliang Meng",
+        "Yue Suo",
+        "Mingming Fan",
+        "Yongqiang Qin"
+      ],
+      "venue": "ACM Symposium on User Interface Software and Technology",
+      "year": "2010",
+      "link": "https://doi.org/10.1145/1866029.1866056",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/hci/FanS09",
+      "title": "Pull and Push: Proximity-Aware User Interface for Navigating in 3D Space Using a Handheld Camera",
+      "authors": [
+        "Mingming Fan",
+        "Yuanchun Shi"
+      ],
+      "venue": "International Conference on Human-Computer Interaction",
+      "year": "2009",
+      "link": "https://doi.org/10.1007/978-3-642-02580-8_15",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/mm/ZhangSF08",
+      "title": "UCam: direct manipulation using handheld camera for 3d gesture interaction",
+      "authors": [
+        "Liang Zhang",
+        "Yuanchun Shi",
+        "Mingming Fan"
+      ],
+      "venue": "ACM International Conference on Multimedia",
+      "year": "2008",
+      "link": "https://doi.org/10.1145/1459359.1459491",
+      "type": "Conference"
+    },
+    {
+      "id": "conf/vrst/FanZS08",
+      "title": "Hand's 3D movement detection with one handheld camera",
+      "authors": [
+        "Mingming Fan",
+        "Liang Zhang",
+        "Yuanchun Shi"
+      ],
+      "venue": "ACM Symposium on Virtual Reality Software and Technology",
+      "year": "2008",
+      "link": "https://doi.org/10.1145/1450579.1450640",
+      "type": "Conference"
     }
   ]
 }
