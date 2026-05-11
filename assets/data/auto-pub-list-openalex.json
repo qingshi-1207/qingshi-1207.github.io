@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11 16:23:52",
+  "last_updated": "2026-05-11 16:27:54",
   "source": "OpenAlex",
   "total_count": 132,
   "publications": [
@@ -1898,24 +1898,6 @@
       "backfill_updated_at": "2026-05-09 18:04:49"
     },
     {
-      "id": "https://openalex.org/W4225140899",
-      "title": "“I Shake The Package To Check If It’s Mine”",
-      "authors": [
-        "Wentao Lei",
-        "Mingming Fan",
-        "Juliann Thang"
-      ],
-      "venue": "CHI Conference on Human Factors in Computing Systems",
-      "year": "2022",
-      "link": "https://doi.org/10.1145/3491102.3502063",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3491102.3502063",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:04:51"
-    },
-    {
       "id": "https://openalex.org/W4225116420",
       "title": "“I need to be professional until my new team uses emoji, GIFs, or memes first’’: New Collaborators’ Perspectives on Using Non-Textual Communication in Virtual Workspaces",
       "authors": [
@@ -1932,24 +1914,6 @@
       "backfill_source": "crossref",
       "backfill_status": "ok",
       "backfill_updated_at": "2026-05-09 18:04:52"
-    },
-    {
-      "id": "https://openalex.org/W4225134707",
-      "title": "“I Don’t Want People to Look At Me Differently”",
-      "authors": [
-        "Xuan Zhao",
-        "Mingming Fan",
-        "Teng Han"
-      ],
-      "venue": "CHI Conference on Human Factors in Computing Systems",
-      "year": "2022",
-      "link": "https://doi.org/10.1145/3491102.3517552",
-      "type": "Conference",
-      "doi": "https://doi.org/10.1145/3491102.3517552",
-      "backfill_processed": true,
-      "backfill_source": "crossref",
-      "backfill_status": "ok",
-      "backfill_updated_at": "2026-05-09 18:04:53"
     },
     {
       "id": "https://openalex.org/W4391740783",
@@ -2009,7 +1973,7 @@
     },
     {
       "id": "https://openalex.org/W4294891731",
-      "title": "Synapse",
+      "title": "Synapse: Interactive Guidance by Demonstration with Trial-and-Error Support for Older Adults to Use Smartphone Apps",
       "authors": [
         "Xiaofu Jin",
         "Xiaozhu Hu",
@@ -2129,6 +2093,42 @@
       "backfill_updated_at": "2026-05-09 18:05:08"
     },
     {
+      "id": "https://openalex.org/W4225140899",
+      "title": "\"I Shake The Package To Check If It's Mine\": A Study of Package Fetching Practices and Challenges of Blind and Low Vision People in China",
+      "authors": [
+        "Wentao Lei",
+        "Mingming Fan",
+        "Juliann Thang"
+      ],
+      "venue": "CHI Conference on Human Factors in Computing Systems",
+      "year": "2022",
+      "link": "https://doi.org/10.1145/3491102.3502063",
+      "type": "Conference",
+      "doi": "https://doi.org/10.1145/3491102.3502063",
+      "backfill_processed": true,
+      "backfill_source": "crossref",
+      "backfill_status": "ok",
+      "backfill_updated_at": "2026-05-09 18:04:51"
+    },
+    {
+      "id": "https://openalex.org/W4225134707",
+      "title": "\"I Don't Want People to Look At Me Differently\": Designing User-Defined Above-the-Neck Gestures for People with Upper Body Motor Impairments",
+      "authors": [
+        "Xuan Zhao",
+        "Mingming Fan",
+        "Teng Han"
+      ],
+      "venue": "CHI Conference on Human Factors in Computing Systems",
+      "year": "2022",
+      "link": "https://doi.org/10.1145/3491102.3517552",
+      "type": "Conference",
+      "doi": "https://doi.org/10.1145/3491102.3517552",
+      "backfill_processed": true,
+      "backfill_source": "crossref",
+      "backfill_status": "ok",
+      "backfill_updated_at": "2026-05-09 18:04:53"
+    },
+    {
       "id": "https://openalex.org/W4200171428",
       "title": "Eyelid gestures for people with motor impairments",
       "authors": [
@@ -2148,7 +2148,7 @@
     },
     {
       "id": "https://openalex.org/W3176818137",
-      "title": "Douleur",
+      "title": "Douleur: Creating Pain Sensation with Chemical Stimulant to Enhance User Experience in Virtual Reality",
       "authors": [
         "Chutian Jiang",
         "Yanjun Chen",

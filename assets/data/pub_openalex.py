@@ -540,6 +540,37 @@ def apply_dblp_priority_before_year(
     return merged, removed_early, len(chosen_dblp)
 
 
+def enrich_titles_from_dblp(
+    publications: List[Dict[str, Any]],
+    dblp_publications: List[Dict[str, Any]],
+) -> int:
+    """若 DBLP 同 DOI 的标题更完整，则覆盖当前标题。"""
+    doi_to_title: Dict[str, str] = {}
+    for p in dblp_publications:
+        doi = normalize_doi(p.get("link", "") if "doi.org" in str(p.get("link", "")) else p.get("doi", ""))
+        if not doi:
+            doi = normalize_doi(p.get("doi", ""))
+        title = str(p.get("title", "")).strip()
+        if doi and title:
+            old = doi_to_title.get(doi, "")
+            if len(title) > len(old):
+                doi_to_title[doi] = title
+
+    updated = 0
+    for p in publications:
+        doi = normalize_doi(p.get("doi", ""))
+        if not doi:
+            continue
+        dblp_title = doi_to_title.get(doi, "")
+        if not dblp_title:
+            continue
+        cur = str(p.get("title", "")).strip()
+        if len(dblp_title) > len(cur) + 8:
+            p["title"] = dblp_title
+            updated += 1
+    return updated
+
+
 def merge_incremental(
     existing_pubs: List[Dict[str, Any]],
     fetched_pubs: List[Dict[str, Any]],
@@ -694,11 +725,13 @@ def main() -> int:
         dblp_publications,
         cutoff_year=args.dblp_priority_before_year,
     )
+    title_updates = enrich_titles_from_dblp(merged, dblp_publications)
     print(
         "[INFO] Early-year override: "
         f"cutoff<{args.dblp_priority_before_year}, "
         f"removed_openalex_early={removed_early}, "
-        f"added_dblp_early={added_dblp}"
+        f"added_dblp_early={added_dblp}, "
+        f"title_updated_from_dblp={title_updates}"
     )
 
     merged.sort(
