@@ -1300,7 +1300,13 @@ h6 {
   z-index: 999999;
   overflow: hidden;
   background: var(--background-color);
-  transition: all 0.6s ease-out;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+
+#preloader.preloader-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 #preloader:before {
@@ -1539,6 +1545,10 @@ section,
   padding-bottom: 60px;
 }
 
+.hero .hero-content {
+  animation: heroContentReveal 0.55s ease-out 0.08s both;
+}
+
 .hero h1 {
   margin: 0;
   font-size: 64px;
@@ -1598,6 +1608,18 @@ section,
 
 .hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes heroContentReveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Large screens - Extra large title */

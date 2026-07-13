@@ -18,6 +18,7 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon" type="image/png">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="preload" as="image" href="assets/img/main_bg/retreat3-hero.webp" type="image/webp" fetchpriority="high">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -77,10 +78,8 @@
         <div class="carousel-inner" style="height: 100%;">
           <div class="carousel-item active" style="height: 100%; background-image: url('./assets/img/main_bg/retreat3-hero.webp'); background-size: cover; background-position: center;"></div>
 
-          <div class="carousel-item" style="height: 100%; background-image: url('./assets/img/main_bg/retreat-hero.webp'); background-size: cover; background-position: center;"></div>
-          <div class="carousel-item" style="height: 100%; background-image: url('./assets/img/main_bg/retreat2-hero.webp'); background-size: cover; background-position: center;"></div>
-          <div class="carousel-item" style="height: 100%; background-image: url('./assets/img/main_bg/APEX-PhD-2024-12-组会照片-hero.webp'); background-size: cover; background-position: center;"></div>
-          <div class="carousel-item" style="height: 100%; background-image: url('./assets/img/main_bg/Image_20251021170506_65_274-hero.webp'); background-size: cover; background-position: center;"></div>
+          <div class="carousel-item hero-slide-lazy" data-bg="./assets/img/main_bg/retreat2-hero.webp" style="height: 100%; background-size: cover; background-position: center;"></div>
+          <div class="carousel-item hero-slide-lazy" data-bg="./assets/img/main_bg/Image_20251021170506_65_274-hero.webp" style="height: 100%; background-size: cover; background-position: center;"></div>
           <!-- <div class="carousel-item" style="height: 100%; background-image: url('./assets/img/main_bg/Image_20251021170507_66_274.jpg'); background-size: cover; background-position: center;"></div>
           <div class="carousel-item" style="height: 100%; background-image: url('./assets/img/main_bg/Image_20251021170508_67_274.jpg'); background-size: cover; background-position: center;"></div>
           <div class="carousel-item" style="height: 100%; background-image: url('./assets/img/main_bg/Image_20251021171241_68_274.jpg'); background-size: cover; background-position: center;"></div> -->
@@ -91,8 +90,6 @@
           <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
       </div>
       
@@ -101,7 +98,7 @@
 
       <div class="container" style="position: relative; z-index: 3;">
         <div class="row gy-4">
-          <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+          <div class="hero-content col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1>APEX Group</h1>
             <p><strong>A</strong>ugmenting <strong>P</strong>eople via <strong>E</strong>mpowering <strong>X</strong> (perception, mobility, cognition, social and emotional needs)</p>
             <div class="d-flex">

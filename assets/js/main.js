@@ -65,14 +65,42 @@
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
+    const fadePreloader = () => {
+      preloader.classList.add('preloader-hidden');
+      setTimeout(loadDeferredHeroSlides, 700);
+      setTimeout(() => preloader.remove(), 400);
+    };
+
+    const waitForHeroImage = () => {
+      if (!document.body.classList.contains('index-page')) return Promise.resolve();
+
+      const activeHeroSlide = document.querySelector('#heroCarousel .carousel-item.active');
+      const backgroundImage = activeHeroSlide ? getComputedStyle(activeHeroSlide).backgroundImage : '';
+      const imageUrl = backgroundImage.match(/url\(["']?(.*?)["']?\)/)?.[1];
+      if (!imageUrl) return Promise.resolve();
+
+      return new Promise((resolve) => {
+        const image = new Image();
+        const timeout = setTimeout(resolve, 1600);
+
+        image.onload = image.onerror = () => {
+          clearTimeout(timeout);
+          resolve();
+        };
+
+        image.src = imageUrl;
+      });
+    };
+
     const removePreloader = () => {
       if (document.body.classList.contains('misc-page') && !window.miscContentReady) {
-        window.addEventListener('misc:content-ready', () => preloader.remove(), {
+        window.addEventListener('misc:content-ready', fadePreloader, {
           once: true
         });
         return;
       }
-      preloader.remove();
+
+      waitForHeroImage().then(fadePreloader);
     };
 
     if (document.readyState === 'loading') {
@@ -82,6 +110,16 @@
     } else {
       removePreloader();
     }
+  }
+
+  /**
+   * Lazy load non-active hero backgrounds after the first paint settles.
+   */
+  function loadDeferredHeroSlides() {
+    document.querySelectorAll('#heroCarousel .hero-slide-lazy[data-bg]').forEach((slide) => {
+      slide.style.backgroundImage = `url('${slide.dataset.bg}')`;
+      slide.removeAttribute('data-bg');
+    });
   }
 
   /**
