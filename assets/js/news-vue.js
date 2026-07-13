@@ -1,52 +1,45 @@
-const { createApp } = Vue;
+document.addEventListener('DOMContentLoaded', () => {
+  const app = document.querySelector('#news-app');
+  if (!app) return;
 
-createApp({
-  data() {
-    return {
-      news: [],
-      loading: true,
-      error: null
-    }
-  },
-  async mounted() {
-    await this.loadNews();
-  },
-  methods: {
-    async loadNews() {
-      try {
-        this.loading = true;
-        const response = await fetch('assets/data/news.json');
-        const data = await response.json();
-        
-        this.news = data.news;
-        this.loading = false;
-      } catch (error) {
-        this.error = error.message;
-        this.loading = false;
-        console.error('加载news数据时出错:', error);
-      }
-    }
-  },
-  template: `
-    <div v-if="loading" class="text-center py-5">
+  app.innerHTML = `
+    <div class="text-center py-5">
       <div class="spinner-border" role="status">
         <span class="visually-hidden">Loading...</span>
       </div>
     </div>
-    
-    <div v-else-if="error" class="alert alert-danger" role="alert">
-      加载数据时出错: {{ error }}
-    </div>
-    
-    <div v-else>
-      <ul class="simple-news-list">
-        <li v-for="item in news" :key="item.id">
-          <strong>{{ item.date }}:</strong> <span v-html="item.content"></span>
-          <a v-if="item.link" :href="item.link.url" target="_blank" class="ms-1">
-            [{{ item.link.text }}]
-          </a>
-        </li>
-      </ul>
-    </div>
-  `
-}).mount('#news-app');
+  `;
+
+  fetch('assets/data/news.json')
+    .then((response) => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    })
+    .then((data) => {
+      const list = document.createElement('ul');
+      list.className = 'simple-news-list';
+
+      data.news.forEach((item) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${item.date}:</strong> <span>${item.content}</span>`;
+
+        if (item.link) {
+          const link = document.createElement('a');
+          link.href = item.link.url;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.className = 'ms-1';
+          link.textContent = `[${item.link.text}]`;
+          li.append(' ', link);
+        }
+
+        list.appendChild(li);
+      });
+
+      app.replaceChildren(list);
+    })
+    .catch((error) => {
+      console.error('加载news数据时出错:', error);
+      app.innerHTML = `<div class="alert alert-danger" role="alert">加载数据时出错: ${error.message}</div>`;
+    });
+});

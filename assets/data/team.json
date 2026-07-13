@@ -9,15 +9,6 @@
       "role": "faculty"
     },
     {
-      "name": "Zisu Li",
-      "title": "Ph.D. Candidate",
-      "time": "2022-Present",
-      "note": "with Prof. Xiaojuan Ma",
-      "link": "",
-      "photo": "assets/img/member/李子苏-图片.jpg",
-      "role": "phd"
-    },
-    {
       "name": "Chutian Jiang",
       "title": "Ph.D. Candidate",
       "time": "2022-Present",
@@ -91,7 +82,7 @@
     },
     {
       "name": "Shumeng Zhang",
-      "title": "Ph.D. Student, MPhil",
+      "title": "Ph.D. Candidate, MPhil",
       "time": "2024-Present, 2022-2024",
       "link": "",
       "note": "with Prof. Raul Masu",
@@ -100,7 +91,7 @@
     },
     {
       "name": "Mengyang Wang",
-      "title": "Ph.D. Student",
+      "title": "Ph.D. Candidate",
       "time": "2024-Present",
       "note": "with Prof. Jinoon Shin",
       "link": "",
@@ -153,7 +144,7 @@
     },
     {
       "name": "Yunna Cai",
-      "title": "Ph.D. Student (Co-supervision)",
+      "title": "Ph.D. Candidate (Co-supervision)",
       "time": "2024-Present",
       "note": "with Prof. Moyan Li",
       "link": "",
@@ -343,22 +334,6 @@
       "role": "mphil"
     },
     {
-      "name": "Shiyong Liu",
-      "title": "MPhil Student",
-      "time": "2025-Present",
-      "link": "",
-      "photo": "assets/img/member/刘世永-图片.jpg",
-      "role": "mphil"
-    },
-    {
-      "name": "Bingqian Wang",
-      "title": "MPhil Student",
-      "time": "2025-Present",
-      "link": "",
-      "photo": "assets/img/member/王冰倩-图片.jpg",
-      "role": "mphil"
-    },
-    {
       "name": "Xinyu Gai",
       "title": "MPhil Student",
       "time": "2025-Present",
@@ -383,22 +358,6 @@
       "role": "mphil"
     },
     {
-      "name": "Mingqing Xu",
-      "title": "MPhil",
-      "time": "2025-Present, 2023-2025",
-      "link": "",
-      "photo": "assets/img/member/徐铭清-图片.jpg",
-      "role": "visiting-ra"
-    },
-    {
-      "name": "Wei Zhang",
-      "title": "Visiting Student",
-      "time": "2025-Present",
-      "link": "",
-      "photo": "assets/img/member/zhangwei.jpg",
-      "role": "visiting-ra"
-    },
-    {
       "name": "Bingchen Guo",
       "title": "Research Assistant",
       "time": "2025-Present",
@@ -408,6 +367,16 @@
     }
   ],
   "alumni": [
+    {
+      "name": "Zisu Li",
+      "title": "Ph.D.",
+      "time": "2022-2026",
+      "note": "with Prof. Xiaojuan Ma",
+      "link": "https://vespersue.github.io/",
+      "photo": "assets/img/member/zisuli.jpg",
+      "destination": "NTU Postdoc",
+      "role": "phd"
+    },
     {
       "name": "Beiyan Cao",
       "title": "Ph.D.",
@@ -447,6 +416,15 @@
       "photo": "assets/img/member/emilykuang.jpg",
       "destination": "York Uni. Assistant Professor",
       "role": "phd"
+    },
+    {
+      "name": "Mingqing Xu",
+      "title": "MPhil",
+      "time": "2023-2025",
+      "link": "",
+      "photo": "assets/img/member/徐铭清-图片.jpg",
+      "destination": "HK PolyU Ph.D. student",
+      "role": "mphil"
     },
     {
       "name": "Junan Xie",
@@ -652,6 +630,14 @@
       "photo": "assets/img/member/fengli.jpg",
       "destination": "Uni. of Waterloo Ph.D. student",
       "role": "mphil"
+    },
+    {
+      "name": "Wei Zhang",
+      "title": "Visiting Student",
+      "time": "2025-2026",
+      "link": "",
+      "photo": "assets/img/member/zhangwei.jpg",
+      "role": "visiting-ra"
     },
     {
       "name": "Yixuan Fang",

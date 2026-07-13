@@ -65,7 +65,7 @@
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
-    window.addEventListener('load', () => {
+    const removePreloader = () => {
       if (document.body.classList.contains('misc-page') && !window.miscContentReady) {
         window.addEventListener('misc:content-ready', () => preloader.remove(), {
           once: true
@@ -73,7 +73,15 @@
         return;
       }
       preloader.remove();
-    });
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', removePreloader, {
+        once: true
+      });
+    } else {
+      removePreloader();
+    }
   }
 
   /**
