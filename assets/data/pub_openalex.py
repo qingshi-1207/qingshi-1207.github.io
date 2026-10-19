@@ -434,24 +434,23 @@ def normalize_work(
 
 def fetch_all_works(author_id: str, max_items: int = 500) -> List[Dict[str, Any]]:
     works: List[Dict[str, Any]] = []
-    cursor = "*"
+    page = 1
 
-    while True:
+    while len(works) < max_items:
         params = {
             "filter": f"authorships.author.id:{author_id}",
-            "per-page": 200,
-            "cursor": cursor,
+            "per-page": min(100, max_items - len(works)),
+            "page": page,
             "sort": "publication_year:desc",
         }
         data = request_json(f"{OPENALEX_API}/works", params)
         batch = data.get("results", [])
         works.extend(batch)
 
-        meta = data.get("meta", {})
-        next_cursor = meta.get("next_cursor")
-        if not next_cursor or len(works) >= max_items:
+        total_count = int((data.get("meta") or {}).get("count") or 0)
+        if not batch or len(works) >= total_count:
             break
-        cursor = next_cursor
+        page += 1
 
     return works[:max_items]
 
